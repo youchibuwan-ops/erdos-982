@@ -1006,6 +1006,7 @@
     "rup_steps": 288997,
     "methods": [
       "drat-trim-rup+lrat-check",
+      "forward-rup",
       "lean-verified-checker"
     ]
   },
