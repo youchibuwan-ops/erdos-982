@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this repository for its audit and link the originating proof or publication for each result used."
+title: "Erdős Problem #982: Improved Bounds, Computer-Assisted Proofs, and Structural Results"
+type: software
+authors:
+  - name: "Erdős #982 research repository contributors"
+version: 0.1.0
+license: MIT

@@ -1,0 +1,50 @@
+\section{Exceptional metric parameters}
+
+\begin{theorem}[982-A02]
+Let \(P\subset K^2\) be strictly convex with \(n\ge3\), where \(K\subset\mathbb R\) is a subfield. Let \(Q\) be a real positive definite symmetric matrix with no nonzero scalar multiple over \(K\). In the \(Q\)-metric, every pin sees multiplicity at most two. Some pin sees at least \(n-3\) positive distances, and at least \(n-2\) if \(n\) is odd.
+\end{theorem}
+
+\begin{proof}
+For distinct \(p,q,r\) put \(u=q-p\), \(v=r-p\). Equal distances at \(p\) imply \(\operatorname{tr}(QB)=0\) for \(B=uu^{\mathsf T}-vv^{\mathsf T}\in\operatorname{Sym}_2(K)\). Because the three entries of \(Q\) span at least two dimensions over \(K\), the kernel over \(K\) of this linear map has dimension at most one. Thus all actual nonzero equality matrices are proportional. Three equidistant targets at one pin would give two independent matrices: in the basis of the first two target vectors the third has nonzero coordinates along both axes, so its rank-one matrix has nonzero off-diagonal entry. This proves the multiplicity bound.
+
+If any equality exists, its matrix defines the product of the two linear forms given by \(u-v\) and \(u+v\). They are nonproportional since no three vertices are collinear. Uniqueness of the factorization fixes an unordered pair of directions common to all equalities. Each possible base \(qr\) lies along one of the two directions. At most \(\lfloor n/2\rfloor\) vertex pairs have one fixed direction, and each pair has at most two \(Q\)-bisector witnesses. Hence there are at most \(4\lfloor n/2\rfloor\) equal-target pairs counted over all pins. Averaging gives a pin with at most two such pairs for even \(n\) and at most one for odd \(n\). Since no class has more than two targets this gives the stated distance counts.
+\end{proof}
+
+\begin{corollary}[982-A06]
+For a fixed strictly convex \(n\)-point set, up to scale there are at most
+\(\binom{n-1}{3}\) positive definite metrics that need testing for a counterexample.
+\end{corollary}
+\begin{proof}
+Fix one pin. If every distance class there has size at most two, that pin reaches
+the half bound. Otherwise some triple of targets is equidistant. Its equality
+matrices are independent by the preceding basis argument. Hence its two
+linear equations determine at most one metric up to scale. Enumerate the
+triples and retain only projectively positive definite forms.
+\end{proof}
+
+\begin{theorem}[982-A01]
+For a fixed strictly convex planar set of \(n\ge3\) points there are at most \(O(n)\) positive definite symmetric forms modulo positive scaling for which \(\sum_p d_P(p)<\binom n2\). The constant is absolute.
+\end{theorem}
+
+\begin{proof}
+Normalize \(\operatorname{tr}Q=1\) so that the forms live in an affine plane. Each target pair with a distinct pin defines the event \(\operatorname{tr}(QB)=0\). In this plane it is a line: \(B\) is nonsingular indefinite, since its two target vectors are independent. Discard lines containing no positive definite form. Coincident lines have proportional matrices because the corresponding homogeneous planes are determined by the normalized line and the origin. The factorization above constrains each base direction to a fixed pair of directions on that line. At any one positive definite form on that line, at most \(2\lfloor n/2\rfloor\) bases occur and each has at most two qualifying pins. This gives weight at most \(w=2n\) per line and total weight at most \(W=n\binom{n-1}{2}\).
+
+Let \(X\) be the cardinality of any finite subset of exceptional forms and \(K_0=\binom n2\). Over all pins every exceptional form loses more than \(K_0\) counts to repeated distances. Each lost count can be charged to a different equal-target pair at its pin. Thus total weighted incidences exceed \(K_0X\). Apply the Szemer\'edi--Trotter bound \cite{st} to the unweighted set of lines of weight at least \(t\), and integrate for \(0<t\le w\). The number of those lines is at most \(W/t\), its integral is \(W\), and the integral of its two-thirds power is at most \(3 W^{2/3}w^{1/3}\). This gives
+\[
+ K_0X\le C_0\bigl(X^{2/3}W^{2/3}w^{1/3}+Xw+W\bigr)
+\]
+with an absolute \(C_0\). For large enough \(n\) absorb \(C_0Xw\); either the first or last term then bounds \(X\) by \(O(wW^2/K_0^3+W/K_0)=O(n)\).
+
+For the finitely many smaller \(n\), a form violating the sum bound has a class of size at least three at some pin. Otherwise \(d_P(p)\ge\lceil(n-1)/2\rceil\) at every pin. Each such triple of targets imposes two independent equality matrices, by the same basis argument as above. This determines the form up to scaling. There are at most \(n\binom{n-1}{3}\) possibilities, a uniform multiple of \(n\) over the bounded range. Since the bound applies to any finite selection of exceptional forms, it bounds the total. If every pin sees fewer than \(\lfloor n/2\rfloor\), the sum is below \(K_0\), so the same conclusion holds for the half-bound violations.
+\end{proof}
+
+\section{Multiplicity identities}
+
+\begin{proposition}[982-X07, 982-X08]
+Let \(s\) be the number of singleton distances at \(p\), and \(e\) the sum of the excesses \(k-2\) over all distance classes at \(p\) with \(k\ge3\). Then \(2d_P(p)=n-1+s-e\) and the pin reaches \(\lfloor n/2\rfloor\) exactly when \(s\ge e\). If a strictly convex \(P\) is a counterexample and \(e_j\) counts its targets pairs with \(j\) bisector witnesses, then \(e_2-e_0\ge3n/2\) for even \(n\) and \(e_2-e_0\ge3n\) for odd \(n\).
+\end{proposition}
+
+\begin{proof}
+Summing multiplicities gives \(n-1=2d_P(p)-s+e\). If \(n\) is even, the threshold initially reads \(s-e\ge1\), equivalent to \(s-e\ge0\) because \(s-e\) is odd in this case. For odd \(n\) the threshold reads \(s-e\ge0\) directly.
+Each pair has zero, one, or two witnesses, so the apex-counted isosceles total is \(\binom n2+e_2-e_0\). Since \(\binom k2\ge2k-3\), it is at least \(2n(n-1)-3\sum_p d_P(p)\). Substitute \(\sum_p d_P(p)\le n(\lfloor n/2\rfloor-1)\) and simplify in the two parities.
+\end{proof}

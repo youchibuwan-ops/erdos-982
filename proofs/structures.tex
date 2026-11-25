@@ -1,0 +1,79 @@
+\section{Rational cocircular sets}
+
+\begin{theorem}[982-C06, 982-C07]
+Among \(m\ge3\) distinct rational-coordinate points on a circle, the minimum of \(D(P)\) is \(m-1\) for \(m\in\{3,5,6,7\}\), and \(m-2\) for \(m=4\) and \(m\ge8\). At \(m=8\) the sets attaining \(m-2\) are precisely the unions of two disjoint rational squares on the circle.
+\end{theorem}
+
+\begin{proof}
+The center is rational by solving the two linear bisector equations for three of the points. Translate to the center and divide complex coordinates by one sample coordinate. The normalized coordinates lie in \(\mathbb Q(i)\) and have norm one. The finitely generated multiplicative group they generate has finite torsion contained in \(\mu_4=\{1,i,-1,-i\}\), since the roots of unity in \(\mathbb Q(i)\) are algebraic integers in \(\mathbb Z[i]\) of norm one. Write \(v(z)\) for the image of a sample coordinate in the free quotient, regarded as a vector in a real space.
+
+At a pin \(p\), equal distances to distinct \(b,c\) imply \(bc=p^2\), hence \(v(b)+v(c)=2v(p)\). If \(v(p)\) is an extreme point of the hull of the sample images, both targets belong to its fiber, a subset of \(p\mu_4\). There can be only the one repeated pair \(ip,-ip\) there, so \(D(P)\ge m-2\). If no pin distinguishes all other points, every extreme fiber must be a whole square: once a point is in the fiber both its quarter turns must be present. If the free quotient has positive rank then its generating sample images include zero and have at least two extreme points. Hence \(m\ge8\), and equality at \(m=8\) requires precisely two whole extreme fibers. If the free quotient has rank zero, there are at most four points. A square gives equality at \(m=4\).
+
+For \(m=8+4k+r\), \(0\le r\le3\), let \(w=(3+4i)/5\). It is not a root of unity. Take the two full squares \(w\mu_4,w^{-1}\mu_4\), also the \(k\) squares \(w^j\mu_4\) for \(2\le j\le k+1\), and any \(r\) points of \(\mu_4\). These are disjoint cosets with rational coordinates. Each point in a square has an equidistant pair of neighbors. Each added unit \(z\) sees \(wz,w^{-1}z\) at equal distance, so the lower bound is sharp.
+\end{proof}
+
+\section{A sharp annular condition}
+
+\begin{theorem}[982-M06]
+Let \(P\) consist of at least three points with distinct polar directions, minimum
+angular gap \(\delta>0\), and radii in \([a,b]\) with \(a>0\). If
+\[
+ b/a<\sqrt{3+\cos^2\delta}-\cos\delta,
+\]
+then at every pin the distances strictly increase with angular distance on each
+half-circle of directions. Each positive distance has multiplicity at most two.
+The radius threshold for this multiplicity property is sharp for \(0<\delta\le\pi/2\).
+\end{theorem}
+\begin{proof}
+Let the pin have radius \(t\) and angle zero. For two targets of radii \(r,s\) at angles
+\(\theta,\theta+\Delta\) in one half-circle, the difference of squared distances is
+\[
+ s^2-r^2+2t\{(r-s\cos\Delta)\cos\theta+s\sin\Delta\sin\theta\}.
+\]
+For \(0<\Delta<\pi\) the expression in braces has a single critical point in
+\((0,\pi)\), a maximum, since the sine coefficient is positive. The minimum on
+\([0,\pi-\Delta]\) is at an endpoint. For \(\Delta=\pi\) the interval is a singleton.
+At zero the difference is at least \(2a^2(1-\cos\delta)-(b-a)^2>0\).
+Indeed, with \(z=\sin(\delta/2)\), the positive root of
+\(X^2+2X\cos\delta-3\) is smaller than \(1+2z\): at that test value the polynomial
+is \(8z(1-z^2)>0\). At the other endpoint the difference is at least
+\(a^2-r^2+2t(a-r\cos\delta)\), concave as a function of \(r\).
+At \(r=a\) the lower bound is positive. At \(r=b\) we have
+\(2(1-(b/a)\cos\delta)>(b/a)^2-1\ge0\), so \(t\ge a\) gives
+\(3a^2-b^2-2ab\cos\delta>0\).
+
+For sharpness take unit points at angles \(0,\pi\), and points at angles
+\(\pi-\delta,\pi+\delta\) with radius \(b=\sqrt{3+\cos^2\delta}-\cos\delta\).
+The minimum gap is \(\delta\) for \(\delta\le\pi/2\). The pin at angle zero
+sees all three other points at distance two. The four points are strictly
+convex: the outer points have strict radial supports, and the two unit points
+do as well because \(b\cos\delta<1\).
+\end{proof}
+
+\section{Constant width and unimodal distances}
+
+\begin{theorem}[982-S03, 982-S04]
+Let \(P\) consist of \(n\ge3\) distinct boundary points of a planar convex body of constant width \(w>0\). At least \(n/2\) of the points for even \(n\), and at least \(\lceil2n/3\rceil\) for odd \(n\), see \(\lfloor n/2\rfloor\) or more distinctions. Every pin with a unique supporting line has at most two occurrences of each positive distance.
+\end{theorem}
+
+\begin{proof}
+All point-pair distances in the body are at most \(w\), by projection in the direction of their difference. For a supporting line at \(q\) with interior unit normal \(u\), any point on the opposite supporting line has projection difference \(w\) from \(q\); since the full length is at most \(w\), this point is \(q+wu\). Applying the same argument at the opposite line shows each support face is a singleton. Hence the body is strictly convex.
+
+Fix a pin \(p\). At a local extremum \(q\ne p\) of the boundary distance to \(p\), the one-sided derivatives of \(|q-p|^2/2\) with respect to oriented arc length enclose zero. They are the dot products of \(q-p\) with the one-sided unit tangents. The tangents between these two directions define supporting lines at \(q\). One has zero dot product by continuity. Thus \(p-q\) points along the interior normal to a supporting line, and by the previous paragraph \(p=q+wu\). Consequently there is no local extremum at a positive distance less than \(w\). Starting and ending at \(p\) yields strict increase to the first point at distance \(w\), a possibly trivial plateau, then strict decrease. At a unique-support pin, there can only be one antipodal point at distance \(w\): a chord of length \(w\) attains full width along its own direction and is normal to a supporting line at both ends. This proves the assertion about multiplicity at that pin.
+
+For a finite sample, the boundary list of positive distances at a pin is unimodal. Let \(t_p\) count consecutive equalities in that list. After collapsing constant blocks, each value occurs at most twice and the maximum only once, giving \(n-1-t_p\le2d_P(p)-1\). Every counted equality corresponds to a polygon edge whose bisector goes through the pin. Since the bisector crosses the boundary at the edge midpoint and at most once more, each edge contributes at most one, and \(\sum_p t_p\le n\). An even-size failing pin needs \(t_p\ge2\); an odd-size failing pin needs \(t_p\ge3\). This proves both counts.
+\end{proof}
+
+\section{The two endpoints of a unique diameter}
+
+\begin{theorem}[982-X01]
+Let \(A,B\) form the unique diameter of a strictly convex \(n\)-gon, \(n\ge3\), with \(s\ge t\) other vertices on the two sides of its line. Then \(d_P(A)+d_P(B)\ge s+3\). For fixed \(s,t\), every pair of integers \(u,v\ge2\) with \(u+v=s+3\) occurs as the two counts. The minimum possible \(\max(d_P(A),d_P(B))\) over all such polygons of size \(n\) is \(\lceil n/4\rceil+1\).
+\end{theorem}
+
+\begin{proof}
+Normalize \(A=(0,0), B=(D,0)\). Strictness of the diameter forces the other vertices into the open strip \(0<x<D\). On the longer upper chain, let vertex \(j\) be one of maximum height, indexing the \(s\) nonendpoints in increasing order of their \(x\)-coordinates. The chain is concave. The distances from \(A\) increase strictly through vertex \(j\) as both coordinates are nondecreasing on that part and \(x\) increases strictly. From vertex \(j\) to the last, the distances to \(B\) strictly decrease as \(D-x\) strictly decreases and the height is nonincreasing. Adding the diameter gives \(d_P(A)\ge j+1\), \(d_P(B)\ge s-j+2\).
+
+For sharpness take \(A=(0,0), B=(10,0), Y=(1,4)\). Choose \(k\) points on \((x-10)^2+y^2=97\) with \(0.99<x<1,\ y>0\), and \(l\) points on \(x^2+y^2=17\) with \(1<x<1.01,\ y>0\), where \(k+l=s-1\). Use \(Y\) and these points for the upper chain, and reflect any \(t\) of them across \(AB\) for the other chain. Both arcs are strictly concave, with left and right derivatives \(9/4\) and \(-1/4\) at \(Y\). The outer secants have slopes respectively greater than \(3.9\) and less than \(-3.9/9\) whenever the respective arc contributes a point; the arc slopes there lie respectively below \(9.01/3.9\) and above \(-1.01/3.9\). These separate each chain's secant slopes strictly, including a missing arc since the slopes of \(AY,YB\) are \(4,-4/9\). The full reflected polygon is strictly convex, and any desired subset of the reflections inherits that property.
+
+At an upper-chain point left of \(Y\) the squared distances from \(A,B\) are \(20x-3,97\); right of \(Y\) they are \(17,117-20x\). At \(Y\) they are \(17,97\). All are less than \(100\). The squared distance between nonendpoints is at most \(8^2+0.02^2<100\). The diameter is unique, and \(d_P(A)=k+2,\ d_P(B)=l+2\). Choose \(k=u-2,l=v-2\) for arbitrary sharp pairs. Balancing \(u,v\) and minimizing \(s\) at \(\lceil(n-2)/2\rceil\) gives the claimed minimum.
+\end{proof}

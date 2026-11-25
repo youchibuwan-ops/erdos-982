@@ -1,0 +1,3166 @@
+[
+  {
+    "source": "workspace",
+    "path": "erdos-982-6pro-gemini-synthesis-2026-11-25.md",
+    "bytes": 21842,
+    "sha256": "35f3af25cf362a0559dc8b4caf2749f0f250a00df257281119a3c0cc2e7a6b80",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-884-local-audit.md",
+    "bytes": 7437,
+    "sha256": "63aded9dddb9ce10b968f5e552ffe25af38fb4408251df61b82692521f9f3b81",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-affine30-recheck.py",
+    "bytes": 3759,
+    "sha256": "6356c2de4a450b60dbd6892be4444d60116286c653fd5625ba9d470d0c9bb41f",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-block-rank-review.md",
+    "bytes": 26084,
+    "sha256": "b4772fcbe3ec78e209fbf65835e93a762e8eb9aedac5e68608dad8f68b3d8dd1",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-carbon-audit.md",
+    "bytes": 33342,
+    "sha256": "1b0e623c317d0ebeb30f2225c2d2060a71ac7d2169c625b7801a1626dca814db",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-circle-order.md",
+    "bytes": 10624,
+    "sha256": "84d5df9c79e3303c625d3c85f48ad66c51feea56f94cf39705f002b9852f41af",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-cocircular.md",
+    "bytes": 9108,
+    "sha256": "224caaed6957efabcef5253a298b9cdc410ba57bc9241664a98d854d99e0b66f",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-constant-width.md",
+    "bytes": 5322,
+    "sha256": "ca3f167f94eaf1d8fc08b1fd49b8f5d94d4eeb465b6b6a273373ebf8c997a12a",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-cumulative-report-2026-11-25.md",
+    "bytes": 22280,
+    "sha256": "80a2e20aef21196450e1ec636c8ba74044e36d056b13fcb8b583b75ed95fe78f",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-cumulative-report-2026-11-25.pdf",
+    "bytes": 720807,
+    "sha256": "2f46e624445f1504e330feb21644ab5874c87e303a87d5a060901e385c900ef8",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-diameter-example.png",
+    "bytes": 44482,
+    "sha256": "545e563cff84b45f97abf7c360d0dbd651e89e047fd969439482949ecba4c08d",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-diameter.md",
+    "bytes": 3757,
+    "sha256": "b1a844843c16aa458196ddfd8644e1ece78c8530dbc04754305615fa8f326d39",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-dyadic.md",
+    "bytes": 15069,
+    "sha256": "74d55102db6e0d109d21948e0b12240285463d7154453db71e2c0aea2fe4fa70",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-general-bound.md",
+    "bytes": 10865,
+    "sha256": "92fd69834ca73b7790a3a6a19eb16456a0f451a5ceaae904faf2a71656dab7b7",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-gpt6pro-analytic-audit.md",
+    "bytes": 12373,
+    "sha256": "f91e75fa3011d25f5d177b0cba17e09256e7c23dbc72e3476cbe6470b9ea8f57",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-gpt6pro-finite-audit.md",
+    "bytes": 11215,
+    "sha256": "b20197b8a5811c7b606ec45d65b3e69bfd986b7b7d944e78f875ebf94038ac0d",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-half-turn.png",
+    "bytes": 106411,
+    "sha256": "3bf8091b1c260f7a085115b49545c9046149b1718ef1943cc51c75741df91964",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-majority-review.md",
+    "bytes": 16121,
+    "sha256": "cac0156f7f3783fd6ab4345db3a36f9c571834233e05fef1b8796a5086a084a7",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-n20/9-8-3.rup.xz",
+    "bytes": 7617148,
+    "sha256": "85f5d4aa28a718cd48078320383dbb80c8241a6093d759cbb402b0a69edb5a39",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-n20/9-9-2.rup.xz",
+    "bytes": 370124,
+    "sha256": "5529a907e529524eaed01265338f0521b1a68310b765717f44fbab149975b959",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-n20/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-n20/generate.py",
+    "bytes": 3898,
+    "sha256": "bf663e9e902adaf0af8a07dfe2687c4cf0a18666f82643161bc681979d3911cb",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-n20/README.md",
+    "bytes": 4678,
+    "sha256": "197d59bc29b9eed38fc3760d7eb12ae0c228f3326d2bea3fd4dcb86c0cd61c48",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-n20/verify.py",
+    "bytes": 2437,
+    "sha256": "1f062bcdc224d391c4019bda4a6d9173f0e57ed5a38bdf0b15c21a3fb7120f2b",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-progress-2026-11-25.md",
+    "bytes": 12120,
+    "sha256": "9b53316b4d3a3ab5c5e2ad3d0a5196d22b1b50818d56f32dffe2805729a57f18",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-recent-ai-sources.md",
+    "bytes": 23729,
+    "sha256": "bdbb49047540e345102fab613c631fc79f0fb7ea406701f3d12253b99c0ce613",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-recent-repos.md",
+    "bytes": 22299,
+    "sha256": "4d9be2cbf9a201cf0323013fb23c605d25a279ccd628c110e9a2ce6a5dd31b44",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-regular-core.md",
+    "bytes": 21092,
+    "sha256": "1dc0ab7b78d31e0c627b125907e1f06003cd357bc1eb18c8be8e28ca8ea8bec0",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-round3-review.md",
+    "bytes": 11575,
+    "sha256": "f9becfadc0db092d90783e153164f4a515f8f302f96dd7b9e4d356b7314b2d08",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-short-arcs-review.md",
+    "bytes": 20348,
+    "sha256": "304f81ff0cd8620c12705b8b9cb02ccaa02ef0a234d2b845e6c81b89c087fad4",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-tree-check.md",
+    "bytes": 9242,
+    "sha256": "0790df134e507ecbbe9175c3d7261c6342c01f6ff428325dd72cd36cd14a2f8b",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-tree-check.py",
+    "bytes": 18114,
+    "sha256": "1ef9bfdb18f89e60749d1762c98a238197df7ab9feb8da455d21e12580fcdd51",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982-two-circles.md",
+    "bytes": 25232,
+    "sha256": "88aa81b27e68bb832c963c0a4681a4adf1dcf9a16176e5fcf866c2bb1bdaaae3",
+    "kind": "original"
+  },
+  {
+    "source": "workspace",
+    "path": "erdos-982.md",
+    "bytes": 9971,
+    "sha256": "4fd482dfa0dc9c334584a8360c6534e05c8880d8000acc0f640243b0f42f9583",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "general_and_cocircular_theorems.md",
+    "bytes": 13666,
+    "sha256": "e91eb764701046e5f791848a849f596b6827fd318234331f3b1c5097191ced51",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/000.rup.xz",
+    "bytes": 7096,
+    "sha256": "ecee1a7ccd84896a8bf1f99d6a0794293f766dcee21df0efb657847fda7aad56",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/001.rup.xz",
+    "bytes": 188,
+    "sha256": "e84a38e3dd32ae79ed28114688db80afcababa4def9ff2a79ac08060868a9d78",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/100.rup.xz",
+    "bytes": 14920,
+    "sha256": "7bf3c7984b12779e7a0412b6fc73e13be3be52a483d9dfad7bb00eb3c8a38d04",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/101.rup.xz",
+    "bytes": 872,
+    "sha256": "3c1edfb5d3aab4629cbba70daf9a3f2be03945b227f5e5d52ea080012e5aed68",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/102.rup.xz",
+    "bytes": 216,
+    "sha256": "260d38deb6cf5eb323a136960ba61850936e82cd44b8a55f0f42cd1aae1e9311",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_7.rup.xz",
+    "bytes": 5248792,
+    "sha256": "73444a01853e1ecba9cd482eecdf31d3107aa2c4ce58ef3d2d89455d1c02b4ab",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_80.rup.xz",
+    "bytes": 1758848,
+    "sha256": "0109643a46345b72f776e42f8a257f04314d8e7e47f00575f746aad9d1c6a7aa",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_81.rup.xz",
+    "bytes": 1888076,
+    "sha256": "ea29e3fedeeb0546ca0e1b5e3544e617cb7a85945d05f24ad6b3a74942b698fb",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_82.rup.xz",
+    "bytes": 1879012,
+    "sha256": "590512904ebdc6c4b0c34c4f3a06daabdd67e85bd118bd4e94df9ea1a2231536",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_83.rup.xz",
+    "bytes": 2103600,
+    "sha256": "e0760f2e10246a2cef47d8e8d0f49e6e5c1c86ddcc6ff5369fd5e6ffae6372bb",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_84.rup.xz",
+    "bytes": 3887352,
+    "sha256": "105dd02837fe2722a4c5c230768b28c6d8dfc48ebef671b976a44e2b2add9e01",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_855.rup.xz",
+    "bytes": 2202520,
+    "sha256": "bc2b227145d5231b177306e4688634af76bd88b1630a4ac2f0b5f1a3a78991bb",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_856.rup.xz",
+    "bytes": 2489984,
+    "sha256": "27cfeea181a352f71bb8c43ebb26ef3e4f1755d491ec2886414c1b3de2040030",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_857.rup.xz",
+    "bytes": 2500264,
+    "sha256": "589ab699a3473ba8bc1bd9e997caaed84c150b6529906d361cfe200844fa5874",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_866.rup.xz",
+    "bytes": 3125252,
+    "sha256": "b8dd55ecd8effc8733f2600da5e28dc92e86abb02f22faa5cba7c563c7bc2afa",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_867.rup.xz",
+    "bytes": 2633680,
+    "sha256": "b8bcb0795b962f0cf88e14a585787a7f1b06fe5777d924b574a603564695685b",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/110_877.rup.xz",
+    "bytes": 4441876,
+    "sha256": "22611c2b8350ebe5a25999a469ed635f5309af0f6abec234c2065bf9b08f4b01",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/201.rup.xz",
+    "bytes": 1996,
+    "sha256": "0f23a9cc2b3728a61d638341f07b971a7288e214bad15c239e1d74c4103535f4",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/210_0.rup.xz",
+    "bytes": 37296,
+    "sha256": "83b200afb85f148ffa522f631d2974dc16bcdc50c4d9a5796d444b46d074d90f",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/210_1.rup.xz",
+    "bytes": 50536,
+    "sha256": "ae0553c243ecd0b40d09c9a6006da36aaaff3cd2c748ebb236dbabc5a46b8c62",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/210_2.rup.xz",
+    "bytes": 45716,
+    "sha256": "f5d45e9f27ca2218aee47ed01c0b733b4e33c67019b065336683b602235f09a9",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/210_3.rup.xz",
+    "bytes": 71432,
+    "sha256": "4092c70636dfccdd733b086856a5deff36a884bd53354f2d3b9dacd633521b62",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/210_4.rup.xz",
+    "bytes": 262800,
+    "sha256": "9e14a681f37b11cc3f009733a122371d796b0729aba661a95241ca3d13b2d24c",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/210_5.rup.xz",
+    "bytes": 643336,
+    "sha256": "3b39f5dc58c71c21e0f1fe32169be01ff66c3b7793087cac90f523923c16e272",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/210_6.rup.xz",
+    "bytes": 1773384,
+    "sha256": "b09d8f8656af199142b00463f4a8a391f9d7be84a59d678eb733bde0443f48ed",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/210_7.rup.xz",
+    "bytes": 2357252,
+    "sha256": "9e8aa8f701e5cbd61a48ff28b4ffe9ae3d70120f89b10fa826143956e7aa9d38",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/generate.py",
+    "bytes": 11141,
+    "sha256": "471434e801deabe9b23ad40362ec92a6652eff455afe05cc8bb8309120c27c4f",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/manifest.tsv",
+    "bytes": 5614,
+    "sha256": "31c6017fb42cbbf58101df9c63151513304633163e1f194e72203435cfe62f9f",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/README.md",
+    "bytes": 3197,
+    "sha256": "eeb219d80621acb0a05b622c184ff2c2104f81c4a0dd0f1e5dbcafd770c16bed",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/select_core.py",
+    "bytes": 606,
+    "sha256": "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "n20_884_cert/verify.py",
+    "bytes": 3144,
+    "sha256": "5ce52dd754b658c00a204328da073907b385c88e37888ea81e88a73e10b6cee0",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "verify_constructions_and_proof.py",
+    "bytes": 3740,
+    "sha256": "18249f3d2c8a8c902cc4e69292d096b9d6ab61cd00fccd9b734265ca2e004e52",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "verify_erdos_982.cpp",
+    "bytes": 14325,
+    "sha256": "4473c14a6e5884c25227a1d0a474f126fa0f9d444b2e6488c5c6e007cf779e49",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "verify_erdos_982.exe",
+    "bytes": 119193,
+    "sha256": "4ec05fc1e785a98a9e8cda278d8482119a3fe2a7fa51d5de3d9c92cae7f6bd69",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "verify_general_bound.py",
+    "bytes": 11720,
+    "sha256": "c80d881c477830b51b3349175441f2bbd6f1a3ef4f4874e1746f79bc85f60095",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "verify_odd_regular_core.py",
+    "bytes": 5093,
+    "sha256": "279c971f6cfd0f0bf39fc66b349717b5b95074a757f98701cc9d4d0590085c61",
+    "kind": "original"
+  },
+  {
+    "source": "gemini",
+    "path": "成果.md",
+    "bytes": 46505,
+    "sha256": "307e784425ac597a8eba8ff426cf880e3648cfeb8a520d107afc60ebfa2ae7df",
+    "kind": "original"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip",
+    "bytes": 45851824,
+    "sha256": "925341d9aeb2aaa7400731daaa3a6ecf321fd60e2dcd90baa99352bcae55a895",
+    "kind": "original"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/CIRCLE.md",
+    "bytes": 8029,
+    "sha256": "0e7e99c78dfa2ad0e7f8e01e1ecfc12d9e9f150203573aed0cccf44c1adb0a06",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/README.md",
+    "bytes": 2350,
+    "sha256": "5ee6d0f448233a704b625e83361c81ba3472526568c32bba494799e19f8164fb",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/TWO_RINGS.md",
+    "bytes": 8719,
+    "sha256": "c0f95d3d343a9e8200afde30ef74f643ce024108835cb7edf0cdcb0922f3edd8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/additional-n19.md",
+    "bytes": 1565,
+    "sha256": "5430c097a6deb155bdba92a663cc14d5edf021e9742e12431f74eb77f5fca277",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/README.md",
+    "bytes": 2165,
+    "sha256": "49ab150ee37078385e535615401ed0022fe601c84f83339039025d7245fdfbf2",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/barrier.py",
+    "bytes": 1076,
+    "sha256": "79dfd2d49f354215eadbebe1714410ca1698c5dd40d76eedbf7f0e7b722c2e2b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/controls.py",
+    "bytes": 254,
+    "sha256": "727657200169a9bee2b275b22015646b534f814359f68316a6e2611341009b1b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/model.py",
+    "bytes": 4837,
+    "sha256": "5c92392883398c9be661fe3775469b407a01706ec63c678d402c1f1e397bf5d2",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/model16.py",
+    "bytes": 4049,
+    "sha256": "61597e860bc91f4253d47e481dab9fb0ef50998a7ac4a8c00a0f860413241b05",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/near_circle.md",
+    "bytes": 4368,
+    "sha256": "14fa0d0586396b2c65703686a7e4125d659d10982925a7cd032a35181ef6058e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/order_check.cpp",
+    "bytes": 8642,
+    "sha256": "2e85e7331b7a7f40f2829a5a60af222225d5c9c649ccf843d347efdeb033cc50",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/2-2-2.rup.gz",
+    "bytes": 32,
+    "sha256": "d32e16fb1a97ea9e6c85b511f109aebcc4586bef0ccf3a2ba8e75b38d82c6282",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/3-3-2.rup.gz",
+    "bytes": 38,
+    "sha256": "f1c7b35cfd9382b8eaa9de6c47ab61ae252abc650aee21e309381beee65ee6fa",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/4-3-3.rup.gz",
+    "bytes": 3512,
+    "sha256": "212a92178a75c2b446cb88e2cce95d370fa8c1ab84349a0ea1d436523e4beb7d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/4-4-2.rup.gz",
+    "bytes": 2628,
+    "sha256": "e6c0b573b9af30314e70c523cb2731a6c80d32db08a540a1c4d197ba65e7edb5",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/4-4-4.rup.gz",
+    "bytes": 30634,
+    "sha256": "293a9bb78a1527e6b2f1fd5367cae4a9f8b9c9dd8234a64b88766a058b5d1eff",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/5-4-3.rup.gz",
+    "bytes": 25156,
+    "sha256": "70bdf6632887227e5d0769a05687bcc2682147e061cd4c9bfa87b0fb48adfa89",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/5-5-2.rup.gz",
+    "bytes": 18716,
+    "sha256": "45c574641b3675b4d3941db6542612ab17db43ab59d737ebe90ec8df46a6cfda",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/5-5-4.rup.gz",
+    "bytes": 2297883,
+    "sha256": "4f21cbb044eab46a1e1c464c6ec89ac9237aa293ad01e255c7f854a2cfa9bedb",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-4-4.rup.gz",
+    "bytes": 1831012,
+    "sha256": "d21a76c302ab21ddb479ac9dfcc6d55062798ceaa9d4dce80b4a3f162ace2cc4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-5-3.rup.gz",
+    "bytes": 1288666,
+    "sha256": "99bd0b2a77018290cf53795d7ae4ba351d062c7cff9d1334a9d300ba3508abd8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-5-5.rup.gz",
+    "bytes": 3460586,
+    "sha256": "d255581de2fab2eb5ca1a5bae55eb5b19e8ba654304b0a37c44c412c726723c0",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-6-2.rup.gz",
+    "bytes": 89080,
+    "sha256": "fc865dc2472820d17c1960b9603ff6734ca0c9f1b6ab420bc56180138f43486e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-6-4.rup.gz",
+    "bytes": 2523226,
+    "sha256": "0606a0c8f7e2f65a3e4971f5b47fb0cb5c009cde789d1c36d1da9b31300eca63",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/7-5-4.rup.gz",
+    "bytes": 259606,
+    "sha256": "6982b605c922614d52e06485b720e68f94b377697426972c78bb46ee7a798ffc",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/7-6-3.rup.gz",
+    "bytes": 3633873,
+    "sha256": "f91e0d9af458cfd411f1e186593bbb2b5c943bf91d323b49e96cdd780dbf9cd9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/proofs/7-7-2.rup.gz",
+    "bytes": 191462,
+    "sha256": "2d92272e8fd85b79475506f15d62958235eca7dba37f0a274b22d8bf1c05fa3d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/research.md",
+    "bytes": 6781,
+    "sha256": "b48b4946d0e586ce1f641d5149072d00d1bc419b88d4c4c0f9035402fd86741c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/sixteen.md",
+    "bytes": 2626,
+    "sha256": "036ceace00b8af4935208b67ef1d2c8216e9082ad8eb9eb45b75135c2f87304b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/earlier/verify.py",
+    "bytes": 2028,
+    "sha256": "c92d19debd499861990e3f1a4cf0da0f7795efda82c840d46636634abc26b823",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/example/check_near_example.py",
+    "bytes": 1445,
+    "sha256": "1341b1b9f66487347b598a4a4b76b4708bd57201591561d39e209d23c17ab401",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/example/eighteen_vertices.png",
+    "bytes": 127552,
+    "sha256": "c3213d5691005c014be4aafc356ba6f1e4c0f4f6c2119d297d031a1721c05336",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/EE.rup.xz",
+    "bytes": 8554684,
+    "sha256": "4e401f5557ec91c321d36702af2471690610cb91ca0c039e10105ed2171262ff",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/ES.rup.xz",
+    "bytes": 655528,
+    "sha256": "8562443e8bab09cc23c5aaa0aff0d1349193520262176a6e2038f3be1539fff9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/SE.rup.xz",
+    "bytes": 2139972,
+    "sha256": "1ffa812d02e83f27bf86b1e206c6cccfa47771099ab40014cbe143304a0a1bfb",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/SS.rup.xz",
+    "bytes": 3017888,
+    "sha256": "58384752b7ae6fea6cd4d7187ba79f4d55193bc7eaafb9c769a37c08425ff53e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/generate18.py",
+    "bytes": 10585,
+    "sha256": "14937b9c83d84a351d7b1ca7cd41fb89419b37d7237e77b8ef9edcb971a02b8e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/manifest.json",
+    "bytes": 1455,
+    "sha256": "1603fe61a8b09b5cbc26ed3a57cd915e3f159392261b410aeb0a6989079785d6",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/verification.log",
+    "bytes": 2718,
+    "sha256": "746353b9f4a23b474e04ac1e6e489fb91a03c5d95326828b634966aac30b4d62",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/verify.py",
+    "bytes": 2123,
+    "sha256": "d2a2a1cb04d8d7dc1463f60a4b9ba7a0d449c9a28857bebc8f6b490e8ef77b3b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18-balanced/核验证明.md",
+    "bytes": 4601,
+    "sha256": "99a0541cad0aeb613d0c884c6e09c2cafbc5230d1dbdad9f086cf3cef9f99404",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/765.rup",
+    "bytes": 35977132,
+    "sha256": "d40f416faeec2a6e098acedac32924ad35dd6a527d15f6df0ef4c28e1057bdf7",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/774.rup",
+    "bytes": 12764691,
+    "sha256": "708554e3533382b1404c9e1cd0dd32edf6ad1085b720ce761579f3383b7c375d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/855.rup",
+    "bytes": 3258304,
+    "sha256": "480f685a3ddbdb52f0647236ef1f3de241b33fea7b0fef36847774f8dc18bf82",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/864.rup",
+    "bytes": 3822241,
+    "sha256": "8e7fceefe9d0bcfc55764f8eae64457bafc0b3c8d29a1edd95db82d2e0c0d28d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/873.rup",
+    "bytes": 1914390,
+    "sha256": "e4d1181a69d84735c2311ecced34e94c79d29309ed1b82c43aef707ff88d44b4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/882.rup",
+    "bytes": 124545,
+    "sha256": "deda0691e3b40e0b71bbc2b43ca39dcad83cf943e84203d6fd24b8b454544713",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/README.md",
+    "bytes": 5226,
+    "sha256": "b1a89e4fc9a68a10c944f3bdd52e6fc402f4a2e6621dd856179182e239528367",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/generate.py",
+    "bytes": 9672,
+    "sha256": "82a89004798b32ad2c6da2403a3364afba52ae29b2a3e80b53d989d5efc602ed",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_3_to_19.zip!/n18/manifest.tsv",
+    "bytes": 928,
+    "sha256": "f5c26239729ddf3566c9e0f0d859532e478e424c6b92e9d20a8375bd7221cdcc",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip",
+    "bytes": 15677113,
+    "sha256": "ef8827919d9aa7ade4af295bc5d61e165f22f27609987d5bb30adc9ba25d3e17",
+    "kind": "original"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/README.md",
+    "bytes": 2165,
+    "sha256": "49ab150ee37078385e535615401ed0022fe601c84f83339039025d7245fdfbf2",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/barrier.py",
+    "bytes": 1076,
+    "sha256": "79dfd2d49f354215eadbebe1714410ca1698c5dd40d76eedbf7f0e7b722c2e2b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/controls.py",
+    "bytes": 254,
+    "sha256": "727657200169a9bee2b275b22015646b534f814359f68316a6e2611341009b1b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/model.py",
+    "bytes": 4837,
+    "sha256": "5c92392883398c9be661fe3775469b407a01706ec63c678d402c1f1e397bf5d2",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/model16.py",
+    "bytes": 4049,
+    "sha256": "61597e860bc91f4253d47e481dab9fb0ef50998a7ac4a8c00a0f860413241b05",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/near_circle.md",
+    "bytes": 4368,
+    "sha256": "14fa0d0586396b2c65703686a7e4125d659d10982925a7cd032a35181ef6058e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/order_check.cpp",
+    "bytes": 8642,
+    "sha256": "2e85e7331b7a7f40f2829a5a60af222225d5c9c649ccf843d347efdeb033cc50",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/2-2-2.rup.gz",
+    "bytes": 32,
+    "sha256": "d32e16fb1a97ea9e6c85b511f109aebcc4586bef0ccf3a2ba8e75b38d82c6282",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/3-3-2.rup.gz",
+    "bytes": 38,
+    "sha256": "f1c7b35cfd9382b8eaa9de6c47ab61ae252abc650aee21e309381beee65ee6fa",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/4-3-3.rup.gz",
+    "bytes": 3512,
+    "sha256": "212a92178a75c2b446cb88e2cce95d370fa8c1ab84349a0ea1d436523e4beb7d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/4-4-2.rup.gz",
+    "bytes": 2628,
+    "sha256": "e6c0b573b9af30314e70c523cb2731a6c80d32db08a540a1c4d197ba65e7edb5",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/4-4-4.rup.gz",
+    "bytes": 30634,
+    "sha256": "293a9bb78a1527e6b2f1fd5367cae4a9f8b9c9dd8234a64b88766a058b5d1eff",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/5-4-3.rup.gz",
+    "bytes": 25156,
+    "sha256": "70bdf6632887227e5d0769a05687bcc2682147e061cd4c9bfa87b0fb48adfa89",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/5-5-2.rup.gz",
+    "bytes": 18716,
+    "sha256": "45c574641b3675b4d3941db6542612ab17db43ab59d737ebe90ec8df46a6cfda",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/5-5-4.rup.gz",
+    "bytes": 2297883,
+    "sha256": "4f21cbb044eab46a1e1c464c6ec89ac9237aa293ad01e255c7f854a2cfa9bedb",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/6-4-4.rup.gz",
+    "bytes": 1831012,
+    "sha256": "d21a76c302ab21ddb479ac9dfcc6d55062798ceaa9d4dce80b4a3f162ace2cc4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/6-5-3.rup.gz",
+    "bytes": 1288666,
+    "sha256": "99bd0b2a77018290cf53795d7ae4ba351d062c7cff9d1334a9d300ba3508abd8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/6-5-5.rup.gz",
+    "bytes": 3460586,
+    "sha256": "d255581de2fab2eb5ca1a5bae55eb5b19e8ba654304b0a37c44c412c726723c0",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/6-6-2.rup.gz",
+    "bytes": 89080,
+    "sha256": "fc865dc2472820d17c1960b9603ff6734ca0c9f1b6ab420bc56180138f43486e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/6-6-4.rup.gz",
+    "bytes": 2523226,
+    "sha256": "0606a0c8f7e2f65a3e4971f5b47fb0cb5c009cde789d1c36d1da9b31300eca63",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/7-5-4.rup.gz",
+    "bytes": 259606,
+    "sha256": "6982b605c922614d52e06485b720e68f94b377697426972c78bb46ee7a798ffc",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/7-6-3.rup.gz",
+    "bytes": 3633873,
+    "sha256": "f91e0d9af458cfd411f1e186593bbb2b5c943bf91d323b49e96cdd780dbf9cd9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/proofs/7-7-2.rup.gz",
+    "bytes": 191462,
+    "sha256": "2d92272e8fd85b79475506f15d62958235eca7dba37f0a274b22d8bf1c05fa3d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/research.md",
+    "bytes": 6781,
+    "sha256": "b48b4946d0e586ce1f641d5149072d00d1bc419b88d4c4c0f9035402fd86741c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/sixteen.md",
+    "bytes": 2626,
+    "sha256": "036ceace00b8af4935208b67ef1d2c8216e9082ad8eb9eb45b75135c2f87304b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_proofs.zip!/verify.py",
+    "bytes": 2028,
+    "sha256": "c92d19debd499861990e3f1a4cf0da0f7795efda82c840d46636634abc26b823",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip",
+    "bytes": 47958016,
+    "sha256": "21995b951e445fb9d2f99c7b561053abc79a67d1a44fa19b922ba70c93a50750",
+    "kind": "original"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/AFFINE_METRICS.md",
+    "bytes": 4047,
+    "sha256": "ae966d4aac394309695f57f3ca5b45903009a5d5e79a69d52e313828aad5ed1a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/CONICS.md",
+    "bytes": 5125,
+    "sha256": "b95dda911d97ccfa19bd11e88944e4c914a464222fbc94d4a9807e1c6bcab3ab",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/ELLIPTIC_DISTANCES.md",
+    "bytes": 5582,
+    "sha256": "4e0b70799aa3e21b42b21ab2263eecafab990c128876c5f410c9e4335a0c3d94",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/Erdos982_regular_core.html",
+    "bytes": 183446,
+    "sha256": "019708ad6c6534d89108173415c8da8928aac81830c4e2cba3b328da72c4f981",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/Erdos982_regular_core.pdf",
+    "bytes": 2143590,
+    "sha256": "a92cab10587e25f4d68c56d75c0255c933da1560ff94a0b906086c7eaa6ea03d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/FINITE_REDUCTION.md",
+    "bytes": 3474,
+    "sha256": "4453d70a1bbacedb43559a1c4cab97cea6d8b12814a87a4645d22055a8df362c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/INCOMPLETE_GRID.md",
+    "bytes": 5867,
+    "sha256": "fb46690684ef8659ec0b4d636b088a3b39b3cac72fc718adb499a6a87dd7c5df",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/NEAR_CIRCLE_RIGIDITY.md",
+    "bytes": 6542,
+    "sha256": "10576aac1d3d4ad0ac39c9883a74e584e0d283a81c0dc825bf6bdf88050643af",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/ONE_SHORT.md",
+    "bytes": 15800,
+    "sha256": "a63b2562e50f8a877b7c8fa2d5170ea9d345a8ab8370381de1bde940b1e5e6d0",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/PREVIOUS_CIRCLE.md",
+    "bytes": 4973,
+    "sha256": "27d73184c23003c35757926c3758691becab92c68a1e000db04f4d0cbe435b91",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/README.md",
+    "bytes": 5197,
+    "sha256": "d7bf020bcf84711e60bf0edb853d1467c947990b22610a13568170fab3d07632",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/REGULAR_CORE.md",
+    "bytes": 10563,
+    "sha256": "237f1f27d522de26f2ed616698aeaa1924494add999fd7ef6adc60760e8ab85f",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/SHA256SUMS.txt",
+    "bytes": 2202,
+    "sha256": "a428b9a7e6c4760fa03e3bc16ce7d1de3d4d33290194c59dc638789e20be6c84",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/SHARP_ANNULUS.md",
+    "bytes": 3759,
+    "sha256": "c4271d0a686969facf5ee3c664c79559a61c7562342a3b5c5127a8caa0f7517a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/THIRD_DENSITY.md",
+    "bytes": 11560,
+    "sha256": "b93a2e56da97a82a2e50ac3245f818d4db64c6b00af816d07c73c2e7bcfbf47e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/affine_example_21.json",
+    "bytes": 715,
+    "sha256": "fe9064f6d267de3eff4994eb9ceb1adf80c260a075eea97c6f5c51ac5db62736",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/affine_example_result.json",
+    "bytes": 363,
+    "sha256": "30242f8266b20462c3eb4d16cc10280a28ad0df53cdeea50309524fcfd2e1abd",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/affine_metric_search.py",
+    "bytes": 3259,
+    "sha256": "7becd953b4f300e79facb628b323dbb09ce02863d0162c6f2e2d6c6103ccd289",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip",
+    "bytes": 23216895,
+    "sha256": "345d148bf46ec2fc2ddbf0937fb4bf70310a6cc09d5723471ef563484ab24f6e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/000.core",
+    "bytes": 15949,
+    "sha256": "c22c4b009eba8b1cd92294590297e461f0847ee14b4dc1b18394bae159b71220",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/000.rup",
+    "bytes": 15758,
+    "sha256": "aa06d952ad704b1e2d14bdf1cd5d7f8e53af6303e42116cbf22dc69f884d0b5a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/100_5.core",
+    "bytes": 260431,
+    "sha256": "ca9cea4911f36c43ebbac848070ae054b92c088b74382cd20899a8b220ea43c8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/100_5.rup",
+    "bytes": 9250926,
+    "sha256": "ea064becafb0c60021c5992d92df2e464f23cad9eec8ea603ca7e91a884eae01",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/100_6.core",
+    "bytes": 241698,
+    "sha256": "d66835ed54765230edae4dd6abccc386e06582a926243b91e2c7abaaf20c90d5",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/100_6.rup",
+    "bytes": 9999734,
+    "sha256": "a482f674b74d66cb820bd5ba31a2fe81914cedc399b066f5ddb0943c43298630",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/100_7.core",
+    "bytes": 161638,
+    "sha256": "c37607196e3070fc94ff3241f0b619feb98d92dfdfb7639dfe095e132400e4ff",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/100_7.rup",
+    "bytes": 2094096,
+    "sha256": "3e6f5096247f9ac343ad52d4f76c578e184cf99b696ef6e7b7219f33c4294b49",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/101.core",
+    "bytes": 69182,
+    "sha256": "0cdc45e527b5d1f9d7f5d0cf8b6a28bab2fcf0bb5f3cf1a023bb4a97548b8301",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/101.rup",
+    "bytes": 168856,
+    "sha256": "d67875e44e8a33b55b7addf6e2fe5ca55b36cb97152b8905f9445970d6539def",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/110.core",
+    "bytes": 119556,
+    "sha256": "dab6917ce1d73fc520c778cd1adb8322f52a9375ac49e698ff561887fdc6b47d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/110.rup",
+    "bytes": 675278,
+    "sha256": "187833ca99666b0884a00b8cb689e0851bf5e1e89e13321be303bff675aeec8a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/201_5.core",
+    "bytes": 234991,
+    "sha256": "8491061167b95d4f4bb8f0543a4488a371efa9ae0fd89bc5daf24c0b1a862762",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/201_5.rup",
+    "bytes": 5673874,
+    "sha256": "48b52c5cc71a0aadf173c673417969902a80a2d62b5f28fdc3236dc49ded641a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/201_6.core",
+    "bytes": 261455,
+    "sha256": "1ae6ab6e8162c93eced28de1ba5e2ea5cb4fd8343585e219615e220bf6586ead",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/201_6.rup",
+    "bytes": 9396365,
+    "sha256": "7ea034d19178cb75b4a00ad518130ecdca46f494efad61fc2a4a42f92812d0c8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/201_7.core",
+    "bytes": 160476,
+    "sha256": "caa61b9500e04f546162e005887caef825b157a5945caff31bc2ee7986fc18d0",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/201_7.rup",
+    "bytes": 2081526,
+    "sha256": "3df7b7e043f401931d1c88073d8c6a2152f4b7f9f6174ec02f9ffa7c3981c0ae",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_5.core",
+    "bytes": 281317,
+    "sha256": "712028cfb41662c0626ec54155fd7b64f49e70f5a7e37feb36e6a2a243e0860f",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_5.rup",
+    "bytes": 12051574,
+    "sha256": "7bb7cca2761b0fab8742971236db0710ad619eda84d48ef148f1031e5a490407",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_640.core",
+    "bytes": 177855,
+    "sha256": "dd77ce9eba29ad4445fcc3a2e39b54a5c4ff65270144417258097b08039b5a02",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_640.rup",
+    "bytes": 2588433,
+    "sha256": "5f9f3c0129e7c1ef3c3530799b4ec90bd35cea9eba497d33dd794b4e44da56aa",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_641.core",
+    "bytes": 178624,
+    "sha256": "92f86385ffebd73e31a5b717b64c42b17a46d04190eeee6eb2a7cf1b033e23fd",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_641.rup",
+    "bytes": 3020124,
+    "sha256": "8a7ef2a6f9d2908244573146e93e20c44510e68b455b261db6769d251b6c8457",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_642.core",
+    "bytes": 171154,
+    "sha256": "900af4ee1767dd354508c7f6250b8c41020ef437ff6c99f99328edec742234bd",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_642.rup",
+    "bytes": 2837687,
+    "sha256": "a94315ca0263b0168f119a6171714c8ae013a861d02f39a44004534dff2bb747",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_643.core",
+    "bytes": 174605,
+    "sha256": "976bd9957c1e96ee8e27e723993a2e3ebb64e671a9b716d5b270399b6066b4da",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_643.rup",
+    "bytes": 2916778,
+    "sha256": "4d0a46f78c21b67d39a3e67864beb9b2868fcf9fc0a8a021b3b59a05d86f07bd",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_644.core",
+    "bytes": 194497,
+    "sha256": "d8a27e17bb68653becd9b60ee33fa0668c3fe9bb939c7efda85544d1a5c480c4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_644.rup",
+    "bytes": 3987315,
+    "sha256": "cafc3afeca02293a6650246dc0cd0b40f4401b1d8cc4f2fcacd58dbe94f6e665",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_645.core",
+    "bytes": 233929,
+    "sha256": "35a0a12f4994deae7135ad41f85b1b1a5ae2ca1bf4dfa42ec1ca55c75d9060a0",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_645.rup",
+    "bytes": 7712042,
+    "sha256": "983a15d14b2d5bde4a243d0721d98e83432aec866eb8ed7e8e115f2e6bec4602",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_65.core",
+    "bytes": 207939,
+    "sha256": "23d68837089cc185864b7547c24cde82f4cee40975b3961c2d8057e34f8d69eb",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_65.rup",
+    "bytes": 6474935,
+    "sha256": "89163f5d87bb20b4a173395935081a1b264c97aa186a0b243d89d2c9329b68f1",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_66.core",
+    "bytes": 153636,
+    "sha256": "efedaabc6cf7c9c1b2977a131a0dc73bfc4f7f7d8225476f84f9ad31831b932c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_66.rup",
+    "bytes": 2353234,
+    "sha256": "4e25c52dc9081cd378a60b3733dccc137a4cc4416bc859925c5c12dae2d936cf",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_67.core",
+    "bytes": 99498,
+    "sha256": "d38dd82a4b1b7d603a44096fe436626a17f7ebee3a50a8d2ac7fe5749d0a42b7",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_67.rup",
+    "bytes": 794626,
+    "sha256": "84e1e9ee41e01d19d74c3bfeb5994f6583b6ccbb52b3ddc5d537d9fe7def8296",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_7.core",
+    "bytes": 233746,
+    "sha256": "e5fe2a91fd54e73b5d7781722b5ee5da3ec1d2e43e6c1da4470b43f4d1d4d447",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/210_7.rup",
+    "bytes": 6342964,
+    "sha256": "ebb7a23d0d521407a5ddecaf85b0658a8a4c9637f6f27dc3015a38cc4706bf30",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/README.md",
+    "bytes": 7630,
+    "sha256": "b2e6ac458a4983c1f45dca71607e33431dea7338f54c867c35d2ce36ba7f003d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/generate.py",
+    "bytes": 11034,
+    "sha256": "f2dc0b770dcc0c8d2b41bba8c0134ba825eb0568ec8e051742dc14c2bd283737",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/manifest.tsv",
+    "bytes": 4197,
+    "sha256": "1879bdadcb5346ec549f42174da2d0b2e57495edeb471ccf268829e0390ac6d9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/select_core.py",
+    "bytes": 606,
+    "sha256": "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip",
+    "bytes": 4590116,
+    "sha256": "5d937da0081c4f2e68ef878baad53414244a90e5ceb204309039fea09201b0a9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/000.core",
+    "bytes": 9044,
+    "sha256": "2748a59116c4f6b56c7ff0fc4277e506d86b80cb12d89531f8a8203300bd2fd9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/000.rup",
+    "bytes": 6377,
+    "sha256": "9c47afb4bbf151cffc350c82939d7b00329ba080806065d01d7498302e8ea58f",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/100.core",
+    "bytes": 206440,
+    "sha256": "1ec1f5171cd3216b2ac8d2c286e9ce7842b83f600c6118d265383b4ac71cf5ae",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/100.rup",
+    "bytes": 2721862,
+    "sha256": "c2cbe62f1d1d4c0a39cd1180f0f26a4bd393e788034b55b21435bf7557b481be",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/101.core",
+    "bytes": 8352,
+    "sha256": "4cc483dd0677790f6ebf04cc80858b4f137dd7fd7b5605a8a101601a618d27e8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/101.rup",
+    "bytes": 5337,
+    "sha256": "1b130018e261d97ad766329ab420776dde8ad7b642d8df3bc171846a258912ae",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/110.core",
+    "bytes": 153201,
+    "sha256": "ca2ef8cc4d8376125a504b04dc7c757eb5acccee636083648b0680fa78e23e86",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/110.rup",
+    "bytes": 1556414,
+    "sha256": "2c882e1fe6ffbdce42974eb4c54195e0ec373a5ced2d042dfe7638f9ac48c234",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/201.core",
+    "bytes": 87612,
+    "sha256": "a1d87816ffdb8b58dec9b71122aa4d39e1b05aba54aa393dedd2e23ffe8a6cb7",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/201.rup",
+    "bytes": 402603,
+    "sha256": "d3081c2e195042b4b67816a767badf45fe5d262c44f1b6921c02c53fd7c294a4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/210_6.core",
+    "bytes": 264988,
+    "sha256": "1a498726882f4fdbbca82edc10612434968b9b897aba302552f93665a8b6097f",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/210_6.rup",
+    "bytes": 8343567,
+    "sha256": "aa1a7f8d69dc40b91e65f1430d2a20276d2680428ba1c2f6800a288dc0002776",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/210_7.core",
+    "bytes": 259786,
+    "sha256": "30887c1ccf914fc70a1fa03e5700822c3259492a4acfbcb11c6e042c37b5c85b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/210_7.rup",
+    "bytes": 9912066,
+    "sha256": "03a156f2491fc749f4cc2f54ef592086046cb0daa8edc5454cdc1eee81a3275b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/README.md",
+    "bytes": 7400,
+    "sha256": "9e1a76913514140641a2997331fc1dee5a399da4cff0b72ed78fce0661341b42",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/generate.py",
+    "bytes": 10864,
+    "sha256": "59ab138ad5f2962a749b16e80f9f4b7763ad8fd15208a8b521641b5ad0832755",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/manifest.tsv",
+    "bytes": 1483,
+    "sha256": "abeb928b330431149cbdb2905f63d58684500b74e7900ad2e946ccbbd867780d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/select_core.py",
+    "bytes": 606,
+    "sha256": "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip",
+    "bytes": 1834921,
+    "sha256": "c51667736e2b91207aa0ce82dd4987f8cfcf635b6ccf65ab4bf091f58d1b1279",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/983.core",
+    "bytes": 248835,
+    "sha256": "b9dda39bd2cc59ed67bd3af08984502940444600c5b28db30bd054f33e50ae54",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/983.rup",
+    "bytes": 7831211,
+    "sha256": "84398766fde945cbf29e9e38e46a0ee53c73166245e8b5b1b35775bce7f230d2",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/992.core",
+    "bytes": 110666,
+    "sha256": "946e6e09222b17b247d803dc4a6695da75875f1decb1b67ba4c7c94b8be08274",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/992.rup",
+    "bytes": 1430082,
+    "sha256": "d5c36c7eacaf79cf019aa924320a9f5359872b832a3ff17f4e7141581bbc595c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/README.md",
+    "bytes": 5051,
+    "sha256": "4c0d4d1d926cc14cafa190ada756d7041feb31785c46a1915cfb2902f9bea7e2",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/generate.py",
+    "bytes": 9707,
+    "sha256": "317d9759969de8a12f208a8d4f198f09bc7636b37fce57a3810b6bad1e9a5f33",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/manifest.tsv",
+    "bytes": 360,
+    "sha256": "d4bbf50286baba86a0004e2ac0b5b2ac296b5e5ef9f0fca97482b7567bdd41a0",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/select_core.py",
+    "bytes": 606,
+    "sha256": "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/快速复核.md",
+    "bytes": 541,
+    "sha256": "3819f512d401c90ce9c4e7c4233b64709a364a4b4e84594a9c350b956cd8396d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip",
+    "bytes": 9611845,
+    "sha256": "639dfe02a430e947e72c5399825972d174d115b4eff133e4f24512ae1fa875cd",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/211/axioms.txt",
+    "bytes": 191560,
+    "sha256": "4485c47ba6179a133014d2f1f1c189f9d4ebb1ece7dc987cec808c0932fed836",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/211/compact-check.log",
+    "bytes": 33,
+    "sha256": "297cef016458141fc07ba3ceb357adbc366fc46d89da233b8b775c2ae65d5a78",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/211/manifest.json",
+    "bytes": 364,
+    "sha256": "a6156d178fddbcb80bed99b9764229dc22b452954350ec44196e32f4f50370b9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/211/proof.rup.xz",
+    "bytes": 1451660,
+    "sha256": "731ec305aed865081cfb8c4a084062e58c80a6677c16926658898e542b4c8dcb",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/211/verification.log",
+    "bytes": 447,
+    "sha256": "e029e80b9fe9144ee0d51cb70b73f84ff33f534bc08e15e9724f727c62cdaad1",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/221/axioms.txt",
+    "bytes": 193538,
+    "sha256": "c1b4bdcec00ec94e71ee609ffe1101d7638867d67c8ed9b159abc3bda2252f7e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/221/compact-check.log",
+    "bytes": 33,
+    "sha256": "8653217cd9741ece0b794768e6d37f50fef5f8740d1f10b626f6d07c3be174b7",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/221/manifest.json",
+    "bytes": 364,
+    "sha256": "204b61ea4ba801cea1f145c999c7c05a6ba04a608060e05241a18953f68b7486",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/221/proof.rup.xz",
+    "bytes": 796720,
+    "sha256": "df25844e26c518761c94492f206c3a84cf34bdae209e4de35c4a94b9e1a29ee4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/221/verification.log",
+    "bytes": 447,
+    "sha256": "c6217c410b2365fe727c6c5ddea65929f0485fa117b09dd2b02aafa37d988f36",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/321/axioms.txt",
+    "bytes": 189658,
+    "sha256": "0d8aed334a6aa2d8d91562513aadf0c0fb43adfb77c88d9622207a357f783fa2",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/321/compact-check.log",
+    "bytes": 33,
+    "sha256": "0e215b55a22701f5e64d7229f54dcc64c2ec215b05e73fabdc042859de72b896",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/321/manifest.json",
+    "bytes": 364,
+    "sha256": "80a3c5f8204011f75bb419ac5ab4464f8f9c373bbd931542b2df4e137549e7e9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/321/proof.rup.xz",
+    "bytes": 900272,
+    "sha256": "f490631518f84d543167d86fc5fa522b137076150cc9568ba174e9e427a51541",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/321/verification.log",
+    "bytes": 448,
+    "sha256": "716232fe5cce7c4be8b7cda32df9b672805e32061279ef92cea0f60e21fa9cbe",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/README.md",
+    "bytes": 6746,
+    "sha256": "dffc5b0bff9d0487dba0735d75dd9981024d8cd95b9192165d7a1a5b92aa6f1f",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq666/axioms.txt",
+    "bytes": 156390,
+    "sha256": "f20e63e977caaa1c365a287b1e6bb1803a02c9f4352567125f94ef2de3e8b290",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq666/compact-check.log",
+    "bytes": 33,
+    "sha256": "ca78b7ab4fed055a34b4b75831911d5e3ec098d346f951c76ced6b872dfea991",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq666/manifest.json",
+    "bytes": 366,
+    "sha256": "1deca117b42e13e44ae5cb53f3491395a3f11f899ed27d01e02c67785d9f0898",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq666/proof.rup.xz",
+    "bytes": 395848,
+    "sha256": "6a2a6635ee2663545ce17c922e32b48356ad9d600be247323ccd776fdf284897",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq666/verification.log",
+    "bytes": 447,
+    "sha256": "5aaa8e16b4ff7955f6c58aaaee5f037fb656ccdf688b9b2c2a3fdf58eadbc89e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq667/axioms.txt",
+    "bytes": 145622,
+    "sha256": "af31445402bc726a873318ea00d3241096e3ca27830a6502bc96fed9528f3c4b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq667/compact-check.log",
+    "bytes": 33,
+    "sha256": "12659b8841255a313f2d0e2ed01f7b1151e6f0d4b5567ffa744502dcb658f197",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq667/manifest.json",
+    "bytes": 366,
+    "sha256": "76c377f581123c9482c0ed989ee3572d7b0bf11b667601f3cdf003542c6397e5",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq667/proof.rup.xz",
+    "bytes": 342780,
+    "sha256": "35b4976a1c5aa04f1023570c3f2ca24233e79bf139f1c8fe8088d3c8a1375c9d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq667/verification.log",
+    "bytes": 446,
+    "sha256": "08b431d4c30c761db934fbe922d31bea0d1d7427458b9dae999e48911678df3a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq668/axioms.txt",
+    "bytes": 131405,
+    "sha256": "733ee8b0c58f514e2aaced6ec8461ef70c12c02eb0ccb04cedf62ac4493f44b5",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq668/compact-check.log",
+    "bytes": 33,
+    "sha256": "7cad583889b9da33a44c478b8738f6821729d7b2ad8b8bcaac4fee1beffdc059",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq668/manifest.json",
+    "bytes": 366,
+    "sha256": "c03719c5ea9b855a6f431e1781e1a751be115b0f95bcfb6eef5802565f1a36f7",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq668/proof.rup.xz",
+    "bytes": 154872,
+    "sha256": "5c5b7bb7d8ecf9589a799ebd0c7cdc5881e316c2730d195fbefec7450e359eb4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq668/verification.log",
+    "bytes": 445,
+    "sha256": "4896c10036b50a53a82e1dd449ed1f13c8e78468014146402914f367c958ab70",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq677/axioms.txt",
+    "bytes": 167988,
+    "sha256": "8fc04020dc742384c9435e3c4f8a8f29be4cc2b166acc99f13c172db4606a7a7",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq677/compact-check.log",
+    "bytes": 33,
+    "sha256": "4336fb87dee8a9bf3465274f1d9c69ef090de562c66118103d0063280bca6f9b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq677/manifest.json",
+    "bytes": 366,
+    "sha256": "ef9b97da7da9933f538b9f288e749022914af90279739dc1f653db39fa526db8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq677/proof.rup.xz",
+    "bytes": 463972,
+    "sha256": "98364a9092e40a3fe2cf5f161da4e82520ada37ee1ccfb9dda545ddef3b08344",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq677/verification.log",
+    "bytes": 447,
+    "sha256": "373e93c65d186ace62c9c5a050ad1e0e4b765b337df67a1568d68e3c2970e81c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq678/axioms.txt",
+    "bytes": 98879,
+    "sha256": "60660db3c0fd7c7c591ba266eedde06485c284026d0df7bcf443668b99b5f207",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq678/compact-check.log",
+    "bytes": 33,
+    "sha256": "e6ef391e18f28ce07b8c2edf45edcc1ddf7a038960056c5c2a799a46c5815ad1",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq678/manifest.json",
+    "bytes": 366,
+    "sha256": "4f83ffb31b765a53c477a84ae1df39b9196ac50bca143d12c91e4203be72551e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq678/proof.rup.xz",
+    "bytes": 173656,
+    "sha256": "28563e92cc53973f6cb7d24386eb570c919ceeef290cc5773ed187043bac5b24",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq678/verification.log",
+    "bytes": 445,
+    "sha256": "89360c0e4284515228a8c3983eab5a32d25759bbae11746cfa3782e2ad068ac3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq688/axioms.txt",
+    "bytes": 116089,
+    "sha256": "24393334bbb602f567067ecc389a6f8657329efc6d8143595e3e5b61d35bb565",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq688/compact-check.log",
+    "bytes": 32,
+    "sha256": "65bfe3bb1e113fe760170f40a05872781d72dc0ffcb6dc2cae072d12e764dd60",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq688/manifest.json",
+    "bytes": 365,
+    "sha256": "44085948b7a2fcec9450ab5a8ce76cd2648874ffaccb3102b9bdbf51136b9303",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq688/proof.rup.xz",
+    "bytes": 124640,
+    "sha256": "4b7fb9c8586b46c2785bd9a3dcf87c2edeb458bb42512e3e8d63f6f0a99cf117",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq688/verification.log",
+    "bytes": 444,
+    "sha256": "1ba41eda13424a2673c3d040020993415e87440f1a8bca323bf25a57429ad367",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq777/axioms.txt",
+    "bytes": 251366,
+    "sha256": "8b67184ea1e329f4112e49a4a13e3b244d04101222be38d784f77df8f517c30f",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq777/compact-check.log",
+    "bytes": 33,
+    "sha256": "114cf5786cfa9b41b85056b975aa4d63176a01333a720a2a9e11a0de22b228af",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq777/manifest.json",
+    "bytes": 366,
+    "sha256": "a89b3f30a2ca192160fdab03edd24bc1cc09c886b6394d20d46225eb01d19f34",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq777/proof.rup.xz",
+    "bytes": 2046444,
+    "sha256": "78bfa5b8a697312f76141bb05d527e13dcd9a31606cef5d698efa1b9dc9e5906",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq777/verification.log",
+    "bytes": 447,
+    "sha256": "2bda5e2d35834bfcaf2511d4484b2feb4b6ddb875ad14032eda625446df351af",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq778/axioms.txt",
+    "bytes": 201965,
+    "sha256": "5fc6a0037a719724b7e078dc346533331ba8cb5b011526a0b3cdcbf87b66befe",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq778/compact-check.log",
+    "bytes": 33,
+    "sha256": "24e93c140325e06e4e284d7f79ee841b97a94c347eb9042c45d08718f8ce9301",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq778/manifest.json",
+    "bytes": 366,
+    "sha256": "33fcdb55f4c4d16d5309ecbff8ea394bcb919d5dc658ba35a88b57d991893bfb",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq778/proof.rup.xz",
+    "bytes": 822868,
+    "sha256": "061547b27932afc6e9fd9480fbcda6152773bb721cb597f1139ab0f108250003",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq778/verification.log",
+    "bytes": 447,
+    "sha256": "3a46aa66ffdddea1dc6037fe36109923ba060f872d18bdd366cadf25b9f42178",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq788/axioms.txt",
+    "bytes": 158447,
+    "sha256": "ce7033193be39de9ab9bcb655a61416e0a26d89abea6dc54fc1c600f907c7677",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq788/compact-check.log",
+    "bytes": 33,
+    "sha256": "d26b9b36edbd6f1bad0c185a7b1b81aea3e19cf5092777e0424ad28b4c4322a9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq788/manifest.json",
+    "bytes": 366,
+    "sha256": "0a18bf2712eb2315be3ca1aebe594e83cb9f32abe914ef67654d94d0ccc60823",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq788/proof.rup.xz",
+    "bytes": 639884,
+    "sha256": "a78cedfa3ebbc2c17e86d70750ce55194a8b1164541ee7d982aaa56a0d3f4243",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq788/verification.log",
+    "bytes": 447,
+    "sha256": "3fefa2f3cd3f828206e1e6b6166b60b5965b7be65ce62c81da5fb8db99f634dd",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq888/axioms.txt",
+    "bytes": 140557,
+    "sha256": "8b66568f3147857c5392d34008f083f5591f725a0a56aaa4bf9bbe8a088e7712",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq888/compact-check.log",
+    "bytes": 33,
+    "sha256": "743cf92955f78e992e38cf037243ff2a2dd602147239fd95fa40fba0b7799711",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq888/manifest.json",
+    "bytes": 366,
+    "sha256": "98181c3e214ec482091aecc276e90ed8131e5c4159e554e44dd12e648aef8b29",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq888/proof.rup.xz",
+    "bytes": 509468,
+    "sha256": "774fc487fbee89c8aed66a987e5458ad58dbf6661a152c19e79ba2dda648a1ba",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/eq888/verification.log",
+    "bytes": 446,
+    "sha256": "9a54d4206fa0e3f5e4037b9b1a4c7bb29ed9bb7c9ae78d091600b55cfa01ded7",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/generate.py",
+    "bytes": 8446,
+    "sha256": "d6060f50e8d50af5d7f82d085c5757ca821c6dfc3eff34a4263c40f80aff988f",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/select_core.py",
+    "bytes": 606,
+    "sha256": "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/verify.py",
+    "bytes": 1874,
+    "sha256": "5fe29230fec83f8f6ad3d8029018f2adce7f6045ea04e5b177f4fbb76762a538",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip",
+    "bytes": 5353237,
+    "sha256": "f664fdc70bafc01463559b43af00cd6d2c8643b4e583b2ea735c67b65527ff47",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/111/axioms.txt",
+    "bytes": 112853,
+    "sha256": "eb62041e6e44f073e0fe32ea5b89b8e37dd4c7b0d55e69819adcd4a4a0f3b6d4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/111/compact-check.log",
+    "bytes": 33,
+    "sha256": "02195b64c58c8ac33e4e10243e0ecbc16455b74596a19287ea48cdc6792c1a56",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/111/manifest.json",
+    "bytes": 364,
+    "sha256": "d278183134a4f61ad4bf6c384a95a468cf8b88740a19a0aa24022d477409a2e8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/111/proof.rup.xz",
+    "bytes": 300492,
+    "sha256": "fd461c9a9794e5ddb8608f645cdd25edd0766fd0049782d5d44b04d9b2bd1682",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/111/verification.log",
+    "bytes": 446,
+    "sha256": "51a0dce1ea518e939c51a25f63af655707af69f7fd0555230a52d589d60f3d3c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/112/axioms.txt",
+    "bytes": 22405,
+    "sha256": "b20065e1403f023eeaf2bf3ea7349f00f6e1764b196998fccb4812c1eac41996",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/112/compact-check.log",
+    "bytes": 32,
+    "sha256": "41bdd2a972d9698759720fc1b0278b5f363b8d3feb0333f3bc6e550d1c58d1c6",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/112/manifest.json",
+    "bytes": 362,
+    "sha256": "88f3d23f57e43cf11459cc29c51a454c0eaeef9d03591df187fa8d62d0fee7b8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/112/proof.rup.xz",
+    "bytes": 11736,
+    "sha256": "2fde831ba600652c4213b44a4531347f5239f7a99290452ae9f4c2b5ce0383fa",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/112/verification.log",
+    "bytes": 441,
+    "sha256": "a5090fc86bab9b7753f498de4fdc90a4d79946e076474307602569738c3a0e18",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/121/axioms.txt",
+    "bytes": 33066,
+    "sha256": "5d0779c8c3ef47d68d726479af40b2ed48c6463af936614b324737ef649a5ada",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/121/compact-check.log",
+    "bytes": 32,
+    "sha256": "ce9a434a0282573c8dd95876e7a1b91cf7ba77a1360c125fb4f7eb7cd5dc8b61",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/121/manifest.json",
+    "bytes": 362,
+    "sha256": "a083134b8a8a7cecc050598757cb9117aa2c71dec924f043a53550f9bf5f8bbe",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/121/proof.rup.xz",
+    "bytes": 20716,
+    "sha256": "8612d0474027088fcf24382a409fcd116b264c3e297aae8c10e148c531270078",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/121/verification.log",
+    "bytes": 441,
+    "sha256": "ad0195bbeecf2f77c38031095a0fb0959ab73957299953a31c68f984ac60297a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/122/axioms.txt",
+    "bytes": 26508,
+    "sha256": "5d3f659e8e75a7aa16501a6f3500fb5b42d123ac8f365c190deed20130b2f481",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/122/compact-check.log",
+    "bytes": 32,
+    "sha256": "7c0dd10edf69609454df8dbf4596370b70c6c837970a878cd6d26557d26d351d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/122/manifest.json",
+    "bytes": 362,
+    "sha256": "0a96112d3f724a4b2af21e04e8e0d0acf78ada05b8bd559489c4a07e45561598",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/122/proof.rup.xz",
+    "bytes": 10540,
+    "sha256": "acffbd5868e07b895386466ada9364de8a8ff132d2d1758258edf7fbb07f2181",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/122/verification.log",
+    "bytes": 441,
+    "sha256": "0d47b417f0ee4718291c9116b16184a28327e0a63e7b15365a0baab7a8f3040c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/123/axioms.txt",
+    "bytes": 31980,
+    "sha256": "f25e3120b9f7e614aedd35cb42adb9ec8cd1982b427a49b5a0fd035b54ac4d4a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/123/compact-check.log",
+    "bytes": 32,
+    "sha256": "e08e1bb14776b0b5e64c90c4cf62aff432edbcc9e19107657c41db9919ea5663",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/123/manifest.json",
+    "bytes": 362,
+    "sha256": "ff8ebb1a50ee504c06e210fca6e17c5145bc707356924bb8770a4ee47e16ad6d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/123/proof.rup.xz",
+    "bytes": 13724,
+    "sha256": "220ece32740bb9b7afb2c4b9af8b79e01ac71348fa4a51d533f44b6b968f3dac",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/123/verification.log",
+    "bytes": 442,
+    "sha256": "97b34b239be3935ab260b538c89059fe785c1c4dfc3fc530a20f4b9cc456127e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/132/axioms.txt",
+    "bytes": 20828,
+    "sha256": "07389381a6b4fa5128e9173dc99a5dba1038228774f550845c61a793ab6a4faa",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/132/compact-check.log",
+    "bytes": 32,
+    "sha256": "ec104abed851ae2bb27fc0d584c7e30446fd282ac58e8c5fef5fd948be4b3076",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/132/manifest.json",
+    "bytes": 362,
+    "sha256": "736b8ef2f584e5f594350b612f4f5af4f9e3be174c7df643e762c84405854a9b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/132/proof.rup.xz",
+    "bytes": 9028,
+    "sha256": "e47b27ddadfe404d2b385f590b83ca9f2e72b151884781de5b618e722b0be179",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/132/verification.log",
+    "bytes": 441,
+    "sha256": "3484a195c3ad85b6e1b2063c1f98104fce685aaf082b25f05dee7b4dd02449fc",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/211/axioms.txt",
+    "bytes": 210455,
+    "sha256": "78e8bb18c898823378356057ff2c62308387bcbe2a26ed1a58893a0a78588310",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/211/compact-check.log",
+    "bytes": 33,
+    "sha256": "baf1d7ee078aa89035606f1143f4e54e375fb4d11db8cf04d7bad82554221dee",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/211/manifest.json",
+    "bytes": 364,
+    "sha256": "b33d985f143dded23e9bcdedea4dceec6e92196ab895d4e1a660f4d87fa8149f",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/211/proof.rup.xz",
+    "bytes": 1134848,
+    "sha256": "43078166b21f61d8cb6eb2fec40ec48fa97240d97307a758882082e358c84d47",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/211/verification.log",
+    "bytes": 447,
+    "sha256": "56dfcf9af5fdba690d2a7063a3195d22fa331c3b0a91e7c20fde02b377edb8fd",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/212/axioms.txt",
+    "bytes": 88515,
+    "sha256": "83f8c205b4f9d6d7dfefa88e0d3e991478af2eef6db3ea352bad0df66f2ea8ac",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/212/compact-check.log",
+    "bytes": 33,
+    "sha256": "45fe9fc3cf56635f7c2e29eec9de89cca40d1de5b7d71456124d88e3c8362633",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/212/manifest.json",
+    "bytes": 364,
+    "sha256": "595ec157e185f7b09a477441ad97180500122bd28dce89159ebbe9f1495c3d9a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/212/proof.rup.xz",
+    "bytes": 369920,
+    "sha256": "77e0cb6f7b7b3033ec03ce70d2231d32e5aa48f95a13f8c5b30c4b011ffa9e4a",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/212/verification.log",
+    "bytes": 446,
+    "sha256": "31e162268865e796058a70ea3e42e59a2cd37dd192e382b0eb16e89b56fe467f",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/213/axioms.txt",
+    "bytes": 17911,
+    "sha256": "030789e3d9a067069787788422b8d70ba8598ece9047fa73a2c3fcc27f81b6a5",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/213/compact-check.log",
+    "bytes": 32,
+    "sha256": "0d2a80e549eb194c958706cebdaea3984a328eb5eb5b4df2a7560d8c483bb84c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/213/manifest.json",
+    "bytes": 362,
+    "sha256": "81727d5cd6bdf03c434912d3294b969244cc0072e764b099911bb51b76a3a380",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/213/proof.rup.xz",
+    "bytes": 10520,
+    "sha256": "6371f49745ade6086ef300fe912318f82f26d3a45034e2403755577a9e5f1065",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/213/verification.log",
+    "bytes": 441,
+    "sha256": "d39f806688e52826b779de227f9ca50b7650cc91481529c86a78bf5c4092a3b1",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/221/axioms.txt",
+    "bytes": 147147,
+    "sha256": "bf648324a24329115ebb26869c90d6a5114fe1f990908590c58b051cad4a3caf",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/221/compact-check.log",
+    "bytes": 33,
+    "sha256": "6128164423a4ff06fae9ad77b93d0516ed3c30e818b4bb4d84b3c467313bebaa",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/221/manifest.json",
+    "bytes": 364,
+    "sha256": "3b84a64f020c5c28734dc392f7d4c6c23d4888cef5b0d4b8d03bca7849630221",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/221/proof.rup.xz",
+    "bytes": 823364,
+    "sha256": "a5afd3c6c621e5518ce7dbc2e876cdf4874505fcc88df1cc63ad7ad97948b5f4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/221/verification.log",
+    "bytes": 447,
+    "sha256": "dbdfa98bbd87150a4d7b4c90340cd3e7b57197df7a6767b2dcc678a30d1a1963",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/231/axioms.txt",
+    "bytes": 63945,
+    "sha256": "2724c979a46d0f493310f50857160ae86e9447532831c5e5c9459edbc644e576",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/231/compact-check.log",
+    "bytes": 32,
+    "sha256": "92cfd72aa071bdcb8e049ac01998f27c106095d79eebebee729fc38e16184954",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/231/manifest.json",
+    "bytes": 362,
+    "sha256": "f4e92f50abea4e915ff2d308639dc3bfe4b54c7064fbcd90335bf3e6b124df33",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/231/proof.rup.xz",
+    "bytes": 52188,
+    "sha256": "cb4677fe444964035b7eaba5f8b3c2d667b2c52715e5fb31f244a469a90d1208",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/231/verification.log",
+    "bytes": 442,
+    "sha256": "16d1c40df2467206ff2325be1d236c8db4ed94de645908d999ef1c400ca8a9c4",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/312/axioms.txt",
+    "bytes": 190042,
+    "sha256": "4e1dd65f837de44dae48ed6c529cc8bca2ad1c92b9a07bf033c1ab17304b1c84",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/312/compact-check.log",
+    "bytes": 33,
+    "sha256": "97aad0397710f89f49706326389e89d3ffd1015c17b24055d3170b91ac2aa3f5",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/312/manifest.json",
+    "bytes": 364,
+    "sha256": "4d3e407b3eea4e12e7fd332b7feb4a45f4103722876c43d11ba17bc6dfe7c56d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/312/proof.rup.xz",
+    "bytes": 611232,
+    "sha256": "2aea5e3b81b0adb3888bca65601b08182177cdec42c4ebc74fc874630eb78504",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/312/verification.log",
+    "bytes": 447,
+    "sha256": "8bb56c65f3cb6d40408106557603355a22527c9b8f24c1558bc203c9525c5910",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/321/axioms.txt",
+    "bytes": 197836,
+    "sha256": "934bcf778f0c2c00781ceb825ad3a6255b70dc4d23608eb0ce2724e4c6e8ddae",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/321/compact-check.log",
+    "bytes": 33,
+    "sha256": "754033cd8b20f1e832fcffeed113aee5158b3e8639a34071b4e1e310b79bebd3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/321/manifest.json",
+    "bytes": 364,
+    "sha256": "52d7b82f1c55a99b66fd9851271fdd59e46732864c544c652ffd55e67cc3d316",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/321/proof.rup.xz",
+    "bytes": 1542180,
+    "sha256": "7cbea2ae660c0f138a73e6f2fc86b977fd833cffec512347df362b855783c29b",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/321/verification.log",
+    "bytes": 447,
+    "sha256": "41b86aa1276b8d94810d2176c6c3af977130923323a9fadd0cbf88226035efe7",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/README.md",
+    "bytes": 6828,
+    "sha256": "2009a17caf3ec20203e9b891a4a777d2d5469cd02d78474c216f07d3294a3a97",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/generate.py",
+    "bytes": 8729,
+    "sha256": "485b5cfae73c1dea767ddd53237656fdfa534abee09ae4d8e0360947c8b04467",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/select_core.py",
+    "bytes": 606,
+    "sha256": "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/verify.py",
+    "bytes": 1833,
+    "sha256": "2f389b298c2a84e52dc21fd079914af11e1a1226847b330024c1ffad2eed031e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip",
+    "bytes": 881210,
+    "sha256": "97f2042f76f1927f244abaf32c099a7aa1e10f37317ef8907d5a8851b07d5d99",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/7.core",
+    "bytes": 83507,
+    "sha256": "26cf08ec5ac20e1f139f4695c661fb788769a7104586ca6da1336ef7d8355c0c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/7.rup",
+    "bytes": 506960,
+    "sha256": "4135f92ee7c3f2bedd8df0b4be80291adf25e92e1585b9bf0e3d95f13cd53e66",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/80.core",
+    "bytes": 51047,
+    "sha256": "8f6ebedd5a2912f1967115cf20ffba973af5c13a583eb7e947f36f4dd1e20fef",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/80.rup",
+    "bytes": 417066,
+    "sha256": "5d8cc3842f190557b719a7670bbfbb28bbd41ba97520032614a3d98d584998e1",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/81.core",
+    "bytes": 47858,
+    "sha256": "06d7a8c7ccc6c9d3528c4c40e82584962168933cc3785363988049f113fbd6c0",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/81.rup",
+    "bytes": 266633,
+    "sha256": "c9970c97ec4865101b0ac3c29fc56cba2294047928e990327448a471d4858460",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/82.core",
+    "bytes": 43887,
+    "sha256": "ce80811a53066fbaf67c38ffdf8435b8b87f0c2d7d191bb15af48e03e0a69184",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/82.rup",
+    "bytes": 263823,
+    "sha256": "6e0895425e41e3aa7d5db346174ab02b2011d815bff5e167be3ee74342b8f6d3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/83.core",
+    "bytes": 61562,
+    "sha256": "1771bd698ece58410f91c007241baafeaef919ead8673d884a6afb6aa0d30747",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/83.rup",
+    "bytes": 353554,
+    "sha256": "36560b7c825e9b5506f61f05237ffcfae1724587ab3bed930fc8ee621f5cec8d",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/84.core",
+    "bytes": 75690,
+    "sha256": "3202fb9fc18716f621277d2be9786e2a2d5b1ed71d461194d6bb9064ba04c2cd",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/84.rup",
+    "bytes": 610716,
+    "sha256": "3558d638cd7eeaf28244ea5fbb7d1a2fa7b531730a330e563c4216d80766d7c8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/85.core",
+    "bytes": 73794,
+    "sha256": "7d21c2d07e8272d6dd2ff26f0db499149d25e39a15ed48524f351fd509b8e87e",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/85.rup",
+    "bytes": 718392,
+    "sha256": "f0c7610e099fde8a5fffe30e6b5a62ccf86baa40d1b4f10e0ea8b0480d08996c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/86.core",
+    "bytes": 75420,
+    "sha256": "21a2d92fdbd6570b31059d9e55ec441edb4309d86bbef323207d9ecff7a605d8",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/86.rup",
+    "bytes": 466065,
+    "sha256": "f47d1db5fe0198775b37bf41e45227cf10c50ce807b65f0ba92b5bd63f0e17f9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/87.core",
+    "bytes": 56560,
+    "sha256": "f7d029c6dc2f8d9a80d7196674208fe1da983959922e95fcefaefed59533b425",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/87.rup",
+    "bytes": 326412,
+    "sha256": "d992c9200cc53353ec2180bf3eef0e01b2c701e9d8b7e66823e16c8dd0245014",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/README.md",
+    "bytes": 1412,
+    "sha256": "238c6e752a5c9fcecb61efb8fa0444c78b8f823e9171d9242c4eb26095a396bd",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/generate.py",
+    "bytes": 10344,
+    "sha256": "88f6784343dfe387a1ba630b75bd77e53275bfbf33279df136a5f1e8e3bd2741",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/manifest.tsv",
+    "bytes": 1884,
+    "sha256": "032fe44eb0c9d43308ae3c0ec6a640103662d98da3592a4ccd2af1030b36af8c",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/select_core.py",
+    "bytes": 606,
+    "sha256": "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip",
+    "bytes": 155264,
+    "sha256": "98cf6185d2420fc8646edd49ab22381aab0bac965464c89d0e5d06f5d2324357",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/000.core",
+    "bytes": 45832,
+    "sha256": "33bf0f06b52f641248b4670e9d40802c61450456fd7dbc40e3cd9790aad783a6",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/000.rup",
+    "bytes": 71363,
+    "sha256": "6cdae6c61ee66057e5b214fbdab801063b442be01ec26a04ed1f303c006ce278",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/001.core",
+    "bytes": 7532,
+    "sha256": "19be057f1c8fb76652fb4fd04393507083fdf59392ebd51b900a7cfd6bc6adca",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/001.rup",
+    "bytes": 5616,
+    "sha256": "4038eeacf807c144e95bb6700ebf5bb8d073797155bbb47e76dba4d2a467c704",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/100.core",
+    "bytes": 39468,
+    "sha256": "d1d385668bec3d73c4dd3e14f2ae526d14700943584812595b6119d3c3934ade",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/100.rup",
+    "bytes": 66820,
+    "sha256": "fa68e936b76b8577f8ffe1d8a6b13dfe31d02eca5888e655cc7575509f359a86",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/101.core",
+    "bytes": 6795,
+    "sha256": "09549786eba663b81f900a2b68f85bd215ff359f5310db1dfdd4642e7d4b7add",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/101.rup",
+    "bytes": 4918,
+    "sha256": "259d00788ded398b8e720ede33e67120ef076f5190fd351eb3a58e157cfb5d07",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/102.core",
+    "bytes": 5695,
+    "sha256": "0c55b605c49185e61d7aededc71423a3e47d30998a0ea9d7749fdabf7a56dee2",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/102.rup",
+    "bytes": 4033,
+    "sha256": "28714a6049c09b55a9841c05b7d3c8f0d0f60fca65c3bcb3c1fe53d1c79a3c66",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/201.core",
+    "bytes": 14059,
+    "sha256": "42038a6449c30eba83396fae0a6a8cf91119c21f6501ef0cfe1ff0f0b4021fa6",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/201.rup",
+    "bytes": 14288,
+    "sha256": "7bf4778c3beccc370a807b5da120bf184d1d7824c0636488c467e531cc8a0a23",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/210.core",
+    "bytes": 41727,
+    "sha256": "3ef5a3b86aba47e08fd4dd8f0a99da0fe0036318167efe290befdc04d4f92eb3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/210.rup",
+    "bytes": 158308,
+    "sha256": "ea97b4ee2cb08481cc9d9905dc089808064889b7d365b071a3a9f7cca816d8b1",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/README.md",
+    "bytes": 7563,
+    "sha256": "0d23d12366354439d14d8ee5a4ebd296c3bd2db0f849eb548d7a9b5e5d8ce9ad",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/generate.py",
+    "bytes": 10864,
+    "sha256": "59ab138ad5f2962a749b16e80f9f4b7763ad8fd15208a8b521641b5ad0832755",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/manifest.tsv",
+    "bytes": 1473,
+    "sha256": "01bd069abdeda9b09ec549508dd20ff55f25919b826bbb2828c32e0d3c772c84",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/select_core.py",
+    "bytes": 606,
+    "sha256": "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n22_886.zip",
+    "bytes": 680942,
+    "sha256": "50500bd79c458183035e2531c023916bc9dda68604030049587177e1bf37a1d0",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n22_886.zip!/886.core",
+    "bytes": 149960,
+    "sha256": "97ddcfe27fc3df93f7d94fd3941faeacbf509fee8ee8017e462b9a93a44161c5",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n22_886.zip!/886.rup",
+    "bytes": 2630196,
+    "sha256": "7c2686e0a0d5d73b4c662d5742c9a762b7b7304306fd56507a597fa92545ece2",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n22_886.zip!/README.md",
+    "bytes": 2439,
+    "sha256": "a82ab45ef3a251a1d3d69942b7ca4380c6f108dee159231154a945bb66dc94b9",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n22_886.zip!/SHA256SUMS",
+    "bytes": 223,
+    "sha256": "68ccd81af7117e33101bb46965137e1dbd295a08a91364725919c1f91ec779a6",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n22_886.zip!/check_rup.cpp",
+    "bytes": 4875,
+    "sha256": "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n22_886.zip!/generate.py",
+    "bytes": 4409,
+    "sha256": "ae5e56eeaaf0f3f0f910dfb580cea0677277d142d3fbb4b241fc82daf4eaf726",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "Erdos982_round3.zip!/certificates/n22_886.zip!/select_core.py",
+    "bytes": 606,
+    "sha256": "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467",
+    "kind": "archive-member"
+  },
+  {
+    "source": "proof-packs",
+    "path": "review/REFEREE_REPORT.md",
+    "bytes": 13481,
+    "sha256": "1a8edd46d779dd77ddbdb885a3185ea3091989d8c6a8c189e1b0c1b101df5fd6",
+    "kind": "original"
+  },
+  {
+    "source": "proof-packs",
+    "path": "review/scripts/audit_new_package.py",
+    "bytes": 10175,
+    "sha256": "fbb86d6931f7365a9a791a9a2bd09e1631f916d5b22dbe102aef8e13f7fcf042",
+    "kind": "original"
+  },
+  {
+    "source": "proof-packs",
+    "path": "review/scripts/independent_audit.py",
+    "bytes": 18625,
+    "sha256": "df0546328000c99d3f5b04497023740b935f7960d19c556b4b9081fe08a1b474",
+    "kind": "original"
+  },
+  {
+    "source": "proof-packs",
+    "path": "review/scripts/my_rup_checker.cpp",
+    "bytes": 10067,
+    "sha256": "dbdd7e7de0cb8beb005db995fff230ab322a277207833ae6e95f11502ee92eb6",
+    "kind": "original"
+  },
+  {
+    "source": "proof-packs",
+    "path": "review/scripts/verify_balanced_parallel.py",
+    "bytes": 2670,
+    "sha256": "e84d3cc49e8cf82f61216a0ae8a1f116779893b7dde8462a78453b857a6eb588",
+    "kind": "original"
+  },
+  {
+    "source": "proof-packs",
+    "path": "review/scripts/verify_n18_all.py",
+    "bytes": 3256,
+    "sha256": "403a237c88256e0246c2f5b7915118a1602bba8690254ac1d859e7e58112c92f",
+    "kind": "original"
+  },
+  {
+    "source": "gemini-progress",
+    "path": "已粘贴的文本.txt",
+    "bytes": 18661,
+    "sha256": "49a4c1ec7dd609409f0003335c1d4fbace5897038458fddf60b790414fbd8d18",
+    "kind": "original"
+  }
+]

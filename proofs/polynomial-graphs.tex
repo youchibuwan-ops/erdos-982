@@ -1,0 +1,31 @@
+\section{Points covered by polynomial graphs}
+
+\begin{theorem}[982-P03]
+Let \(P\) be \(n\ge2\) distinct points covered by \(r\ge1\) polynomial graphs in a common orthonormal coordinate system, all of degree between \(2\) and \(d\). There is a constant \(C_d\) depending only on \(d\) such that \(D(P)\ge n-1-C_d r^{9/7}n^{5/7}\). For fixed \(r,d,\epsilon>0\) the number of pins missing at least \(\epsilon n\) distances is \(O_{r,d,\epsilon}(\sqrt n)\).
+\end{theorem}
+
+\begin{proof}
+For graphs \(f,g,h\) of degrees \(a,b,c\) and leading coefficients \(A,B,C\), define \(D_g(x,y)=(y-x)^2+(g(y)-f(x))^2\) and \(E(x,y,z)=D_g(x,y)-D_h(x,z)\). Over \(\mathbb C\) the coefficients of \(E\) as a polynomial in \(x\) have common divisor at most \(y-z\), by looking at degree \(a\) then degree one. This factor occurs exactly once when \(g=h\), and is absent otherwise. Remove it when present. The resulting \(F\) still vanishes on all relevant triples of distinct targets.
+
+To prove absolute irreducibility, let \(L\) be the least common multiple of \(a,b,c\). Substitute \(y=t^{-L/b},z=v t^{-L/c},x=w t^{-L/a}\) into \(E\), and multiply by \(t^{2L}\). Its specialization at \(t=0\) is \((B-Cv^c)(B+Cv^c-2Aw^a)\). Over \(\mathbb C(v)\) the first factor is a unit; the second is Eisenstein in \(w\) for the valuation of \(v\) at any simple zero of \(B+Cv^c\). Both the original polynomial in \(w\) and its specialization have degree \(a\), with unit leading coefficient in the valuation ring at \(t=0\). A factorization into positive \(w\)-degrees would therefore specialize to one with the same degrees. The substitution on \(\mathbb C(y,z)\) is injective, so Gauss's lemma and the preceding primitive-part computation give irreducibility of \(F\).
+
+For large positive \(x\), the critical target equation
+\[
+ y-x+(g(y)-f(x))g'(y)=0
+\]
+has a complex analytic branch \(y_*(x)\sim\lambda x^{a/b}\), where \(B\lambda^b=A\). To see this, replace \(x=t^{-b},y=t^{-a}Y\) and multiply by \(t^{a(2b-1)}\). The constant term in \(t\) is \((BY^b-A)bBY^{b-1}\), with simple roots at such \(\lambda\). The implicit function theorem supplies analytic \(Y(t)\). The convergent expansion shows \(y_*'\ne0\) for all sufficiently large \(x\). The critical equation gives \(g(y_*)-f(x)=(x-y_*)/g'(y_*)\) and hence \(S(x):=D_g(x,y_*)=o(|f(x)|^2)\). Also \(D_{g,yy}/2=1+g'^2+(g-f)g''\sim g'^2\ne0\) at this branch.
+
+In the equation \(D_h(x,z)=S(x)\), all complex roots satisfy
+\[
+ |h(z)-f(x)|\le\sqrt{|S(x)|}+|z|+|x|.
+\]
+Leading-term growth forces \(|z|=O(|f(x)|^{1/c})\), uniformly over roots for the fixed graphs. Then \(h(z)/f(x)\to1\) and \(|z|\asymp|f(x)|^{1/c}\). Thus \(D_{h,zz}/2\sim h'(z)^2\ne0\), and each root has multiplicity at most two. If all roots were double, \(D_h(x,z)-S(x)=W(z)^2\) with \(W\) chosen to have the leading coefficient of \(h\). Then
+\[
+ [W-(h-f(x))][W+(h-f(x))]=(z-x)^2-S(x).
+\]
+The second factor has degree \(c\). This excludes \(c>2\). If \(h(z)=Cz^2+C_1z+C_0\), the first factor must be a nonzero constant \(u\), forcing \(2uC=1\) and \(2uC_1=-2x\), impossible for all sufficiently large \(x\). A simple root therefore exists at every sufficiently large \(x\). A local simple branch \(z_*(x)\) cannot be constant on an interval. Otherwise analytic continuation in the real parameter along the critical branch gives \(D_h(x,z_0)=S(x)\) up to infinity, but the left side divided by \(f(x)^2\) tends to one.
+
+Choose a point with \(z_*'\ne0\). There \(E_z\ne0,E_y=0,E_x=-E_z z_*'\ne0\). If \(g=h\), the simple root is distinct from the critical target. In a neighborhood write \(z=H(x,y)\); \(H_y/H_x=E_y/E_x=(y-y_*(x))U(x,y)\) with \(U\) nonzero and analytic, since \(E_y\) is independent of \(z\) and \(E_{yy}\ne0\). The mixed logarithmic derivative \(\partial_x\partial_y\log(H_y/H_x)\) has a double pole with coefficient \(y_*'(x)\). In an additive local representation it would vanish, since the ratio would separate by variables. The derivative is rational on the irreducible surface, so a generic additive representation would force its vanishing on the whole surface where defined. This contradiction, and generic nonvanishing of the three partials, eliminate the additive and cylindrical exceptions of Solymosi--Zahl \cite[Theorem 1.4]{sz}.
+
+Assign each point to exactly one graph and write \(n_i\) for the sizes of the nonempty groups. For each ordered triple of group roles, let \(u\le v\le w\) be their sizes. The incidence bound is \(O_d((uvw)^{4/7}+v\sqrt w)\). The first term sums to at most \((\sum_i n_i^{4/7})^3\le r^{9/7}n^{12/7}\). The second sums to at most \(6r(\sum_i n_i)(\sum_i\sqrt{n_i})\le6r^{3/2}n^{3/2}\), absorbed by the first bound using \(r\le n\). The total loss in distance counts is bounded by the number of equal-target pairs. Averaging over pins proves the first conclusion. If only the \(s\) pins with loss at least \(\epsilon n\) are used, for fixed \(r\) the same incidence bound gives \(\epsilon ns\ll_{r,d}(sn^2)^{4/7}+n^{3/2}\), proving the exceptional-pin estimate.
+\end{proof}

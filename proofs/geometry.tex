@@ -1,0 +1,90 @@
+\section{Minimum enclosing disks and finite reductions}
+
+Let \(f(n)\) be the minimum of \(D(P)\) over the vertex sets of strictly convex \(n\)-gons. For any subset \(S\subset P\), \(D(P)\ge D(S)\). The regular \(n\)-gon has \(D(P)=\lfloor n/2\rfloor\).
+
+\begin{lemma}[Support and monotonicity]
+The minimum enclosing disk of \(P\) is supported either by a contact diameter or by three contact vertices forming an acute triangle. On each polygonal chain between successive support vertices, distances from any vertex strictly increase along either direction of traversal away from it.
+\end{lemma}
+
+\begin{proof}
+If its center did not lie in the convex hull of the contact vertices, strict separation would give a common direction of strictly decreasing distance to every contact vertex. The finitely many noncontact vertices have positive slack. A sufficiently small move would contradict minimality. By planar Carath\'eodory, the center belongs to the convex hull of at most three contact points. A two-point support is a diameter. With three points and no such diameter, the center is interior to their triangle, which is therefore acute.
+
+For a support side \(AB\) let \(\gamma\) be the angle at the third contact point. Along the polygonal chain facing the minor circular arc, each interior vertex \(v\) satisfies \(\angle AvB\ge\pi-\gamma>\pi/2\) by the inscribed-angle comparison in the closed cap. The diameter case gives \(\angle AvB\ge\pi/2\) on either chain. If \(x,v,y\) occur in this order on the same chain, the rays to \(A,B\) lie in \(\angle xvy\) by convexity. Thus \(\angle xvy\ge\pi/2\), and the side \(xy\) is strictly longer than \(xv\) and \(vy\). Applying this to any three such vertices proves the monotonicity.
+\end{proof}
+
+If \(P\) has three vertices, each pin sees at least one positive distance. If it has four, the support lemma gives a chain with at least two edges. Deleting one vertex extends the four-vertex result to five vertices.
+
+For an even size \(2h\), a counterexample has no contact diameter and all three support gaps are at most \(h-1\). The gaps count edges and sum to \(2h\). Dihedral changes of the boundary labels realize any permutation of the three gap positions. At \(n=20\) the resulting unordered triples are
+\[
+ (9,9,2), (9,8,3), (9,7,4), (9,6,5), (8,8,4),
+ (8,7,5), (8,6,6), (7,7,6).
+\]
+In particular the diameter condition concerns antipodal contacts of the minimum disk. For a diameter pair in an arbitrary point set, containment in the disk having that pair as a diameter requires a separate argument.
+
+\paragraph{From geometry to clauses.}
+A putative counterexample induces local distance ranks, numbered from zero. In the threshold encoding \(T_{p,q,k}\) means the rank is at least \(k\). The comparison literal \(G_{p,a,b}\) means \(pa>pb\). Its truth implies \(T_{p,b,k}\Rightarrow T_{p,a,k+1}\); conversely \(T_{p,a,k}\) with \(T_{p,b,k}\) false forces the comparison. The global-order encoding instead compares the real lengths of all unoriented edges. In either encoding, real lengths cannot increase weakly around a cycle with one strict step. Diagonals of a convex quadrilateral have sum greater than the sum of either opposite pair, by splitting diagonals at their interior intersection and applying two strict triangle inequalities. Each support-chain clause follows from the support lemma.
+
+At a vertex the total angle between the extreme rays is strictly below \(\pi\). Three disjoint sectors whose opposite edges are longest in the corresponding triangles would have angles summing to at least \(\pi\). At an interior cap vertex the two sectors outside the endpoint rays have total angle strictly below the opposite support angle, hence below \(\pi/2\). There cannot be two disjoint sectors of size at least \(\pi/3\) there. For generators with angle bins, use \(\lfloor 3\theta/\pi\rfloor\) and the predicate \(\theta\ge\pi/2\). A sum of two consecutive angles has bin equal to the sum of bins or one greater. The bins of a nondegenerate triangle sum to \(1\), \(2\), or \(3\). Angles compared in a single triangle are ordered by their opposite sides. For a cyclically ordered quadrilateral \(i,j,v,k\), the premise \(iv\le ij,ik\) implies that the angle at \(v\) is at least the sum of the angles at \(j,k\), by applying the triangle side-angle comparison on each side of \(iv\). Consequently \(2\angle jvk\ge2\pi-\angle jik\). A shortest support side has opposite angle at most \(\pi/3\), which strengthens the cap angle and the exterior budget by the support lemma.
+
+The refinements using the entire enclosing disk and the enumeration of weak orders and missing ranks are recorded in the finite encoding audit accompanying this manuscript. They are applied only in the generator families identified there. An empty clause derived by reverse unit propagation from a subset of a rebuilt formula excludes every real counterexample satisfying the premises of the corresponding branch.
+
+\paragraph{Twenty-one vertices.}
+The support lemma settles a contact diameter and any chain of at least ten edges. If the longest gap is nine, delete a noncontact vertex from one of the other two chains with an interior vertex. The acute contact triangle still forces the same minimum disk. The remaining gaps have sum twenty and maximum nine and hence are one of the four nine-leading triples above. If all gaps are at most eight on twenty-one vertices, their only possibilities are \((8,8,5),(8,7,6),(7,7,7)\). Thus exclusion of these three profiles and the four specified twenty-vertex profiles suffices for \(f(21)=10\). For odd \(n=2h+1\) more generally, any exact bound \(f(2h)=h\) implies \(f(2h+1)=h\). This implication uses deletion from the odd size to the even size.
+
+\section{Cocircular equality and symmetric samples}
+
+\begin{theorem}[982-C01, 982-C02, 982-C03]
+For \(m\) distinct points on a circle every pin sees at least \(\lfloor m/2\rfloor\) distances. Simultaneous equality for odd \(m\ge3\) holds precisely for the regular \(m\)-gon. For even \(m\ge6\), it holds precisely for the regular \(m\)-gon, the regular \((m+1)\)-gon with a vertex removed, or the regular \((m-1)\)-gon completed by the antipode of one of its vertices.
+\end{theorem}
+
+\begin{proof}
+Normalize the circle to the complex unit circle. At \(p\), the only possible pairing of distinct targets at equal distance is by \(R_p(x)=z\bar x\), with \(z=p^2\). If this reflection has \(f_p\) fixed sample points and \(u_p\) unmatched sample points, counting pairs and then excluding distance zero gives \(d_P(p)=(m+f_p+u_p)/2-1\), with \(f_p\ge1\). This proves the lower bound. In the odd equality case, all radial reflections preserve the set. Each such reflection equates the adjacent circular gaps at that vertex, so the set is regular.
+
+In the even equality case \(u_p+f_p=2\). Put \(S=\sum_{x\in P}x\) and \(T=\sum_{x\in P}x^2\). If \(u_p=1\) and \(y\) is the unmatched point, then
+\[
+ S-z\bar S=y-z/y,\qquad
+ T-z^2\bar T=y^2-z^2/y^2.
+\]
+If \(u_p=0\), both left sides vanish. In both cases \(z\) is a root of
+\[
+ (T-z^2\bar T)^2-(S-z\bar S)^4-4z(S-z\bar S)^2.
+\]
+If \(S=0\) no point can be unmatched and all radial reflections preserve the set. Otherwise every radial symmetry axis passes through the nonzero centroid. There is at most one such axis, and every antipodal pair lies on one, so there is at most one antipodal pair. The polynomial has at least \(m-1\ge5\) distinct roots and vanishes identically. Rotate so \(S=s>0\). The constant coefficient gives \(T=\pm s^2\). Substitution gives \(4z(1-z)^2s^2(s^2-1)=0\) identically, hence \(s=1\).
+
+For \(z\ne1\), the two moment identities give \(y=1\) if \(T=1\) and \(y=-z\) if \(T=-1\). If \(T=1\), remove \(1\); the remaining set is invariant under the radial reflections of its points, including any real-axis pin. It is a regular odd polygon, and invariance under the real-axis reflection forces \(-1\) to be a vertex. If \(T=-1\), add the missing \(-1\); this restores invariance under every reflection based at an old vertex, including any real-axis pin. The adjacent-gap equalities at all but the added vertex already imply equal gaps. Conversely, deletion from a regular odd polygon retains at least one member of each paired distance. Adding an antipode to a regular odd polygon adds at most one distance at each old pin, and the added pin sees one singleton and the remaining targets in pairs. The regular even polygon also attains the bound.
+\end{proof}
+
+\begin{theorem}[982-C04, 982-C05]
+A strictly convex even \(n\)-gon with \(n\ge8\) satisfies \(D(P)\ge n/2\) if at least \(n-2\) vertices are cocircular. For odd \(n\ge9\), at least \(n-3\) cocircular vertices suffice.
+\end{theorem}
+
+\begin{proof}
+If the circle center is a vertex, a supporting line there puts the cocircular vertices in an open semicircle. From the first of them all chord lengths increase, giving at least \(n-3\) distances in the even case. With all vertices on the circle the preceding theorem applies. With exactly one external vertex other than the center, a circle about that vertex intersects the original circle at most twice at each radius, giving \(n/2\) distances.
+
+For exactly two off-circle vertices \(q,r\), put \(m=n-2\). If every pin fails the desired bound, the on-circle set \(A\) has simultaneous equality and each of \(q,r\) sees the \(m\) on-circle targets perfectly paired. Thus their radial reflections preserve \(A\) and have no fixed vertex on it.
+If \(A\) is a regular \(m\)-gon, write \(\alpha=\pi/m\) and let \(\rho=|q|>0\) on the unit circle normalization. Its radial axis bisects opposite edges. All \(m/2\) distances from \(q\) to \(A\) must equal the old chord lengths as an ordered list, since every old pin already uses its full distance budget. This requires
+\[
+ \rho^2-1+2(\cos\alpha-\rho)\cos x-2\sin\alpha\sin x=0
+\]
+at \(x=(2j-1)\alpha\), \(1\le j\le m/2\). A nontrivial line has at most two intersections with the unit circle, whereas \(m/2\ge3\).
+
+If \(A\) lacks vertex \(1\) of a regular \((m+1)\)-gon, its vector sum is \(-1\). A symmetry axis fixes the centroid, so \(q,r\) lie on the real axis. Each must see the original \(m/2\) chord lengths twice, exactly as pin \(1\) would. Summing their squares for either real pin \(t\) gives \(m(1+t^2)+2t=2m+2\). The only off-circle root is \(-1-2/m\), contradicting distinctness. In the remaining classification the vector sum is the added point, so the only possible radial symmetry axis contains an antipodal pair and has fixed vertices. This finishes the even case. Delete an off-circle vertex if possible for the odd case and apply the even result.
+\end{proof}
+
+\begin{theorem}[982-S01]
+Let \(P\) be a finite sample of the boundary of a centrally symmetric strictly convex planar body with center \(O\). Each pin \(A\in P\) farthest from \(O\) sees each positive distance at most twice.
+\end{theorem}
+
+\begin{proof}
+Adjoin the antipode \(B=2O-A\) if necessary. All sample points lie in the disk centered at \(O\) of radius \(OA\). The enlarged sample is still in strictly convex position because it lies on the same strictly convex boundary. The disk with diameter \(AB\) is its minimum enclosing disk, so the two chains have strictly increasing distance from \(A\). There are at most two occurrences across the chains, and deletion of the added point preserves this bound.
+\end{proof}
+
+\begin{theorem}[982-S02]
+For a strictly convex planar sample from a nondegenerate real conic, some pin sees every positive distance at most twice.
+\end{theorem}
+
+\begin{proof}
+Ellipses are covered by 982-S01. For a sample on the graph of a convex function, take a pin of minimum sample height. To its right the first sampled secant has nonnegative slope, and all subsequent adjacent secants have at least this slope by convexity. Thus the height is nondecreasing and distance from the pin is strictly increasing. Reflecting the argument handles the left. A parabola can be put in this form by an isometry, as can either branch of a hyperbola, after reflecting a concave branch if necessary.
+
+If a strictly convex sample meets both branches of a hyperbola \(y=\pm b\sqrt{1+x^2/a^2}\), each branch contains at most two samples. In fact, if three upper samples were present, a strict supporting line of the middle one \(q=(x_0,y_0)\) would have to lie below the two others, with slope strictly between their two secant slopes from \(q\). By the derivative bound this slope \(k\) satisfies \(|k|<b/a\), and \(y_0-kx_0>0\). The line then lies strictly above the entire lower branch, contradicting strict support. The reflected argument bounds the other branch. At most four samples remain, and any non-equilateral triangle among them gives a pin with at least two distinct distances. Four distinct planar points cannot be mutually equidistant, so a qualifying pin always exists.
+\end{proof}

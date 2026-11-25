@@ -1,0 +1,30 @@
+\section{Strictly convex norms}
+
+\begin{theorem}[982-T02]
+For \(n\ge4\) planar points in strictly convex position and any strictly convex norm, some pin sees at least \(\lfloor n/3\rfloor+1\) norm distances.
+\end{theorem}
+\begin{proof}
+The strict quadrilateral crossing inequalities hold under the norm, by splitting intersecting diagonals and applying the strict triangle inequality. Thus each oriented pair \(ij\) has at most one equidistant witness on its forward open chain. Indeed two such witnesses would make the sum of the diagonals equal to the sum of the corresponding opposite sides. Let \(\chi(i,j)\) be the number of witnesses on that chain.
+
+We use a normalized angular measure on the norm unit circle. Two distinct circles in a strictly convex normed plane meet in at most two points \cite[Proposition 14]{msw}. For each unit \(u\) let \(T(u)\) be the unique unit \(v\) on the positively oriented open semicircle with \(\|v-u\|=1\). Existence follows by continuity on this semicircle, and uniqueness because \(u-v\) also lies on both circles and on the other semicircle. The successive directions are \(u,v,v-u,-u,-v,u-v\); in particular \(T^3u=-u\) and \(T^6u=u\). Compactness and uniqueness give continuity, and the periodic identities show it is an orientation-preserving homeomorphism. Average ordinary angular measure over its six powers. This measure is nonatomic, strictly positive on open arcs, and assigns mass \(\pi/3\) to each arc from \(u\) to \(T(u)\). At a consecutive equilateral triple of the polygon, the external turn at its middle point has mass \(2\pi/3\). With \(n\ge4\) there are at most two such turns, since the external turns partition total mass \(2\pi\) and all have positive mass.
+
+Besides the \(n\) missing witnesses for consecutive forward edges, at least \(\lceil(n-4)/2\rceil\) additional witnesses are missing when \(n\ge5\). In fact write \(x_i=\chi(i,i+2)\) and \(y_i=\chi(i,i+3)\) with cyclic indices. If \(x_i=x_{i+1}=y_i=1\), then the three consecutive boundary edges at these positions have the same length, and the \(y_i\)-witness is one of the two interior vertices. Its equality forces either the first two or the last two edges to be part of a consecutive equilateral triple. Each middle point accounts for at most two such indices. At most four indices have all three terms equal to one. A zero term is counted at most twice in the remaining indices, proving the missing-witness bound. Thus the total isosceles count is at most \(n(n-2)-\lceil(n-4)/2\rceil\).
+
+If each pin had at most \(k=\lfloor n/3\rfloor\) distances, splitting \(n-1\) targets into balanced classes minimizes the count of equal-target pairs. This minimum is \(n-2,n-1,n+1\) for \(n\equiv0,1,2\pmod 3\) respectively. Summation contradicts the missing-witness bound for \(n\ge5\). For \(n=4\), a single distance at each pin would make all six lengths equal, violating the crossing inequalities.
+\end{proof}
+
+\begin{corollary}[982-T03]
+Among points on a circle of a strictly convex planar norm every pin sees at least \(\lfloor n/2\rfloor\) distinct norm distances.
+\end{corollary}
+\begin{proof}
+Each positive distance corresponds to intersecting the sample circle with a different norm circle about the pin. The two-circle intersection bound gives at most two targets for each distance.
+\end{proof}
+
+\begin{proposition}[982-T01]
+For \(3\le n\le9\) the strictly convex norm version of the half bound holds.
+\end{proposition}
+\begin{proof}
+For \(n=3,4,5,6,7,9\) the elementary bound above or the case \(n=3\) suffices. At \(n=8\), if all pins see at most three distances, a class of size \(s\) at a pin forces \(s-1\) different distances at its first target along the boundary: the crossing inequalities between the pin and any three equidistant targets imply strict monotonicity of successive distances from that first target. Thus classes have size at most four.
+
+The archived integer enumeration branches at each pin over every partition of the unprocessed target classes compatible with at most three classes and size at most four. The symmetric undirected edge variables are globally merged by the chosen equalities. A crossing inequality \(X+Y>U+V\) and an existing order \(X\le U\) force \(Y>V\), and likewise with any exchanged left or right term. Neither these strict comparisons nor transitive closure can rule out an actual realization. Every realized partition extends a branch: the initial vertex may be chosen to maximize its descending class-size signature, and reversal canonically chooses one orientation with that signature. The enumerator rejects all branches, with 4,376 nodes in the eight-vertex case. This is an exhaustive combinatorial computation in the supplied Gemini source, with the input and build described in the audit.
+\end{proof}

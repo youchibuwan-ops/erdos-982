@@ -1,0 +1,50 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1.05in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\title{Erd\H{o}s Problem \#982: Improved Bounds, Computer-Assisted Proofs, and Structural Results}
+\author{}
+\date{26 November 2026 \\ Repository manuscript for review}
+\begin{document}
+\maketitle
+\begin{abstract}
+Erd\H{o}s asked whether every planar strictly convex \(n\)-gon has a vertex at at least \(\lfloor n/2\rfloor\) different distances from the other vertices. We give a lower bound of \((13/36+1/1667)n-O(1)\) by controlling overlapping windows in an iteration of enclosing-disk supports. A separating tree yields \(\lceil n/2\rceil\) for samples with no collinear triples and rational coordinates up to similarity, and for real number fields with a specified dyadic ramification property. We give the finite reduction used with computer refutations for \(3\le n\le19\) and \(n=21\), and prove results for cocircular samples, conics, constant-width boundaries, and metric perturbations. The unrestricted conjecture and the exact twenty-vertex value remain open in the audited material.
+\end{abstract}
+
+The largest distance count from one pin and the number of distinct distances over all pairs are different invariants. We study the first, as in Erd\H{o}s's problem and its subsequent lower-bound literature \cite{erdos,moser,ef,nppz,kominers}. Strict convex position means that every point is a vertex of the convex hull. In particular there are no three collinear vertices. All planar distances are Euclidean unless a metric is specified. Positive distances exclude the pin itself.
+
+The observation of no collinear triples in the higher algebraic-coordinate bound is needed in the pair count. The finite reductions use strict convexity to impose additional ordering and angle constraints. The certificate catalogue accompanying this manuscript records coverage, exact bytes and which checker was used for each branch. Contributions and literature overlap are recorded by stable identifiers in the repository. Proof material under review is indexed there as well.
+
+\input{proofs/geometry.tex}
+\input{proofs/general-bound.tex}
+\input{proofs/dyadic.tex}
+\input{proofs/structures.tex}
+\input{proofs/affine.tex}
+\input{proofs/polynomial-graphs.tex}
+\input{proofs/majority.tex}
+\input{proofs/norms.tex}
+
+\begin{thebibliography}{9}
+\bibitem{erdos} P. Erd\H{o}s, On sets of distances of \(n\) points, \emph{Amer. Math. Monthly} 53 (1946), 248--250.
+\href{https://www.renyi.hu/~p_erdos/1946-03.pdf}{Author archive}.
+\bibitem{moser} L. Moser, On the different distances determined by \(n\) points, \emph{Amer. Math. Monthly} 59 (1952), 85--91.
+\href{https://doi.org/10.1080/00029890.1952.11988075}{DOI}.
+\bibitem{ef} P. Erd\H{o}s and P. Fishburn, A postscript on distances in convex \(n\)-gons, \emph{Discrete Comput. Geom.} 11 (1994), 111--117.
+\href{https://doi.org/10.1007/BF02573998}{DOI}.
+\bibitem{nppz} G. Nivasch, J. Pach, R. Pinchasi, and S. Zerbib, The number of distinct distances from a vertex of a convex polygon, \emph{J. Comput. Geom.} 4 (2013), 1--12.
+\href{https://arxiv.org/abs/1207.1266}{arXiv:1207.1266}.
+\bibitem{kominers} S. D. Kominers, A (slightly) stronger lower bound on the number of distinct distances from a vertex of a convex polygon, manuscript, 25 July 2026.
+\href{https://scottkom.com/assets/articles/Kominers_Distinct_Distances_from_a_Vertex.pdf}{Author manuscript}.
+\bibitem{st} E. Szemer\'edi and W. T. Trotter, Extremal problems in discrete geometry, \emph{Combinatorica} 3 (1983), 381--392.
+\href{https://trotter.math.gatech.edu/papers/38.pdf}{Author copy}.
+\bibitem{sz} J. Solymosi and J. Zahl, Improved Elekes--Szab\'o type estimates using proximity, 2022.
+\href{https://arxiv.org/abs/2211.13294}{arXiv:2211.13294}.
+\bibitem{ess} J.-H. Evertse, H. P. Schlickewei, and W. M. Schmidt, Linear equations in variables which lie in a multiplicative group, \emph{Ann. of Math.} 155 (2002), 807--836. \href{https://annals.math.princeton.edu/2002/155-3/p04}{Article}.
+\bibitem{bs} F. Beukers and C. J. Smyth, Cyclotomic points on curves. \href{https://webhomes.maths.ed.ac.uk/~chris/preprints/beukers_smyth.pdf}{Author copy}.
+\bibitem{msw} H. Martini, K. J. Swanepoel, and G. Wei, The geometry of Minkowski spaces: a survey, Part I. \href{https://arxiv.org/abs/0708.2900}{Author manuscript}.
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,33 @@
+name: Verify repository
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  exact-and-lean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Python controls and exact arithmetic
+        run: |
+          python -m pip install sympy==1.14.0
+          python -m unittest discover -s tests
+          python verifier/render_results.py --check
+          python examples/diameter_octagon.py
+          python verifier/bound_parameters.py
+      - name: Lean profile enumeration and LRAT controls
+        working-directory: lean
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o "$RUNNER_TEMP/elan-init.sh"
+          sh "$RUNNER_TEMP/elan-init.sh" -y --no-modify-path --default-toolchain "$(cat lean-toolchain)"
+          "$HOME/.elan/bin/lean" Profiles.lean | tee "$RUNNER_TEMP/profile-axioms"
+          test "$(grep -c 'does not depend on any axioms' "$RUNNER_TEMP/profile-axioms")" = 3
+          "$HOME/.elan/bin/lean" -c "$RUNNER_TEMP/CheckLrat.c" CheckLrat.lean
+          "$HOME/.elan/bin/lean" --run CheckLrat.lean ../tests/contradiction.cnf ../tests/contradiction.lrat
+          if "$HOME/.elan/bin/lean" --run CheckLrat.lean ../tests/satisfiable.cnf ../tests/contradiction.lrat; then
+            exit 1
+          fi

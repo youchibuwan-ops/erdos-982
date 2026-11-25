@@ -1,0 +1,368 @@
+{
+  "783b0308529136b038cecc20af20f8c45301d06b9857df3d3656d37a63b631f3": [
+    {
+      "source": "workspace",
+      "path": "erdos-982-n20/check_rup.cpp"
+    },
+    {
+      "source": "gemini",
+      "path": "n20_884_cert/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/n18-balanced/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/n18/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/check_rup.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n22_886.zip!/check_rup.cpp"
+    }
+  ],
+  "9427977d086261f00f6108c58928080d30d225bcace9ee37887367abee27c467": [
+    {
+      "source": "gemini",
+      "path": "n20_884_cert/select_core.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n20_965.zip!/select_core.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/select_core.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n20_992_983.zip!/select_core.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n21_777.zip!/select_core.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n21_876.zip!/select_core.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n21_885_isosceles.zip!/select_core.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/select_core.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n22_886.zip!/select_core.py"
+    }
+  ],
+  "49ab150ee37078385e535615401ed0022fe601c84f83339039025d7245fdfbf2": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/README.md"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/README.md"
+    }
+  ],
+  "79dfd2d49f354215eadbebe1714410ca1698c5dd40d76eedbf7f0e7b722c2e2b": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/barrier.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/barrier.py"
+    }
+  ],
+  "727657200169a9bee2b275b22015646b534f814359f68316a6e2611341009b1b": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/controls.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/controls.py"
+    }
+  ],
+  "5c92392883398c9be661fe3775469b407a01706ec63c678d402c1f1e397bf5d2": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/model.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/model.py"
+    }
+  ],
+  "61597e860bc91f4253d47e481dab9fb0ef50998a7ac4a8c00a0f860413241b05": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/model16.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/model16.py"
+    }
+  ],
+  "14fa0d0586396b2c65703686a7e4125d659d10982925a7cd032a35181ef6058e": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/near_circle.md"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/near_circle.md"
+    }
+  ],
+  "2e85e7331b7a7f40f2829a5a60af222225d5c9c649ccf843d347efdeb033cc50": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/order_check.cpp"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/order_check.cpp"
+    }
+  ],
+  "d32e16fb1a97ea9e6c85b511f109aebcc4586bef0ccf3a2ba8e75b38d82c6282": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/2-2-2.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/2-2-2.rup.gz"
+    }
+  ],
+  "f1c7b35cfd9382b8eaa9de6c47ab61ae252abc650aee21e309381beee65ee6fa": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/3-3-2.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/3-3-2.rup.gz"
+    }
+  ],
+  "212a92178a75c2b446cb88e2cce95d370fa8c1ab84349a0ea1d436523e4beb7d": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/4-3-3.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/4-3-3.rup.gz"
+    }
+  ],
+  "e6c0b573b9af30314e70c523cb2731a6c80d32db08a540a1c4d197ba65e7edb5": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/4-4-2.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/4-4-2.rup.gz"
+    }
+  ],
+  "293a9bb78a1527e6b2f1fd5367cae4a9f8b9c9dd8234a64b88766a058b5d1eff": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/4-4-4.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/4-4-4.rup.gz"
+    }
+  ],
+  "70bdf6632887227e5d0769a05687bcc2682147e061cd4c9bfa87b0fb48adfa89": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/5-4-3.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/5-4-3.rup.gz"
+    }
+  ],
+  "45c574641b3675b4d3941db6542612ab17db43ab59d737ebe90ec8df46a6cfda": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/5-5-2.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/5-5-2.rup.gz"
+    }
+  ],
+  "4f21cbb044eab46a1e1c464c6ec89ac9237aa293ad01e255c7f854a2cfa9bedb": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/5-5-4.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/5-5-4.rup.gz"
+    }
+  ],
+  "d21a76c302ab21ddb479ac9dfcc6d55062798ceaa9d4dce80b4a3f162ace2cc4": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-4-4.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/6-4-4.rup.gz"
+    }
+  ],
+  "99bd0b2a77018290cf53795d7ae4ba351d062c7cff9d1334a9d300ba3508abd8": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-5-3.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/6-5-3.rup.gz"
+    }
+  ],
+  "d255581de2fab2eb5ca1a5bae55eb5b19e8ba654304b0a37c44c412c726723c0": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-5-5.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/6-5-5.rup.gz"
+    }
+  ],
+  "fc865dc2472820d17c1960b9603ff6734ca0c9f1b6ab420bc56180138f43486e": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-6-2.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/6-6-2.rup.gz"
+    }
+  ],
+  "0606a0c8f7e2f65a3e4971f5b47fb0cb5c009cde789d1c36d1da9b31300eca63": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/6-6-4.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/6-6-4.rup.gz"
+    }
+  ],
+  "6982b605c922614d52e06485b720e68f94b377697426972c78bb46ee7a798ffc": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/7-5-4.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/7-5-4.rup.gz"
+    }
+  ],
+  "f91e0d9af458cfd411f1e186593bbb2b5c943bf91d323b49e96cdd780dbf9cd9": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/7-6-3.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/7-6-3.rup.gz"
+    }
+  ],
+  "2d92272e8fd85b79475506f15d62958235eca7dba37f0a274b22d8bf1c05fa3d": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/proofs/7-7-2.rup.gz"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/proofs/7-7-2.rup.gz"
+    }
+  ],
+  "b48b4946d0e586ce1f641d5149072d00d1bc419b88d4c4c0f9035402fd86741c": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/research.md"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/research.md"
+    }
+  ],
+  "036ceace00b8af4935208b67ef1d2c8216e9082ad8eb9eb45b75135c2f87304b": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/sixteen.md"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/sixteen.md"
+    }
+  ],
+  "c92d19debd499861990e3f1a4cf0da0f7795efda82c840d46636634abc26b823": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_3_to_19.zip!/earlier/verify.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_proofs.zip!/verify.py"
+    }
+  ],
+  "59ab138ad5f2962a749b16e80f9f4b7763ad8fd15208a8b521641b5ad0832755": [
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n20_974.zip!/generate.py"
+    },
+    {
+      "source": "proof-packs",
+      "path": "Erdos982_round3.zip!/certificates/n21_885_seven.zip!/generate.py"
+    }
+  ]
+}

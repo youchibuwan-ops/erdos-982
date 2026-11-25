@@ -1,0 +1,86 @@
+\section{An improved unrestricted bound}
+
+\begin{theorem}[982-G05]
+There is an absolute constant \(C\) such that every strictly convex \(n\)-gon satisfies
+\[
+ D(P)\ge\left(\frac{13}{36}+\frac1{1667}\right)n-C.
+\]
+\end{theorem}
+
+\begin{proof}
+Call a pair good if its perpendicular bisector contains at most one vertex, and write \(G\) for the number of good pairs. The number of isosceles triples counted by their apex is at most \(2\binom n2-G\), since a bisector is a line. Counting at each apex and using \(\binom r2\ge2r-3\) for a nonempty class of size \(r\) gives
+\[
+ D(P)\ge(n-1)/3+G/(3n).
+\]
+We prove \(G\ge(1/12+\eta)n^2-O(n)\), where \(\eta=3/1667\).
+
+\paragraph{Cap counts.}
+In a cap, every ordered triple \(u,x,v\) has middle angle at least \(\pi/2\). A pair of cap vertices is good if the intervening chain in the original polygon contains no bisector witness. Indeed, a diagonal has at most one boundary vertex on its bisector on each side. If \(p,q\) are left of a witness \(z\), and \(v\) is to its right, the order \(p,q,z,v\) shows \(\angle pqz\ge\angle pqv\ge\pi/2\) by convexity. Thus \(zp>zq\), even when the witness \(z\) has been removed and \(p,q,v\) are the remaining cap vertices. The symmetric statement holds on the right. It follows that, for each witness, the pairs witnessed within a cap are a matching between its two sides. For an intact cap of \(l\) vertices, the total of \(\min(j-1,l-j)\) over positions \(j\) therefore gives at least \(l^2/4-O(l)\) unwitnessed pairs. The same count applies to a residual cap before accounting for deleted witnesses.
+
+For an endpoint pair \(uv\) of a cap, any witness of \(uc\), with \(c\ne v\), is closer to \(u\) than to \(v\), by the same quadrilateral argument with \(z\) between \(u,c\). Conversely a witness of \(cv\), \(c\ne u\), is closer to \(v\). A witness of \(uv\) cannot witness either other type. Hence each vertex in the original chain spoils at most one endpoint pair of this cap. Among \(2l-3\) endpoint pairs at least \(l-1\) lack a witness in the remaining cap. We also use Nivasch--Pach--Pinchasi--Zerbib's cap lemma \cite[Lemma 12]{nppz}: between the first and last \(t\) vertices of a cap on \(2t\) vertices there are at least \(t^2/8-O(t)\) pairs with no intervening witness in that cap. Deleted points outside its original chain cannot spoil these pairs.
+
+\paragraph{Initial partition and parameters.}
+A contact diameter gives two caps and \(G\ge n^2/8-O(n)\). Otherwise let \(w_1,w_2,w_3\) be the support triangle. Write \(\lambda_j\) for the three fractions of boundary edges on its chains, \(E=\frac14\sum_j(\lambda_j-1/3)^2\), \(\rho=\min_j\lambda_j=1/3-x\). The initial caps give \((1/12+E)n^2-O(n)\) good pairs, and \(E\ge3x^2/8\). If \(E\ge\eta\) we are done. Fix \(\delta=\eta-3x^2/8>0\) in the remaining case. Boundary distances below refer to the original cycle, divided by \(n\).
+
+Let \(d=353/40000\). In each of \(M=\lfloor dn\rfloor\) rounds remove a support set of the current minimum disk. Write \(s=i/n\) in round \(i\), and let \(r_i(w)\) denote the shortest boundary distance from \(w\) to a support vertex in that round. Set
+\[
+ a_z(s)=5s+\sqrt{16s^2+8z},\qquad
+ \psi_s(r)=
+ \begin{cases}
+ 0 & r\le9s,\\
+ (r-s)(r-9s)/8 & r>9s.
+ \end{cases}
+\]
+Here \(\psi_s\) is defined also for negative arguments, is increasing on \([9s,\infty)\), and is convex. Let
+\[
+ \begin{split}
+ U(s)&=a_\delta(s)+s,\quad c(s)=\rho-U(s),\\
+ v&=(r-c(s))_+,\quad q=\min(s,v/6),\quad t=(r-s-q)_+,\\
+ \Phi_s(r)&=(t^2/8-st-v^2/12)_+ .
+ \end{split}
+\]
+The following parameter inequalities hold for \(0\le s\le d\) and \(0<\delta=\eta-3x^2/8\):
+\begin{align}
+ c(s)&>a_{3\delta/5}(s), & 2U(s)-\rho&<6s, \label{eq:params}\\
+ \Phi_s(r)&\ge\psi_s(r-s) &&(c(s)\le r\le U(s)), \label{eq:shift}\\
+ c(s)+s+2a_{(\delta-\psi_s(c(s)))/2}(s)&\le3a_{\eta/3}(s)
+ &&(c(s)<U(s),\ \psi_s(c(s))\le\delta), \label{eq:sum}\\
+ d/2-9d^2-\eta&>3d\sqrt{(16d^2+8\eta)/3}. \label{eq:integral}
+\end{align}
+Their exact verification is given below. In particular \(c(s)>9s\) and \(\Phi_s=\psi_s\) up to \(c(s)\). At fixed \(s\), \(\Phi_s\) is nondecreasing, and strictly increasing beyond \(c(s)\). For \(v\le6s\) beyond the cutoff, the derivative before truncation is \(5(c(s)-5s)/24+v/144\); for \(v>6s\) it is \((r+2c(s)-18s)/12\). Both are positive. At fixed \(r\), \(\Phi_s(r)\) is nonincreasing as \(s\) increases: \(v,q\) increase and \(t\) decreases, and on a later positive value \(t>8s\), where \(t^2/8-st\) increases with \(t\).
+
+\paragraph{First round with a large sum.}
+Stop at the first \(i\) for which \(\sum_w\Phi_s(r_i(w))>\delta\), if there is such a round. In every preceding round all \(r_j(w)\le U(j/n)\), since \(\Phi_s(U(s))\ge\delta\) by \eqref{eq:shift} or the no-overlap formula and is strictly increasing beyond \(U(s)\). No support vertex can be nearest to two centers: their two distances would sum to at least \(\rho\), each would be at least \(c(s)\), and their combined cost would exceed \(\delta\). Thus the three nearest contacts are distinct and account for all deletions of each preceding round. Round one has \(r_1(w)=0\).
+
+In the stopping round choose radii \(0\le r_w\le\min(r_i(w),U(s))\) with total cost \(\delta\). If some distance exceeds \(U(s)\) the one radius suffices, by continuity and the bound at \(U(s)\); otherwise continuously shrink the three radii from their actual values. Ignore windows with zero cost. Any two chosen radii have sum strictly below \(\rho\), as otherwise each is at least \(c(s)\), contradicting the total cost. In particular each active window lies across its own center, contains no other original center and is disjoint from the others. It contains no current support vertex because the interval is open.
+
+In the window of radius \(r\) about \(w\), at most \(sn\) earlier deletions matched \(w\). An earlier deletion matched to another center can lie inside only if its distance to its own center is greater than \(\rho-r\ge c(s)\). By monotonicity in time its cost at the earlier time exceeds \(3\delta/5\). Hence there is at most one such deletion per earlier round, even if the two outer windows overlap this one. From \(U'\ge6\), this intrusion can only occur during the last \(qn+O(1)\) earlier rounds. At time \(u=j/n\), the intruder lies within \(n(r+U(u)-\rho)_++O(1)\) steps of the outer edge of the window on its side, by the triangle inequality for cycle distance. Each spoiled cross pair uses a different surviving endpoint between that intruder and that outer edge, by the matching observation. The total cost for intruders is at most
+\[
+ n^2\int_0^s(r+U(u)-\rho)_+\,du+O(n)\le v^2 n^2/12+O(n).
+\]
+The sum-to-integral error is uniform, since \(6\le U'\le10\). On each side of \(w\) choose the \(tn+O(1)\) closest surviving vertices, with the same number on both sides. They occur consecutively in one current cap. The cross lemma gives \(t^2n^2/8-O(n)\) candidate pairs; the earlier deletions matched to \(w\) spoil at most \(stn^2+O(n)\) of these by the matching observation. Subtracting the intruder bound gives \(\Phi_s(r)n^2-O(n)\) good pairs for each active window. Their ends belong to distinct initial caps, and pairs from different windows are distinct. Adding the initial cap count proves the desired bound since \(E+\delta\ge\eta\).
+
+\paragraph{All rounds have a small sum.}
+In this case every round has exactly three matched support vertices. If all \(r_i(w)\le c(s)\), convexity of \(\psi_s\) gives \(\sum_w r_i(w)\le3a_{\eta/3}(s)\). Otherwise exactly one exceeds \(c(s)\). Set \(z=\Phi_s(r_i(w))>3\delta/5\) for that window. By \eqref{eq:shift} and convexity the sum is at most \(s+a_z(s)+2a_{(\delta-z)/2}(s)\). As a function of \(z\) this bound is nonincreasing for \(z\ge\delta/3\), by differentiation or concavity of the square root. Substitute \(z=\psi_s(c(s))\) and apply \eqref{eq:sum}.
+
+In round \(i\) the three cap endpoint counts give at least \(n-3(i-1)\) pairs lacking witnesses in the remaining caps. Each earlier deletion spoils at most one such pair, so the rounds supply \((d-3d^2)n^2-O(n)\) good pairs, disjoint because at least one endpoint is deleted in the current round. In the remaining parts of the original caps the intact count gives \((n-3M)^2/12-O(n)\) further pairs before accounting for deleted witnesses. For a deleted vertex \(p\) matched to \(w\), a spoiled residual pair has one endpoint between \(p\) and \(w\) in their initial cap. Distinct spoiled pairs at \(p\) use distinct such remaining endpoints. If \(b(p)\) denotes the unnormalized boundary distance from \(p\) to \(w\), there are initially at most \(b(p)\) possible endpoints. For each center, the \(M-1\) noncentral deleted vertices are on its two sides. If their counts are \(\ell,r\), then \(\binom\ell2+\binom r2\ge (M-1)^2/4-(M-1)/2\) potential endpoints have already been deleted, counted once in the budget of each farther vertex they precede on their side. This gives total losses at most
+\[
+ 3n^2\int_0^d a_{\eta/3}(s)\,ds-\tfrac34 d^2 n^2+O(n).
+\]
+The net coefficient beyond \(1/12\) is \(d/2-3d^2/2-3\int_0^d a_{\eta/3}(s)\,ds\). Concavity of the square root and averaging \(s^2\) bound the integral by \(5d^2/2+d\sqrt{(16d^2+8\eta)/3}\). Equation \eqref{eq:integral} now gives the result. All counts use only bounded numbers of caps or windows at a time and the displayed linear errors have constants independent of \(\delta\) and \(P\).
+\end{proof}
+
+\paragraph{Exact parameter verification.}
+In \eqref{eq:params} the differences to check are worst at \(s=d\). Squaring positive sides and applying
+\((\sqrt u+\sqrt v)^2\le9u/5+9v/4\) for the first inequality gives quadratic polynomials of \(x\) with positive leading coefficient and negative discriminant. For \eqref{eq:shift}, subtract the untruncated quadratics and multiply by \(288\); the difference is \(72rs-396s^2-12(r-5s)v-23v^2\). When the target \(\psi_s(r-s)\) vanishes there is nothing to prove. Otherwise the displayed polynomial is concave on \([c(s),U(s)]\). At \(c(s)\) it is nonnegative. At \(r=U(s)\), writing \(w=\sqrt{16s^2+8\delta}\), its derivative multiplied by \(w\) is
+\[
+ -4(4800s^2+2638sw+300w^2-416\rho s-141\rho w).
+\]
+In the overlapping regime \(\rho<12s+2w\) the parenthesis is positive by \(w\ge4s\). The minimum is therefore at \(s=d\). On \(x\in[3/50,7/100]\) a quadratic root count rules out overlap; the allowed \(x\) lie below \(7/100\). Below \(3/50\) the endpoint polynomial reduces to \(P(x)+Q(x)w\), where \(Q>0\) and a Sturm count proves \(Q^2w^2-P^2>0\).
+
+For \eqref{eq:sum}, subdivide \(0\le s\le d,\ 0\le x\le3/50\) into \(384\) by \(768\) closed rational rectangles. In each rectangle bound \(U\) from above using the largest \(s,\delta\); skip it if this bound is at most half the lower endpoint bound for \(\rho\). In every other rectangle let \(L\) be the lower bound for \(c(s)\), \(s_+\) and \(s_-\) the upper and lower time endpoints, and \(\delta_+\) the upper bound for \(\delta\). Check \(L>a_{\delta_+/3}(s_+)\). For fixed \(s,\delta\), the map \(r\mapsto r+2a_{(\delta-\psi_s(r))/2}(s)\) decreases on \(r\ge a_{\delta/3}(s)\) where \(\psi_s(r)\le\delta\): its derivative equals \(1-(r-5s)/\sqrt{16s^2+4(\delta-\psi_s(r))}\le0\). Thus replacing \(c(s)\) by \(L\), then bounding the remaining square root with \(s_+\), \(\delta_+\) and \(z_-=(L-s_+)(L-9s_+)/8\), gives a valid upper bound. After subtracting \(11s\) from both sides the rational checks compare
+\[
+ L+2\sqrt{16s_+^2+4\max(0,\delta_+-z_-)}
+ \quad\text{with}\quad 4s_-+3\sqrt{16s_-^2+8\eta/3}.
+\]
+Square-root endpoints are enclosed by integer square roots on the \(10^{-8}\) lattice. The accompanying script verifies all these comparisons and \eqref{eq:integral} by exact arithmetic; decimal values printed by that script are summaries of rational inequalities.
