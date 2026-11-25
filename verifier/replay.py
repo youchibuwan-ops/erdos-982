@@ -146,31 +146,31 @@ def cases(root):
         "core_axioms": 22307, "rup_steps": 32628}, folder / "886.core")
 
     folder = root / "n20_884_cert"
-    if folder.is_dir():
-        expected_884 = {"000", "001", "100", "101", "102", "201", "110_7"}
-        expected_884.update(f"210_{x}" for x in range(8))
-        expected_884.update(f"110_8{x}" for x in range(5))
-        expected_884.update(f"110_8{x}{y}" for x, y in combinations_with_replacement(range(5, 8), 2))
-        rows = tsv(folder / "manifest.tsv")
-        labels(rows, "tag", expected_884)
-        for row in rows:
-            tag = row["tag"]
-            yield Case("n20_884", tag, folder / "generate.py",
-                       ("884", row["subtype"], row["branch"], "disk"),
-                       folder / f"{tag}.rup.xz", row)
+    require(folder.is_dir(), "missing n20_884_cert directory")
+    expected_884 = {"000", "001", "100", "101", "102", "201", "110_7"}
+    expected_884.update(f"210_{x}" for x in range(8))
+    expected_884.update(f"110_8{x}" for x in range(5))
+    expected_884.update(f"110_8{x}{y}" for x, y in combinations_with_replacement(range(5, 8), 2))
+    rows = tsv(folder / "manifest.tsv")
+    labels(rows, "tag", expected_884)
+    for row in rows:
+        tag = row["tag"]
+        yield Case("n20_884", tag, folder / "generate.py",
+                   ("884", row["subtype"], row["branch"], "disk"),
+                   folder / f"{tag}.rup.xz", row)
 
     folder = root / "n20_initial"
-    if folder.is_dir():
-        published = {
-            "9-9-2": ("85679c3067f14e149d7584eb6f0278a7b9dce7c79cd8ef38ce0b0498c952448b",
-                      "4869718cbdc3140739d4a354b13f70234482ec9d5c3194c605693a0cc1331387", 17561),
-            "9-8-3": ("3ca5cc4a372ee185d3166043e3993e4e907f6ade1354334a3162184832ae8e21",
-                      "f642c649b00edc60642e82fba0d057fb805559c3c2b839a4d82b7c6919829a65", 288997),
-        }
-        for tag, (formula, proof, steps) in published.items():
-            yield Case("n20_initial", tag, folder / "generate.py", (tag,),
-                       folder / f"{tag}.rup.xz",
-                       {"cnf_sha256": formula, "rup_sha256": proof, "rup_steps": steps})
+    require(folder.is_dir(), "missing n20_initial directory")
+    published = {
+        "9-9-2": ("85679c3067f14e149d7584eb6f0278a7b9dce7c79cd8ef38ce0b0498c952448b",
+                  "4869718cbdc3140739d4a354b13f70234482ec9d5c3194c605693a0cc1331387", 17561),
+        "9-8-3": ("3ca5cc4a372ee185d3166043e3993e4e907f6ade1354334a3162184832ae8e21",
+                  "f642c649b00edc60642e82fba0d057fb805559c3c2b839a4d82b7c6919829a65", 288997),
+    }
+    for tag, (formula, proof, steps) in published.items():
+        yield Case("n20_initial", tag, folder / "generate.py", (tag,),
+                   folder / f"{tag}.rup.xz",
+                   {"cnf_sha256": formula, "rup_sha256": proof, "rup_steps": steps})
 
 
 def compare(case, field, actual):

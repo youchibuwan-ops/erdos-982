@@ -12,6 +12,7 @@ python -m unittest discover -s tests
 python verifier/render_results.py --check
 python verifier/bound_parameters.py
 python examples/diameter_octagon.py
+python examples/contact_octagon.py
 tectonic manuscript.tex
 ~~~
 

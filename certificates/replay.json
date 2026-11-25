@@ -271,7 +271,8 @@
     "rup_sha256": "813aa420767b4f7f37971506b2fa652048982d74f1c09d7b4558cd5c670b78ef",
     "rup_steps": 494219,
     "methods": [
-      "drat-trim-rup+lrat-check"
+      "drat-trim-rup+lrat-check",
+      "lean-verified-checker"
     ]
   },
   {
@@ -384,7 +385,8 @@
     "rup_steps": 227319,
     "methods": [
       "drat-trim-rup+lrat-check",
-      "forward-rup"
+      "forward-rup",
+      "lean-verified-checker"
     ]
   },
   {
@@ -447,7 +449,9 @@
     "rup_sha256": "17381f923420980478d9a0eed1ff42882d34bf3fbb2cc7afeab1a0338b0873f0",
     "rup_steps": 189052,
     "methods": [
-      "drat-trim-rup+lrat-check"
+      "drat-trim-rup+lrat-check",
+      "forward-rup",
+      "lean-verified-checker"
     ]
   },
   {
@@ -472,7 +476,8 @@
     "rup_steps": 122162,
     "methods": [
       "drat-trim-rup+lrat-check",
-      "forward-rup"
+      "forward-rup",
+      "lean-verified-checker"
     ]
   },
   {
@@ -483,7 +488,9 @@
     "rup_sha256": "af9ee54acc79e47da04ee016e5911232e71bd00019d692ff2830bfc6f06f394c",
     "rup_steps": 119972,
     "methods": [
-      "drat-trim-rup+lrat-check"
+      "drat-trim-rup+lrat-check",
+      "forward-rup",
+      "lean-verified-checker"
     ]
   },
   {
@@ -494,7 +501,9 @@
     "rup_sha256": "5e1bdc200a11e67111802752bbf29df3c6605d09ea91c7544e1dcc3bbd4bb50c",
     "rup_steps": 150796,
     "methods": [
-      "drat-trim-rup+lrat-check"
+      "drat-trim-rup+lrat-check",
+      "forward-rup",
+      "lean-verified-checker"
     ]
   },
   {
@@ -505,7 +514,9 @@
     "rup_sha256": "36af56e0f106bf35d149d81ea6ba0cdc7a0be7efdc2fbf8f25aeb2320e241596",
     "rup_steps": 124758,
     "methods": [
-      "drat-trim-rup+lrat-check"
+      "drat-trim-rup+lrat-check",
+      "forward-rup",
+      "lean-verified-checker"
     ]
   },
   {
@@ -516,7 +527,9 @@
     "rup_sha256": "51f92bcde2ccc212c370d84c73954ad96a3698f5b3172a97fdcefe68876ebea7",
     "rup_steps": 209305,
     "methods": [
-      "drat-trim-rup+lrat-check"
+      "drat-trim-rup+lrat-check",
+      "forward-rup",
+      "lean-verified-checker"
     ]
   },
   {
@@ -992,7 +1005,8 @@
     "rup_sha256": "f642c649b00edc60642e82fba0d057fb805559c3c2b839a4d82b7c6919829a65",
     "rup_steps": 288997,
     "methods": [
-      "drat-trim-rup+lrat-check"
+      "drat-trim-rup+lrat-check",
+      "lean-verified-checker"
     ]
   },
   {
@@ -1004,6 +1018,7 @@
     "rup_steps": 17561,
     "methods": [
       "drat-trim-rup+lrat-check",
+      "forward-rup",
       "lean-verified-checker"
     ]
   },

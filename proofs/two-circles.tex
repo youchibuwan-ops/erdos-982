@@ -1,0 +1,263 @@
+\section{Two-circle coverage}
+
+\begin{theorem}[982-M01, 982-M02]
+For all sufficiently large \(n\), a strictly convex \(n\)-point set with at least
+\(0.99n\) points on the union of two circles has at least \(n/10\) pins attaining
+\(\lfloor n/2\rfloor\). If the set is partitioned between two nonconcentric circles
+with at least \(n/4\) points in each layer, then at least \(n/2000\) pins exceed
+\((1/2+10^{-4})n\). All size thresholds are uniform in the circles.
+\end{theorem}
+
+\begin{proof}
+Assign each sampled point on the circles to exactly one layer. The proof
+uses equalities with one target in each of these disjoint layers.
+
+\paragraph{Mixed equalities.}
+For different circles with centers \(d,0\) and radii \(R,S\), use complex
+coordinates \(p=d+x,q=d+y,r=z\) for a pin and target on the first circle and
+a target on the second. Substituting \(\bar x=R^2/x,\bar y=R^2/y,\bar z=S^2/z\)
+in the equality of squared distances and clearing denominators gives
+\[
+ f=R^2z(x-y)^2+yC,\qquad C=(d+x-z)((dx+R^2)z-S^2x).
+\]
+As a polynomial in \(y\) it is primitive, since its leading coefficient
+is \(R^2z\) and \(C(x,0)=-S^2x(d+x)\ne0\). Its discriminant \(C(C-4R^2xz)\)
+has odd valuation at \(d+x-z=0\). On that line the other factor of \(C\)
+is \(B(x)=dx^2+(d^2+R^2-S^2)x+dR^2\), which vanishes identically only
+for identical circles. Thus \(f\) is irreducible. On the complex arc
+\(y=x,z=d+x\), generically \(f_z=-xB(x)\ne0\), \(f_y=0\), \(f_{yy}=2R^2(d+x)\ne0\).
+The local graph \(z=g(x,y)\) has \(g_x=1,g_y=0,g_{yy}\ne0\) along \(y=x\).
+Hence the rational mixed logarithmic derivative of \(g_x/g_y\) has a
+second-order pole there. As in the polynomial-graph proof this excludes
+an additive separation. All three variables occur. Separate nondegenerate
+Cayley parameter changes reduce the circle parameters to real variables,
+preserving irreducibility after removing boundary factors, with bounded
+degree. Solymosi--Zahl therefore gives \(O(n^{12/7})\) mixed equal-target
+pairs \(J_p\) summed over the circle pins in either layer.
+
+\paragraph{From almost-invariance to a group.}
+Call surviving pins good for this step if they fail the desired distance
+threshold, lie in a circle layer, are not either center, and satisfy
+\(J_p\le n/10000\). There are \(o(n)\) discarded pins due to mixed
+equalities and at most two centers. If few pins attain the threshold,
+the good set has size at least \(0.889n\) in the coverage problem and
+\(0.999n\) in the nonconcentric slack problem.
+For each layer of size \(m\), reflection about its center--pin axis has
+deficit equal to the number of its targets whose reflected partner is
+missing. From the formula for paired distances including zero, the sum
+of deficits of the two layers is at most
+\(2(d_P(p)+1)-(m_1+m_2)+2J_p\). Thus each deficit is at most
+\(\eta=0.011n\) for coverage and \(\eta=0.001n\) for slack.
+
+Fix a good pin \(p_0\) and let \(T\) be the rotations of the layer obtained
+by composing each good reflection with its reflection. Then
+\(|T|\ge |G|/2\), where \(G\) is the good set, because no line contains
+more than two vertices. Each member of \(T\) has deficit at most \(2\eta\);
+each of \(H=TT^{-1}\) has deficit at most \(4\eta\). Counting ordered pairs
+in the layer gives \(|T|\le m^2/(m-2\eta)\) and \(|H|\le m^2/(m-4\eta)\)
+when the denominators are positive.
+
+For coverage, assume each layer has at least \(0.07n\) points. The first
+upper bound is at most \(m+3\eta\) since \(m\ge6\eta\), giving
+\(0.4115n\le m_i\le0.5885n\). The second upper bound is then at most
+\(m+5\eta\le0.6435n\) since \(m\ge20\eta\), and \(0.6435n<3|T|/2\).
+For slack, the two layer sizes start at \(n/4\), so the same estimates
+give \(0.4965n\le m_i\le0.5035n\) and \(|H|\le0.5085n<3|T|/2\).
+
+In either case \(H\) is a finite subgroup. Indeed \(|T\cap hT|>|T|/2\)
+for each \(h\in H\), by translating two copies of \(T\) inside the
+difference set. For \(h,k\in H\), a common element of the two more-than-half
+subsets implies \(hk\in H\). Thus each layer has a group of order
+\(h\ge |G|/2\). If an orbit contains \(b_j\) targets, then
+\(\sum b_j^2=\sum_{u\in H}|S\cap uS|\ge h(m-4\eta)\), where \(S\) denotes
+the layer directions. Some orbit contains at least \(h(1-4\eta/m)\) points,
+exceeding \(0.89h\) for coverage or \(0.98h\) for slack. Every good pin's
+squared direction about either center belongs to one fixed phase times
+the corresponding group by construction of \(T\).
+
+\paragraph{Distinct centers.}
+Normalize the first center to zero and the other to \(d>0\). A first-layer
+good pin \(p=Rz\), \(|z|=1\), has second squared direction
+\(w=z(Rz-d)/(R-dz)\). Both \(z,w\) are fixed phases times roots of unity.
+If \(R\ne d\) the graph has a zero and pole at distinct nonzero finite
+arguments. This rules out every nonvertical torsion-binomial component
+\(z^aw^b=\omega\) with \(b\ne0\). A vertical component is impossible in
+the graph, whose numerator and denominator are coprime. The Newton polygon
+of its defining Laurent polynomial has area one, so Beukers--Smyth allows
+at most 22 such pins. Each layer actually has a positive linear number
+of good pins in both parameter regimes. Applying the argument in both
+directions forces each circle's radius to equal \(d\). Their nearly full
+orbits ensure each open arc of angular length \(\pi/3\) contains a sample
+for large \(n\): there are at least \(h/6-1\) orbit positions and fewer
+than \(0.11h\) omissions. After scaling the radii to one, the convex hull
+of the second layer contains the disk of radius \(\cos(\pi/6)\) at its
+center, by support in every direction. The first circle passes through
+that center, and its arc centered there of angular length \(\pi/3\)
+contains a first-layer point at distance at most \(2\sin(\pi/12)<\cos(\pi/6)\).
+This violates strict convex position and completes the slack result.
+
+\paragraph{Concentric coverage.}
+For one circle with \(m\) points, at least \(m-2n/3-14\) pins qualify.
+For a semicircle sample, count pins with at least \(\lfloor n/2\rfloor\)
+targets farther along one direction. Otherwise the center lies inside
+the convex hull. Use the torsion-free projection of the circle direction
+group from the majority proof. While the residual circle set of size \(u\)
+has at least two extreme fibers and \(u\ge2n/3\), delete the smaller of two
+extreme fibers. All its pins qualify since they see at least
+\(u-\lceil u/4\rceil\ge\lfloor n/2\rfloor\). If the residual size falls below
+\(2n/3\), enough qualifying pins have been counted. Otherwise stop at one
+fiber, rotate its coordinates to roots of unity, and write \(s=m-u\) for
+deleted qualifying pins and \(t=n-u\). When adding \(t\) targets, those
+on the same circle in previously deleted fibers cannot merge with the
+original distances, by \(bc=a^2\). Each different-radius target merges with
+original distances at at most 23 pins by the torsion count in the majority
+proof, and each pair of added targets accounts for at most two merges.
+Thus at most \(2t(t+22)/(t+1)\le2t+42\) of the residual circle pins fail.
+The total \(g\) of qualifying pins satisfies
+\(g\ge s+u-2t-42=3m-2n-2s-42\ge3m-2n-2g-42\).
+This proves the one-circle estimate. In the coverage setting it handles
+coinciding circles or a layer with fewer than \(0.07n\) points, since the
+other then has more than \(0.92n\) points.
+
+If the two concentric circles differ in radius and both layers are large,
+their rotations have the same group \(H=\mu_h\). Normalize the direction
+of \(p_0\) to one. Each of the nearly full orbits contains a good pin
+because \(0.89h>0.111n\). Its phase \(\alpha\) therefore satisfies
+\(\alpha^2\in H\), so the two core orbits lie in \(\mu_{2h}\). Each core
+surrounds the center, and strict convexity allows at most one point per
+ray, so the orbits are the two distinct alternating cosets.
+A pin outside this grid has all within-core distances distinct on each
+core: its reflection does not preserve either orbit. Mixed coincidences
+between the two cores at that pin are at most 44, by the same five-term
+Laurent equation and Newton polygon area two as in the majority argument.
+It consequently sees more than \(1.78h-44>n/2\) distances for sufficiently
+large \(n\). Discard the \(k\le0.01n\) off-circle targets and \(\ell<n/10\)
+off-grid targets in the two layers for an initial reduced set, of size
+\(n-K\) with \(K=k+\ell\le0.11n\).
+The two cores have fewer than \(0.11h\) gaps each. There is an inner core
+vertex with its two outer neighbors present, since the omissions exclude
+fewer than \(0.33h\) positions. This vertex must lie outside the chord
+of the neighbors, giving radius ratio \(\rho>\cos(\pi/h)\).
+
+Put \(\tau=\pi/h\) and scale the larger radius to one. From a pin of
+radius \(a\in[\rho,1]\), the angular bin \(j\tau\) gives distances
+strictly increasing in target radius. Bins \(j,j+1\) are separated for
+\(1\le j\le h-2\): at \(\rho=\cos\tau\), the difference between the
+minimum squared distance in the later bin and maximum in the earlier
+one equals \(2a\sin\tau\sin((j+1)\tau)-\sin^2\tau>0\).
+This difference increases with \(\rho\) on the relevant interval.
+An outer point without antipode therefore qualifies within the reduced set.
+If it has an antipode, that antipode qualifies because the last bin has the
+outer point alone, with the strictly greatest distance. Taking each outer
+point or its antipode by this rule gives distinct pins, more than \(0.89h\),
+each with at least \(\lfloor(n-K)/2\rfloor\) reduced-set distances.
+
+On adding the discarded targets, a new target can merge with the old
+two layers at at most 176 selected pins. For unequal target radii, for
+each of two pin radii and two target radii the five-term equation in
+the pin direction and target relative direction has at most 44 torsion
+solutions. An off-grid target in one layer cannot merge with a grid target
+in its own layer because reflection at a grid pin preserves the grid.
+Pairs of additional targets create at most two equalities each over all
+pins. Hence total losses are at most \(K(K+175)\). When \(K>0\), at most
+\(2(K+175)\) pins can lose more than \(K/2\). All other selected pins reach
+\(\lfloor(n-K)/2\rfloor+K-\lfloor K/2\rfloor\ge\lfloor n/2\rfloor\).
+When \(K=0\) they already reach that bound. For large \(n\), the count
+remaining exceeds \(0.89(0.4445n)-0.22n-350>n/10\), a contradiction.
+\end{proof}
+
+\begin{proposition}[982-M03, 982-M04]
+The union of two complete concentric regular polygons of orders at least
+three reaches the half bound whenever it is in strictly convex position.
+For arbitrary samples on two concentric circles, every pin reaches the
+half bound if the radius ratio satisfies no nonzero polynomial of degree
+at most two over the field generated by all cosines of sample direction differences.
+\end{proposition}
+\begin{proof}
+The equal-radius case is cocircular. Otherwise denote the complete
+polygons by \(A,B\), of orders \(m\ge k\), and scale the radius of \(A\) to
+one. If some pin of \(B\) lies off all symmetry axes of \(A\), it sees the
+\(m\) distances to \(A\) distinctly. Otherwise no same-ray pair is possible
+by strict convexity, and all directions of \(B\) bisect adjacent directions
+of \(A\). Thus \(H=m/k\) is an integer. Put \(h=\pi/m\) and \(f(s)=2\sin(s/2)\).
+All cross angles are odd multiples of \(h\); \(A\)'s own chord angles
+are even multiples. Write \(R\) for the radius of \(B\).
+
+If \(R<1\), strict convexity at any \(B\) vertex between two \(A\) directions
+gives \(R>\cos h\). A cross distance at angle \(s\) is below \(f(s)\)
+by the cosine rule and less than \(1-\cos h\) below it by the triangle
+inequality. For \(s\le\pi-h\),
+\[
+ f(s)-f(s-h)\ge f(\pi-h)-f(\pi-2h)>1-\cos h.
+\]
+The final difference after subtracting \(1-\cos h\) equals
+\(4\sin^2(h/4)\cos(h/2)\). Thus only the antipodal cross angle, possible
+for odd \(m\), may collide with an \(A\)-chord distance.
+
+If \(H=1\), exchange the roles to make \(A\) outer. At an outer pin
+the within-layer and cross bins contribute \(\lfloor m/2\rfloor\) and
+\(\lceil m/2\rceil\) distances before merging. If the antipodal distance
+merges, it equals \(f(\pi-h)=2\cos(h/2)\), because \(1+R>1+\cos h>
+2\cos(3h/2)\), the second largest candidate (or a vacuous candidate
+when \(m=3\)). The second inequality follows from
+\(c^2-\cos(3h/2)=c(1-c)(4c+3)>0\) for \(c=\cos(h/2)\).
+So \(R=2c-1\). At an inner pin rescale the inner radius to one.
+The cross distances for \(s\le\pi-2h\) are then strictly above \(f(s)\)
+and at most \(1/R-1\) higher. The next possible chord distance is separated
+by at least \(f(\pi-h)-f(\pi-2h)=2(1-c)(2c+1)>1/R-1\), since
+\((2c+1)(2c-1)>1\). The antipodal cross distance exceeds two.
+The inner pin therefore sees \(m\) distances.
+
+For \(H\ge2\), suppose first \(m\ge9\). We claim at most four cross
+targets at any \(B\) pin have lengths in the old \(A\)-chord set.
+The inner-\(B\) case already gives at most one. If \(R>1\), rotate
+the \(B\) pin to the positive horizontal ray. The orientation of it
+and the \(A\) vertices at angles \(h,3h\) forces \(R<\cos h/\cos(2h)\):
+the chord of those vertices has inward half-plane
+\(x\cos(2h)+y\sin(2h)<\cos h\). A cross distance is above \(f(s)\)
+and at most \(R-1\) higher. For \(s\le\pi-5h\) the next possible chord
+is farther than this, since
+\[
+ f(\pi-4h)-f(\pi-5h)=4\sin(9h/4)\sin(h/4)>
+ \cos h/\cos(2h)-1 .
+\]
+After cancellation the inequality reads
+\(\sin(9h/4)\cos(2h)>\sin(3h/2)\cos(h/4)\).
+For \(0<h\le\pi/9\), the sine chord bound on \([0,\pi/4]\) gives
+\(\sin(9h/4)>2h\), and \(\cos(2h)>3/4\). The right hand side is at most
+\(3h/2\). Only two nonantipodal odd bins remain above \(\pi-5h\) in
+each parity, and the antipodal distance when present exceeds two.
+There are at most two targets in each bin, proving the claim.
+
+At a pin of \(A\) off the axes of \(B\), the \(k\) cross distances
+are distinct, so failure would require at least \(\lceil k/2\rceil\)
+collisions with its \(A\) chord distances. The axis congruence is
+\(H\mid 2j-1\) for \(A\) direction \(2jh\). There are no on-axis
+pins for even \(H\); all pins failing would require
+\(m\lceil k/2\rceil>4k\), a contradiction. For odd \(H\ge3\) there
+are \(k\) on-axis pins, each with \(\lceil k/2\rceil\) distinct
+cross distances by reflection. The two orders have the same parity,
+so each on-axis pin must suffer at least one merge to fail.
+The combined requirement \((m-k)\lceil k/2\rceil+k\ge5k\)
+contradicts the four-per-\(B\)-pin bound.
+
+For \(m<9\) the proper-divisor cases are \((m,k)=(6,3),(8,4)\).
+For \((6,3)\) failure would make the three cross distances at an \(A\)
+pin precisely the \(A\) chords, with squares \(1,3,4\).
+Their sum \(3(1+R^2)=8\) would give a right-angle cross square
+\(1+R^2=8/3\), impossible. For \((8,4)\) the two layers together
+are centrally symmetric and lie in the minimum disk with an
+outer contact diameter, so the support-chain lemma applies.
+
+For the arbitrary-sample claim, scale the radii to \(1,R\).
+A mixed coincidence at a pin on the first or second layer,
+respectively, implies
+\[
+ 2-2\cos u=1+R^2-2R\cos v,\qquad
+ R^2(2-2\cos u)=1+R^2-2R\cos v,
+\]
+with \(u\) the same-layer angle. Each is a nonzero degree-at-most-two
+polynomial over the specified field, excluded by hypothesis. Each
+separate layer has distance multiplicity at most two, and without
+mixed coincidences the two contributions give the half bound.
+\end{proof}

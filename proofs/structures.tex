@@ -77,3 +77,45 @@ For sharpness take \(A=(0,0), B=(10,0), Y=(1,4)\). Choose \(k\) points on \((x-1
 
 At an upper-chain point left of \(Y\) the squared distances from \(A,B\) are \(20x-3,97\); right of \(Y\) they are \(17,117-20x\). At \(Y\) they are \(17,97\). All are less than \(100\). The squared distance between nonendpoints is at most \(8^2+0.02^2<100\). The diameter is unique, and \(d_P(A)=k+2,\ d_P(B)=l+2\). Choose \(k=u-2,l=v-2\) for arbitrary sharp pairs. Balancing \(u,v\) and minimizing \(s\) at \(\lceil(n-2)/2\rceil\) gives the claimed minimum.
 \end{proof}
+
+\section{An interlaced polygon with average below half}
+
+\begin{proposition}[982-X04]
+For every \(s\ge1\) there is a strictly convex polygon with \(n=4s+2\)
+vertices, half of which see \(n/2-1\) distances and half of which see \(n/2\).
+Its total of pinned counts is \(\binom n2\).
+\end{proposition}
+\begin{proof}
+Let \(\alpha=\pi/(2s+1)\) and place points on rays of consecutive angles
+\(j\alpha\), using radius \(1\) at even \(j\) and
+\(b=2\cos(\alpha/2)-1\) at odd \(j\). Then \(c=\cos\alpha<b<1\).
+The cyclic polygon is simple by the angular sectors. The interior point
+of each consecutive triple lies strictly outside the opposite chord,
+since an inner vertex has radius above \(c\) and an outer vertex has
+radius above \(bc\). Hence the polygon is strictly convex.
+
+At an outer pin the within-layer distances have angular bins
+\(2\alpha,4\alpha,\ldots,\pi-\alpha\), with distance \(L(\theta)=2\sin(\theta/2)\).
+The interlayer bins are \(\theta=\alpha,3\alpha,\ldots,\pi-2\alpha\), and \(\pi\),
+with squared distance \(D_b(\theta)^2=1+b^2-2b\cos\theta\).
+For bins below \(\pi\) one has
+\(L(\theta-\alpha)<D_b(\theta)<L(\theta+\alpha)\).
+For the lower inequality first take \(b=c\); the squared difference is
+\(\sin\alpha(2\sin\theta-\sin\alpha)>0\), and \(D_b\) increases with \(b\)
+here. For the upper inequality \(D_b(\theta)<L(\theta)\) follows by
+factoring the squared difference as \((b-1)(b+1-2\cos\theta)\).
+At \(\pi\) the distance \(1+b=L(\pi-\alpha)\) duplicates the largest
+outer-layer distance. This gives exactly \(2s\) distances.
+
+At an inner pin the within-layer bins have length \(bL\). In each interlayer
+bin below \(\pi\) one has \(bL(\theta)<D_b(\theta)<bL(\theta+\alpha)\).
+The lower inequality follows from
+\(D_b(\theta)^2-b^2L(\theta)^2=(1-b)(1+b-2b\cos\theta)>0\). For the upper
+inequality \(D_b(\theta)^2/b^2\) decreases with \(b\); at \(b=c\), the
+squared gap before division by \(c^2\) is
+\(\sin\alpha(2\cos\alpha\sin(\theta+\alpha)-\sin\alpha)\ge0\), since
+\(\alpha\le\pi/3\) and \(\sin(\theta+\alpha)\ge\sin\alpha\) in these bins.
+The separate antipodal interlayer distance \(1+b>2b\) contributes the
+largest bin. Thus the inner pin sees exactly \(2s+1\) distances. The
+two layers have equal size, giving the stated sum.
+\end{proof}

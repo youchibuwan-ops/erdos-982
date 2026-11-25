@@ -1,0 +1,106 @@
+\section{An incomplete odd regular core}
+
+\begin{theorem}[982-R07, 982-R08]
+Let \(A\) consist of \(m\) vertices of a unit regular odd \(M\)-gon, and \(B\)
+consist of \(t\) points off the unit circle, with \(A\cup B\) strictly convex.
+If \(M\ge11\) and \(\cos h<|b|\le\cos h/\cos(2h)\) for all \(b\in B\),
+where \(h=\pi/M\), \(m\ge3t/2+83/2\) guarantees a qualifying pin in \(A\).
+If \(B\) is cocircular, then \(M\ge3\) and \(m\ge t+44\) suffice without the annular hypothesis.
+\end{theorem}
+
+\begin{proof}
+First, any three distinct lines spanned by vertices of an odd regular polygon
+that meet at a finite point meet at a polygon vertex. For concurrence at
+a nonvertex the endpoints are all distinct. Normalize the three pairs to
+\((1,r),(a,b),(c,d)\) with entries in \(\mu_M\). The equation of the second
+line is \(z+ab\bar z=a+b\). Substituting \(z=1+\lambda(r-1)\) with real
+\(\lambda\), and comparing the third line, gives
+\[
+ (1-a)(1-b)(1-cd/r)=(1-c)(1-d)(1-ab/r)\ne0.
+\]
+The nonzero assertion uses nonparallelism and distinct endpoints.
+Apply the cyclotomic field automorphism squaring the roots, then divide
+by this equality. The resulting equality of products with plus signs,
+together with the common product \(abcd/r\), forces equality of the
+first two elementary symmetric coefficients. Thus \((a,b,cd/r)\)
+and \((c,d,ab/r)\) are the same multiset. Since \(a\notin\{c,d\}\) this
+forces \(b=r\), a contradiction.
+
+For the annular case put \(S=\sin h,\ C=\cos h,\ U=C/\cos(2h)\).
+Form a graph on \(B\) by joining pairs whose bisector meets two vertices
+of \(A\). A triangle of this graph would have its circumcenter at
+a vertex of \(A\), by the preceding concurrence property. Rotate this
+common vertex to 1 and write the three targets as \(1+R e^{i\theta_i}\).
+They lie in one open half-plane at 1, as do all other vertices, so
+choose \(\theta_1<\theta_2<\theta_3<\theta_1+\pi\). The second unit-circle
+intersection of the \(i,j\) bisector is
+\(-e^{i(\theta_i+\theta_j)}\in A\), lying on the positive ray at angle
+\((\theta_i+\theta_j)/2\) from 1. For pairs \(12,23\) these rays enclose
+\(\theta_2\), with angular gap less than \(\pi/2\). Both unit-circle
+intersections are at least \(2S\) from 1. Their joining segment has
+projection strictly greater than \(\sqrt 2 S\) along the mid-direction.
+Since the middle target must be outside the triangle bounded by this
+segment and the vertex 1, \(R>\sqrt2 S\).
+
+From the three second intersections being roots of unity, the
+\(\theta_i\) are congruent modulo \(2h\) and their pairwise sums are
+\(\pi\) modulo \(2h\). The folded angles
+\(\gamma_i=\arccos(\cos\theta_i)\) are distinct half-integer multiples
+of \(h\) in \([h/2,\pi-h/2]\). In fact two original angles giving
+the same folded angle would either coincide or sum to zero modulo
+\(2\pi\), incompatible with the pairwise sum congruence for odd \(M\).
+Thus the maximum and minimum folded angles differ by at least \(2h\).
+
+The allowed squared-radius width is
+\[
+ U^2-C^2=4S^2\left(\frac{1-S^2}{1-2S^2}\right)^2<\frac{121}{25}S^2
+\]
+since \(h\le\pi/11<2/7\) gives \(S^2<1/12\). The actual width equals
+\(2R\) times the span of the cosines of \(\gamma_i\). For \(R\ge1\)
+the least span over any interval of length \(2h\) in
+\([h/2,\pi-h/2]\) is \(2\sin(3h/2)S\), and
+\(\sin(3h/2)/S>3\sqrt3/4>121/100\). This already exceeds the allowed width.
+For \(\sqrt2 S<R\le1\), the radial bounds give
+\[
+ -\frac{R^2+S^2}{2R}<\cos\gamma_i\le\frac{U^2-1}{2R}<\frac{54S^2}{25R}.
+\]
+Here \(U^2-1=(3S^2-4S^4)/(1-2S^2)^2\).
+If \(R\ge3S/2\), both extreme cosine magnitudes are bounded
+by \(13/24\) using \(S^2<1/12\) and monotonicity of \(R+S^2/R\).
+Then the sine between the extreme angles exceeds \(5/6\), so their
+squared-radius span exceeds \(5Sh>121S^2/25\). If \(R\le3S/2\),
+both magnitudes are below \(1/2\) using \(\sqrt2 S<R\), so the width
+exceeds \(2\sqrt6 Sh>121S^2/25\). This contradicts the annulus in
+all cases. The graph is triangle-free, hence has at most
+\(\lfloor t^2/4\rfloor\) edges by Mantel's inequality.
+
+Each nonzero \(b\in B\) causes at most 22 merges with old circle
+distances over pins in \(A\). The five-term argument for the majority
+theorem bounds the number of oriented torsion solutions by 44, and
+each merge supplies distinct \(u,u^{-1}\): \(u=1\) would place \(b\)
+on the circle, and \(u=-1\) is excluded by odd \(M\).
+If the origin belongs to \(B\), strict support there confines \(A\)
+to an open semicircle and an extreme pin of \(A\) suffices by the
+threshold. Hence we may exclude that case. In the annular case the
+total double-witness count from pairs of new targets is bounded by
+\(\binom t2+\lfloor t^2/4\rfloor\), counting at most one per pair and
+one extra per graph edge. Failure at all core pins would require
+\[
+ m(t+1)/2\le22t+\binom t2+\lfloor t^2/4\rfloor
+ \le 3t^2/4+43t/2.
+\]
+This contradicts \(m\ge3t/2+83/2\).
+
+For the cocircular case let \(Q\) be the center of \(B\). If \(Q\notin A\),
+all bisectors of \(B\)-pairs pass through \(Q\), with at most two lines
+meeting \(A\) twice by the concurrence result. If \(Q\) is itself an
+unselected polygon vertex, no such line can meet \(A\) twice. Each line
+accounts for at most \(\lfloor t/2\rfloor\) disjoint reflected pairs.
+Consequently total pair merges are at most \(\binom t2+2\lfloor t/2\rfloor\).
+With the 22-target penalty the failure condition gives
+\(m(t+1)\le t^2+45t\), impossible for \(m\ge t+44\).
+If \(Q\in A\), omit its pin but keep all original \(A\)-targets.
+Each pair of new targets then accounts for at most one merge, since
+one of its two circle intersections is \(Q\). Thus failure requires
+\((m-1)(t+1)\le44t+2\binom t2=t^2+43t\), also impossible.
+\end{proof}

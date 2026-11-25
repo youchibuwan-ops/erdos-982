@@ -287,7 +287,7 @@
     "computation": "none asserted",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": null
+    "restrictions": "Statement limited to the strictly convex part proved in the manuscript."
   },
   {
     "id": "982-C11",
@@ -591,7 +591,7 @@
       "Lee computational proof"
     ],
     "computation": "7/7 required traces replayed with two external checkers",
-    "lean": "7/7 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "7/7 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation",
     "originality": "prior literature or public work",
     "restrictions": "Classical arguments and Lee precede the current compilation, including Fishburn's octagon result. Quantavane's Lean version is external."
   },
@@ -612,7 +612,7 @@
       "Earlier and n18 RUP traces"
     ],
     "computation": "19/19 required traces replayed with two external checkers",
-    "lean": "18/19 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "19/19 required traces checked in Lean Std as imported CNFs",
     "originality": "candidate contribution; no equivalent located in reviewed sources",
     "restrictions": null
   },
@@ -637,7 +637,7 @@
       "982-N11"
     ],
     "computation": "71/71 required traces replayed with two external checkers",
-    "lean": "71/71 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "71/71 required traces checked in Lean Std as imported CNFs",
     "originality": "candidate contribution; no equivalent located in reviewed sources",
     "restrictions": "Uses only the four 9-leading 20-point profiles to pass from 21 to 20. This leaves three different 20-point profiles unresolved."
   },
@@ -656,7 +656,7 @@
       "n22_886 trace"
     ],
     "computation": "1/1 required traces replayed with two external checkers",
-    "lean": "1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "1/1 required traces checked in Lean Std as imported CNFs",
     "originality": "claim-specific priority not established",
     "restrictions": null
   },
@@ -755,7 +755,7 @@
       "Minimum enclosing disk and support profiles"
     ],
     "computation": "1/1 required traces replayed with two external checkers",
-    "lean": "1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "1/1 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation",
     "originality": "prior art",
     "restrictions": null
   },
@@ -775,7 +775,7 @@
       "Delete one vertex and use the preceding even result"
     ],
     "computation": "1/1 required traces replayed with two external checkers",
-    "lean": "1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "1/1 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation",
     "originality": "prior art",
     "restrictions": null
   },
@@ -795,7 +795,7 @@
       "Minimum enclosing disk and support profiles"
     ],
     "computation": "1/1 required traces replayed with two external checkers",
-    "lean": "1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "1/1 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation",
     "originality": "prior art",
     "restrictions": null
   },
@@ -815,7 +815,7 @@
       "Delete one vertex and use the preceding even result"
     ],
     "computation": "1/1 required traces replayed with two external checkers",
-    "lean": "1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "1/1 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation",
     "originality": "prior art",
     "restrictions": null
   },
@@ -835,7 +835,7 @@
       "Minimum enclosing disk and support profiles"
     ],
     "computation": "2/2 required traces replayed with two external checkers",
-    "lean": "2/2 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "2/2 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation",
     "originality": "prior art",
     "restrictions": null
   },
@@ -855,7 +855,7 @@
       "Delete one vertex and use the preceding even result"
     ],
     "computation": "2/2 required traces replayed with two external checkers",
-    "lean": "2/2 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "2/2 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation",
     "originality": "prior art",
     "restrictions": null
   },
@@ -875,7 +875,7 @@
       "Minimum enclosing disk and support profiles"
     ],
     "computation": "3/3 required traces replayed with two external checkers",
-    "lean": "3/3 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "3/3 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation",
     "originality": "prior art",
     "restrictions": null
   },
@@ -895,7 +895,7 @@
       "Delete one vertex and use the preceding even result"
     ],
     "computation": "3/3 required traces replayed with two external checkers",
-    "lean": "3/3 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "3/3 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation",
     "originality": "prior art",
     "restrictions": null
   },
@@ -915,7 +915,7 @@
       "Minimum enclosing disk and support profiles"
     ],
     "computation": "4/4 required traces replayed with two external checkers",
-    "lean": "4/4 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "4/4 required traces checked in Lean Std as imported CNFs",
     "originality": "candidate contribution; finite literature comparison in REFERENCES.md",
     "restrictions": null
   },
@@ -935,7 +935,7 @@
       "Delete one vertex and use the preceding even result"
     ],
     "computation": "4/4 required traces replayed with two external checkers",
-    "lean": "4/4 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "4/4 required traces checked in Lean Std as imported CNFs",
     "originality": "candidate contribution; finite literature comparison in REFERENCES.md",
     "restrictions": null
   },
@@ -955,7 +955,7 @@
       "Minimum enclosing disk and support profiles"
     ],
     "computation": "5/5 required traces replayed with two external checkers",
-    "lean": "5/5 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "5/5 required traces checked in Lean Std as imported CNFs",
     "originality": "candidate contribution; finite literature comparison in REFERENCES.md",
     "restrictions": null
   },
@@ -975,7 +975,7 @@
       "Delete one vertex and use the preceding even result"
     ],
     "computation": "5/5 required traces replayed with two external checkers",
-    "lean": "5/5 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "5/5 required traces checked in Lean Std as imported CNFs",
     "originality": "candidate contribution; finite literature comparison in REFERENCES.md",
     "restrictions": null
   },
@@ -995,7 +995,7 @@
       "Minimum enclosing disk and support profiles"
     ],
     "computation": "10/10 required traces replayed with two external checkers",
-    "lean": "9/10 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "10/10 required traces checked in Lean Std as imported CNFs",
     "originality": "candidate contribution; finite literature comparison in REFERENCES.md",
     "restrictions": null
   },
@@ -1015,7 +1015,7 @@
       "Delete one vertex and use the preceding even result"
     ],
     "computation": "10/10 required traces replayed with two external checkers",
-    "lean": "9/10 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "10/10 required traces checked in Lean Std as imported CNFs",
     "originality": "candidate contribution; finite literature comparison in REFERENCES.md",
     "restrictions": null
   },
@@ -1158,32 +1158,32 @@
   {
     "id": "982-J01",
     "title": "Transcendence-degree bound",
-    "statement": "For a strictly convex n-point set and s qualifying pins, trdeg_Q Q(P)≤2s+576 H_{n−s}.",
-    "math_status": "DRAFT",
+    "statement": "For n≥3 distinct planar points with no three collinear, with s qualifying pins, trdeg_Q Q(P)≤2s+576 H_{n−s}.",
+    "math_status": "REVIEWED",
     "sources": [
       "workspace/erdos-982-block-rank-review.md",
       "workspace/erdos-982-progress-2026-11-25.md"
     ],
     "contribution": "Project record; exact author/model uncertain where source is silent",
-    "proof": null,
+    "proof": "proofs/rigidity.tex",
     "dependencies": [
       "Dvir–Garg–Oliveira–Solymosi block rank"
     ],
     "computation": "none asserted",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": "Current source indexed; independent technical adjudication still pending."
+    "restrictions": null
   },
   {
     "id": "982-J02",
     "title": "True isosceles Jacobian kernel",
-    "statement": "Under the same hypotheses, the real kernel of the Jacobian of all true equal-distance equations has dimension at most 2s+576 H_{n−s}.",
-    "math_status": "DRAFT",
+    "statement": "For n≥3 distinct planar points with no three collinear, the real kernel of the Jacobian of all true equal-distance equations has dimension at most 2s+576 H_{n−s}, where s counts qualifying pins.",
+    "math_status": "REVIEWED",
     "sources": [
       "workspace/erdos-982-progress-2026-11-25.md § Rank consequence"
     ],
     "contribution": "Project record; exact author/model uncertain where source is silent",
-    "proof": null,
+    "proof": "proofs/rigidity.tex",
     "dependencies": [
       "Block rank at the actual configuration"
     ],
@@ -1195,13 +1195,13 @@
   {
     "id": "982-J03",
     "title": "Algebraic local rigidity",
-    "statement": "For t=dim ker J one can fix t scalar coordinates from the configuration so that the other coordinates are locally unique. Over the field F generated by the fixed values, [F(P):F]≤2^(2n−t).",
-    "math_status": "DRAFT",
+    "statement": "For n≥3 distinct planar points with no three collinear and t=dim ker J, one can fix t scalar coordinates from the configuration to give local uniqueness. Over the field F generated by the fixed values, [F(P):F]≤2^(2n−t).",
+    "math_status": "REVIEWED",
     "sources": [
       "workspace/erdos-982-progress-2026-11-25.md § Rank consequence"
     ],
     "contribution": "Project record; exact author/model uncertain where source is silent",
-    "proof": null,
+    "proof": "proofs/rigidity.tex",
     "dependencies": [
       "982-J02",
       "Inverse function theorem",
@@ -1271,12 +1271,12 @@
     "id": "982-M01",
     "title": "Two circles cover 99 percent",
     "statement": "For sufficiently large strictly convex planar n-point sets with at least 0.99n points on two circles, at least n/10 pins attain floor(n/2), uniformly in the circles.",
-    "math_status": "DRAFT",
+    "math_status": "REVIEWED",
     "sources": [
       "workspace/erdos-982-two-circles.md §§ 7–9"
     ],
     "contribution": "Project record; exact author/model uncertain where source is silent",
-    "proof": null,
+    "proof": "proofs/two-circles.tex",
     "dependencies": [
       "Two-circle equal-distance incidence theorem",
       "Cocircular density and concentric-ring estimates"
@@ -1284,19 +1284,19 @@
     "computation": "none asserted",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": "Current source indexed; independent technical adjudication still pending."
+    "restrictions": null
   },
   {
     "id": "982-M02",
     "title": "Two nonconcentric rings with linear slack",
     "statement": "For sufficiently large strictly convex n-point sets partitioned into two nonconcentric circles with at least n/4 points in either part, at least n/2000 pins see more than (1/2+10^−4)n distances.",
-    "math_status": "DRAFT",
+    "math_status": "REVIEWED",
     "sources": [
       "workspace/erdos-982-short-arcs-review.md § 7",
       "workspace/erdos-982-two-circles.md"
     ],
     "contribution": "Project record; exact author/model uncertain where source is silent",
-    "proof": null,
+    "proof": "proofs/two-circles.tex",
     "dependencies": [
       "Solymosi–Zahl Theorem 1.4",
       "Cross-circle non-additivity"
@@ -1304,19 +1304,19 @@
     "computation": "none asserted",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": "Current source indexed; independent technical adjudication still pending."
+    "restrictions": null
   },
   {
     "id": "982-M03",
     "title": "Two complete concentric regular polygons",
     "statement": "If the union of two concentric regular polygons of orders at least three is strictly convex, some pin sees at least floor(n/2) distances for any angle and radii.",
-    "math_status": "DRAFT",
+    "math_status": "REVIEWED",
     "sources": [
       "proof-packs/Erdos982_3_to_19.zip!/TWO_RINGS.md",
       "workspace/erdos-982-gpt6pro-analytic-audit.md"
     ],
     "contribution": "GPT-6 Pro source bundles as identified by contemporaneous audit; registry revisions are separate",
-    "proof": null,
+    "proof": "proofs/two-circles.tex",
     "dependencies": [
       "Strict convexity constraints on two concentric layers",
       "Beukers–Smyth"
@@ -1324,25 +1324,25 @@
     "computation": "none asserted",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": "Strict convexity is essential; compare the distinct nonconvex #1082 construction."
+    "restrictions": "The complete two-ring theorem requires strict convexity."
   },
   {
     "id": "982-M04",
     "title": "Algebraic separation of concentric layers",
     "statement": "For points on two concentric circles, if the radius ratio has algebraic degree greater than two over the field generated by the cosines of all direction differences, each pin reaches floor(n/2).",
-    "math_status": "DRAFT",
+    "math_status": "REVIEWED",
     "sources": [
       "workspace/erdos-982-gpt6pro-analytic-audit.md"
     ],
     "contribution": "Project record; exact author/model uncertain where source is silent",
-    "proof": null,
+    "proof": "proofs/two-circles.tex",
     "dependencies": [
       "See referenced source; dependency audit pending"
     ],
     "computation": "none asserted",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": "Current source indexed; independent technical adjudication still pending."
+    "restrictions": null
   },
   {
     "id": "982-M05",
@@ -1411,7 +1411,7 @@
     "proof": "proofs/finite-encoding.md",
     "dependencies": [],
     "computation": "1/1 required traces replayed with two external checkers",
-    "lean": "1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "1/1 required traces checked in Lean Std as imported CNFs",
     "originality": "claim-specific priority not established",
     "restrictions": null
   },
@@ -1428,7 +1428,7 @@
     "proof": "proofs/finite-encoding.md",
     "dependencies": [],
     "computation": "1/1 required traces replayed with two external checkers",
-    "lean": "1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "1/1 required traces checked in Lean Std as imported CNFs",
     "originality": "claim-specific priority not established",
     "restrictions": null
   },
@@ -1444,7 +1444,7 @@
     "proof": "proofs/finite-encoding.md",
     "dependencies": [],
     "computation": "7/7 required traces replayed with two external checkers",
-    "lean": "7/7 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "7/7 required traces checked in Lean Std as imported CNFs",
     "originality": "claim-specific priority not established",
     "restrictions": null
   },
@@ -1460,7 +1460,7 @@
     "proof": "proofs/finite-encoding.md",
     "dependencies": [],
     "computation": "20/20 required traces replayed with two external checkers",
-    "lean": "20/20 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "20/20 required traces checked in Lean Std as imported CNFs",
     "originality": "claim-specific priority not established",
     "restrictions": null
   },
@@ -1477,7 +1477,7 @@
     "proof": "proofs/finite-encoding.md",
     "dependencies": [],
     "computation": "26/26 required traces replayed with two external checkers",
-    "lean": "19/26 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "26/26 required traces checked in Lean Std as imported CNFs",
     "originality": "claim-specific priority not established",
     "restrictions": null
   },
@@ -1542,7 +1542,7 @@
     "proof": "proofs/finite-encoding.md",
     "dependencies": [],
     "computation": "16/16 required traces replayed with two external checkers",
-    "lean": "16/16 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "16/16 required traces checked in Lean Std as imported CNFs",
     "originality": "claim-specific priority not established",
     "restrictions": null
   },
@@ -1558,7 +1558,7 @@
     "proof": "proofs/finite-encoding.md",
     "dependencies": [],
     "computation": "13/13 required traces replayed with two external checkers",
-    "lean": "13/13 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "13/13 required traces checked in Lean Std as imported CNFs",
     "originality": "claim-specific priority not established",
     "restrictions": null
   },
@@ -1574,7 +1574,7 @@
     "proof": "proofs/finite-encoding.md",
     "dependencies": [],
     "computation": "13/13 required traces replayed with two external checkers",
-    "lean": "13/13 CNF traces checked via Lean executable; end-to-end geometry external or pending",
+    "lean": "13/13 required traces checked in Lean Std as imported CNFs",
     "originality": "claim-specific priority not established",
     "restrictions": null
   },
@@ -1819,39 +1819,39 @@
     "id": "982-R07",
     "title": "Repaired odd thin-grid threshold",
     "statement": "For odd M≥11, a strictly convex union of m selected unit M-grid vertices and t points in cos(h)<r≤cos(h)/cos(2h), h=π/M, attains the half bound when m≥3t/2+83/2.",
-    "math_status": "DRAFT",
+    "math_status": "REVIEWED",
     "sources": [
       "workspace/erdos-982-carbon-audit.md § Odd regular core"
     ],
     "contribution": "Project record; exact author/model uncertain where source is silent",
-    "proof": null,
+    "proof": "proofs/odd-grid.tex",
     "dependencies": [
       "Three-chord concurrence restriction",
       "Beukers–Smyth"
     ],
     "computation": "none asserted",
     "lean": "no end-to-end project proof",
-    "originality": "claim-specific priority not established",
-    "restrictions": "Use the concurrence argument. Do not cite the same-sector assertion as a lemma."
+    "originality": "uses Heineken concurrence; distance threshold is a candidate contribution",
+    "restrictions": "R07 uses the repaired triangle-free argument, with no reliance on the refuted same-sector claim."
   },
   {
     "id": "982-R08",
     "title": "Odd-grid second-circle threshold",
     "statement": "With a unit odd-grid core of m points and t off-circle points on one other circle, m≥t+44 suffices in the strict convex setting.",
-    "math_status": "DRAFT",
+    "math_status": "REVIEWED",
     "sources": [
       "workspace/erdos-982-carbon-audit.md § Further odd-grid theorem"
     ],
     "contribution": "Project record; exact author/model uncertain where source is silent",
-    "proof": null,
+    "proof": "proofs/odd-grid.tex",
     "dependencies": [
       "Beukers–Smyth",
       "Circle-circle bisector count"
     ],
     "computation": "none asserted",
     "lean": "no end-to-end project proof",
-    "originality": "claim-specific priority not established",
-    "restrictions": "Current source indexed; independent technical adjudication still pending."
+    "originality": "uses Heineken concurrence; distance threshold is a candidate contribution",
+    "restrictions": null
   },
   {
     "id": "982-R09",
@@ -2003,7 +2003,7 @@
     "computation": "local exact four-point DAG enumeration reproduced for 4 through 9",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": null
+    "restrictions": "Original strict norm DAG proof reproduced; the geometry and algorithm are not formalized in Lean."
   },
   {
     "id": "982-T02",
@@ -2078,34 +2078,34 @@
   },
   {
     "id": "982-X03",
-    "title": "Enclosing-disk contacts can all fail",
-    "statement": "A constructed strictly convex octagon has three minimum-disk contacts each seeing only three distances although the half bound is four.",
-    "math_status": "DRAFT",
+    "title": "Minimum-disk contact strategy fails",
+    "statement": "A strictly convex octagon has exactly three minimum-disk contact vertices, all seeing three distances, below the target of four.",
+    "math_status": "REFUTED",
     "sources": [
       "gemini/成果.md, Theorem 4A",
       "workspace/erdos-982-carbon-audit.md"
     ],
     "contribution": "Gemini source as recorded; local audit credit is separate",
-    "proof": null,
+    "proof": "examples/contact_octagon.py",
     "dependencies": [
       "See referenced source; dependency audit pending"
     ],
-    "computation": "none asserted",
+    "computation": "exact radical-coordinate construction verified",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": "Current source indexed; independent technical adjudication still pending."
+    "restrictions": "Refutes a contact-only strategy, not the half-distance conjecture."
   },
   {
     "id": "982-X04",
     "title": "Even average can be below half",
     "statement": "For n=4s+2, s≥1, the stated interlaced regular polygons have exactly n/2 pins with n/2 distances and the rest with n/2−1. The sum equals binom(n,2).",
-    "math_status": "DRAFT",
+    "math_status": "REVIEWED",
     "sources": [
       "gemini/成果.md, Theorem 4B",
       "workspace/erdos-982-carbon-audit.md"
     ],
     "contribution": "Gemini source as recorded; local audit credit is separate",
-    "proof": null,
+    "proof": "proofs/structures.tex",
     "dependencies": [
       "See referenced source; dependency audit pending"
     ],
@@ -2118,7 +2118,7 @@
     "id": "982-X05",
     "title": "Exact 18-point near-counterexample",
     "statement": "The two-ring 18-point algebraic example gives eight distances at outer pins and nine at inner pins.",
-    "math_status": "DRAFT",
+    "math_status": "REPRODUCED",
     "sources": [
       "proof-packs/Erdos982_3_to_19.zip!/example/check_near_example.py"
     ],
@@ -2127,16 +2127,16 @@
     "dependencies": [
       "See referenced source; dependency audit pending"
     ],
-    "computation": "none asserted",
+    "computation": "original exact construction rerun",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": "Current source indexed; independent technical adjudication still pending."
+    "restrictions": null
   },
   {
     "id": "982-X06",
     "title": "Abstract 18-point obstacle",
     "statement": "The supplied abstract metric has eight distances at every point while satisfying the triangle, quadrilateral crossing and three support-chain order constraints used in its control.",
-    "math_status": "DRAFT",
+    "math_status": "REPRODUCED",
     "sources": [
       "proof-packs/Erdos982_3_to_19.zip!/earlier/barrier.py"
     ],
@@ -2145,10 +2145,10 @@
     "dependencies": [
       "See referenced source; dependency audit pending"
     ],
-    "computation": "none asserted",
+    "computation": "original exact construction rerun",
     "lean": "no end-to-end project proof",
     "originality": "claim-specific priority not established",
-    "restrictions": "Current source indexed; independent technical adjudication still pending."
+    "restrictions": "X06 is an abstract metric; geometric realizability is not asserted."
   },
   {
     "id": "982-X07",

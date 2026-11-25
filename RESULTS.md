@@ -252,6 +252,8 @@ Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit;
 
 Dependencies — Beukers–Smyth cyclotomic point bound
 
+Statement limited to the strictly convex part proved in the manuscript.
+
 ## 982-C11 — Asymptotic strict majority
 
 Every circle in a strictly convex counterexample contains at most n/2+O(n/log(2n)) vertices with an absolute constant.
@@ -496,7 +498,7 @@ Current source indexed; independent technical adjudication still pending.
 
 For every integer n with 3 ≤ n ≤ 13, f(n)=floor(n/2).
 
-**LITERATURE** · 7/7 required traces replayed with two external checkers · 7/7 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**LITERATURE** · 7/7 required traces replayed with two external checkers · 7/7 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation
 
 Priority assessment — prior literature or public work.
 
@@ -514,7 +516,7 @@ Classical arguments and Lee precede the current compilation, including Fishburn'
 
 For every integer n with 14 ≤ n ≤ 19, f(n)=floor(n/2).
 
-**COMPUTER_ASSISTED** · 19/19 required traces replayed with two external checkers · 18/19 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 19/19 required traces replayed with two external checkers · 19/19 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — candidate contribution; no equivalent located in reviewed sources.
 
@@ -530,7 +532,7 @@ Dependencies — Regular polygon · Minimum support reduction · Earlier and n18
 
 f(21)=10 for strictly convex Euclidean planar sets.
 
-**COMPUTER_ASSISTED** · 71/71 required traces replayed with two external checkers · 71/71 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 71/71 required traces replayed with two external checkers · 71/71 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — candidate contribution; no equivalent located in reviewed sources.
 
@@ -548,7 +550,7 @@ Uses only the four 9-leading 20-point profiles to pass from 21 to 20. This leave
 
 A strict convex 22-gon with acute minimum-disk support gaps (8,8,6) has D(P) ≥ 10.
 
-**COMPUTER_ASSISTED** · 1/1 required traces replayed with two external checkers · 1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 1/1 required traces replayed with two external checkers · 1/1 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — claim-specific priority not established.
 
@@ -626,7 +628,7 @@ Dependencies — Regular polygon upper bound · Delete one vertex and use the pr
 
 f(6)=3 for strictly convex Euclidean planar point sets.
 
-**LITERATURE** · 1/1 required traces replayed with two external checkers · 1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**LITERATURE** · 1/1 required traces replayed with two external checkers · 1/1 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation
 
 Priority assessment — prior art.
 
@@ -642,7 +644,7 @@ Dependencies — Regular polygon upper bound · Minimum enclosing disk and suppo
 
 f(7)=3 for strictly convex Euclidean planar point sets.
 
-**LITERATURE** · 1/1 required traces replayed with two external checkers · 1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**LITERATURE** · 1/1 required traces replayed with two external checkers · 1/1 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation
 
 Priority assessment — prior art.
 
@@ -658,7 +660,7 @@ Dependencies — Regular polygon upper bound · Delete one vertex and use the pr
 
 f(8)=4 for strictly convex Euclidean planar point sets.
 
-**LITERATURE** · 1/1 required traces replayed with two external checkers · 1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**LITERATURE** · 1/1 required traces replayed with two external checkers · 1/1 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation
 
 Priority assessment — prior art.
 
@@ -674,7 +676,7 @@ Dependencies — Regular polygon upper bound · Minimum enclosing disk and suppo
 
 f(9)=4 for strictly convex Euclidean planar point sets.
 
-**LITERATURE** · 1/1 required traces replayed with two external checkers · 1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**LITERATURE** · 1/1 required traces replayed with two external checkers · 1/1 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation
 
 Priority assessment — prior art.
 
@@ -690,7 +692,7 @@ Dependencies — Regular polygon upper bound · Delete one vertex and use the pr
 
 f(10)=5 for strictly convex Euclidean planar point sets.
 
-**LITERATURE** · 2/2 required traces replayed with two external checkers · 2/2 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**LITERATURE** · 2/2 required traces replayed with two external checkers · 2/2 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation
 
 Priority assessment — prior art.
 
@@ -706,7 +708,7 @@ Dependencies — Regular polygon upper bound · Minimum enclosing disk and suppo
 
 f(11)=5 for strictly convex Euclidean planar point sets.
 
-**LITERATURE** · 2/2 required traces replayed with two external checkers · 2/2 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**LITERATURE** · 2/2 required traces replayed with two external checkers · 2/2 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation
 
 Priority assessment — prior art.
 
@@ -722,7 +724,7 @@ Dependencies — Regular polygon upper bound · Delete one vertex and use the pr
 
 f(12)=6 for strictly convex Euclidean planar point sets.
 
-**LITERATURE** · 3/3 required traces replayed with two external checkers · 3/3 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**LITERATURE** · 3/3 required traces replayed with two external checkers · 3/3 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation
 
 Priority assessment — prior art.
 
@@ -738,7 +740,7 @@ Dependencies — Regular polygon upper bound · Minimum enclosing disk and suppo
 
 f(13)=6 for strictly convex Euclidean planar point sets.
 
-**LITERATURE** · 3/3 required traces replayed with two external checkers · 3/3 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**LITERATURE** · 3/3 required traces replayed with two external checkers · 3/3 required traces checked in Lean Std as imported CNFs; external Quantavane end-to-end for n≤13 uses native evaluation
 
 Priority assessment — prior art.
 
@@ -754,7 +756,7 @@ Dependencies — Regular polygon upper bound · Delete one vertex and use the pr
 
 f(14)=7 for strictly convex Euclidean planar point sets.
 
-**COMPUTER_ASSISTED** · 4/4 required traces replayed with two external checkers · 4/4 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 4/4 required traces replayed with two external checkers · 4/4 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — candidate contribution; finite literature comparison in REFERENCES.md.
 
@@ -770,7 +772,7 @@ Dependencies — Regular polygon upper bound · Minimum enclosing disk and suppo
 
 f(15)=7 for strictly convex Euclidean planar point sets.
 
-**COMPUTER_ASSISTED** · 4/4 required traces replayed with two external checkers · 4/4 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 4/4 required traces replayed with two external checkers · 4/4 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — candidate contribution; finite literature comparison in REFERENCES.md.
 
@@ -786,7 +788,7 @@ Dependencies — Regular polygon upper bound · Delete one vertex and use the pr
 
 f(16)=8 for strictly convex Euclidean planar point sets.
 
-**COMPUTER_ASSISTED** · 5/5 required traces replayed with two external checkers · 5/5 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 5/5 required traces replayed with two external checkers · 5/5 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — candidate contribution; finite literature comparison in REFERENCES.md.
 
@@ -802,7 +804,7 @@ Dependencies — Regular polygon upper bound · Minimum enclosing disk and suppo
 
 f(17)=8 for strictly convex Euclidean planar point sets.
 
-**COMPUTER_ASSISTED** · 5/5 required traces replayed with two external checkers · 5/5 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 5/5 required traces replayed with two external checkers · 5/5 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — candidate contribution; finite literature comparison in REFERENCES.md.
 
@@ -818,7 +820,7 @@ Dependencies — Regular polygon upper bound · Delete one vertex and use the pr
 
 f(18)=9 for strictly convex Euclidean planar point sets.
 
-**COMPUTER_ASSISTED** · 10/10 required traces replayed with two external checkers · 9/10 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 10/10 required traces replayed with two external checkers · 10/10 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — candidate contribution; finite literature comparison in REFERENCES.md.
 
@@ -834,7 +836,7 @@ Dependencies — Regular polygon upper bound · Minimum enclosing disk and suppo
 
 f(19)=9 for strictly convex Euclidean planar point sets.
 
-**COMPUTER_ASSISTED** · 10/10 required traces replayed with two external checkers · 9/10 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 10/10 required traces replayed with two external checkers · 10/10 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — candidate contribution; finite literature comparison in REFERENCES.md.
 
@@ -954,9 +956,9 @@ Attribution — Named public sources.
 
 ## 982-J01 — Transcendence-degree bound
 
-For a strictly convex n-point set and s qualifying pins, trdeg_Q Q(P)≤2s+576 H_{n−s}.
+For n≥3 distinct planar points with no three collinear, with s qualifying pins, trdeg_Q Q(P)≤2s+576 H_{n−s}.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
@@ -964,21 +966,23 @@ Source record — workspace/erdos-982-block-rank-review.md · workspace/erdos-98
 
 Attribution — Project record; exact author/model uncertain where source is silent.
 
-Dependencies — Dvir–Garg–Oliveira–Solymosi block rank
+[Proof or audit](proofs/rigidity.tex)
 
-Current source indexed; independent technical adjudication still pending.
+Dependencies — Dvir–Garg–Oliveira–Solymosi block rank
 
 ## 982-J02 — True isosceles Jacobian kernel
 
-Under the same hypotheses, the real kernel of the Jacobian of all true equal-distance equations has dimension at most 2s+576 H_{n−s}.
+For n≥3 distinct planar points with no three collinear, the real kernel of the Jacobian of all true equal-distance equations has dimension at most 2s+576 H_{n−s}, where s counts qualifying pins.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
 Source record — workspace/erdos-982-progress-2026-11-25.md § Rank consequence
 
 Attribution — Project record; exact author/model uncertain where source is silent.
+
+[Proof or audit](proofs/rigidity.tex)
 
 Dependencies — Block rank at the actual configuration
 
@@ -986,15 +990,17 @@ A transcendence-degree bound alone does not bound the kernel of an equal-distanc
 
 ## 982-J03 — Algebraic local rigidity
 
-For t=dim ker J one can fix t scalar coordinates from the configuration so that the other coordinates are locally unique. Over the field F generated by the fixed values, [F(P):F]≤2^(2n−t).
+For n≥3 distinct planar points with no three collinear and t=dim ker J, one can fix t scalar coordinates from the configuration to give local uniqueness. Over the field F generated by the fixed values, [F(P):F]≤2^(2n−t).
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
 Source record — workspace/erdos-982-progress-2026-11-25.md § Rank consequence
 
 Attribution — Project record; exact author/model uncertain where source is silent.
+
+[Proof or audit](proofs/rigidity.tex)
 
 Dependencies — 982-J02 · Inverse function theorem · Affine Bézout
 
@@ -1052,7 +1058,7 @@ Current source indexed; independent technical adjudication still pending.
 
 For sufficiently large strictly convex planar n-point sets with at least 0.99n points on two circles, at least n/10 pins attain floor(n/2), uniformly in the circles.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
@@ -1060,15 +1066,15 @@ Source record — workspace/erdos-982-two-circles.md §§ 7–9
 
 Attribution — Project record; exact author/model uncertain where source is silent.
 
-Dependencies — Two-circle equal-distance incidence theorem · Cocircular density and concentric-ring estimates
+[Proof or audit](proofs/two-circles.tex)
 
-Current source indexed; independent technical adjudication still pending.
+Dependencies — Two-circle equal-distance incidence theorem · Cocircular density and concentric-ring estimates
 
 ## 982-M02 — Two nonconcentric rings with linear slack
 
 For sufficiently large strictly convex n-point sets partitioned into two nonconcentric circles with at least n/4 points in either part, at least n/2000 pins see more than (1/2+10^−4)n distances.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
@@ -1076,15 +1082,15 @@ Source record — workspace/erdos-982-short-arcs-review.md § 7 · workspace/erd
 
 Attribution — Project record; exact author/model uncertain where source is silent.
 
-Dependencies — Solymosi–Zahl Theorem 1.4 · Cross-circle non-additivity
+[Proof or audit](proofs/two-circles.tex)
 
-Current source indexed; independent technical adjudication still pending.
+Dependencies — Solymosi–Zahl Theorem 1.4 · Cross-circle non-additivity
 
 ## 982-M03 — Two complete concentric regular polygons
 
 If the union of two concentric regular polygons of orders at least three is strictly convex, some pin sees at least floor(n/2) distances for any angle and radii.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
@@ -1092,15 +1098,17 @@ Source record — proof-packs/Erdos982_3_to_19.zip!/TWO_RINGS.md · workspace/er
 
 Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit; registry revisions are separate.
 
+[Proof or audit](proofs/two-circles.tex)
+
 Dependencies — Strict convexity constraints on two concentric layers · Beukers–Smyth
 
-Strict convexity is essential; compare the distinct nonconvex #1082 construction.
+The complete two-ring theorem requires strict convexity.
 
 ## 982-M04 — Algebraic separation of concentric layers
 
 For points on two concentric circles, if the radius ratio has algebraic degree greater than two over the field generated by the cosines of all direction differences, each pin reaches floor(n/2).
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
@@ -1108,9 +1116,9 @@ Source record — workspace/erdos-982-gpt6pro-analytic-audit.md
 
 Attribution — Project record; exact author/model uncertain where source is silent.
 
-Dependencies — See referenced source; dependency audit pending
+[Proof or audit](proofs/two-circles.tex)
 
-Current source indexed; independent technical adjudication still pending.
+Dependencies — See referenced source; dependency audit pending
 
 ## 982-M05 — Even grid annulus
 
@@ -1164,7 +1172,7 @@ Current source indexed; independent technical adjudication still pending.
 
 A strict convex 20-gon with an acute minimum-disk support triple of gaps (9,9,2) has D(P) ≥ 10.
 
-**COMPUTER_ASSISTED** · 1/1 required traces replayed with two external checkers · 1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 1/1 required traces replayed with two external checkers · 1/1 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — claim-specific priority not established.
 
@@ -1178,7 +1186,7 @@ Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit;
 
 A strict convex 20-gon with an acute minimum-disk support triple of gaps (9,8,3) has D(P) ≥ 10.
 
-**COMPUTER_ASSISTED** · 1/1 required traces replayed with two external checkers · 1/1 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 1/1 required traces replayed with two external checkers · 1/1 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — claim-specific priority not established.
 
@@ -1192,7 +1200,7 @@ Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit;
 
 A strict convex 20-gon with an acute minimum-disk support triple of gaps (9,7,4) has D(P) ≥ 10.
 
-**COMPUTER_ASSISTED** · 7/7 required traces replayed with two external checkers · 7/7 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 7/7 required traces replayed with two external checkers · 7/7 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — claim-specific priority not established.
 
@@ -1206,7 +1214,7 @@ Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit;
 
 A strict convex 20-gon with an acute minimum-disk support triple of gaps (9,6,5) has D(P) ≥ 10.
 
-**COMPUTER_ASSISTED** · 20/20 required traces replayed with two external checkers · 20/20 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 20/20 required traces replayed with two external checkers · 20/20 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — claim-specific priority not established.
 
@@ -1220,7 +1228,7 @@ Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit;
 
 A strict convex 20-gon with an acute minimum-disk support triple of gaps (8,8,4) has D(P) ≥ 10.
 
-**COMPUTER_ASSISTED** · 26/26 required traces replayed with two external checkers · 19/26 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 26/26 required traces replayed with two external checkers · 26/26 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — claim-specific priority not established.
 
@@ -1274,7 +1282,7 @@ Attribution — Gemini source as recorded; local audit credit is separate.
 
 A strict convex 21-gon with acute support gaps (8,8,5) has D(P) ≥ 10.
 
-**COMPUTER_ASSISTED** · 16/16 required traces replayed with two external checkers · 16/16 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 16/16 required traces replayed with two external checkers · 16/16 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — claim-specific priority not established.
 
@@ -1288,7 +1296,7 @@ Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit;
 
 A strict convex 21-gon with acute support gaps (8,7,6) has D(P) ≥ 10.
 
-**COMPUTER_ASSISTED** · 13/13 required traces replayed with two external checkers · 13/13 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 13/13 required traces replayed with two external checkers · 13/13 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — claim-specific priority not established.
 
@@ -1302,7 +1310,7 @@ Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit;
 
 A strict convex 21-gon with acute support gaps (7,7,7) has D(P) ≥ 10.
 
-**COMPUTER_ASSISTED** · 13/13 required traces replayed with two external checkers · 13/13 CNF traces checked via Lean executable; end-to-end geometry external or pending
+**COMPUTER_ASSISTED** · 13/13 required traces replayed with two external checkers · 13/13 required traces checked in Lean Std as imported CNFs
 
 Priority assessment — claim-specific priority not established.
 
@@ -1518,33 +1526,35 @@ The exact four-point counterexample invalidates the cited local step, not the se
 
 For odd M≥11, a strictly convex union of m selected unit M-grid vertices and t points in cos(h)<r≤cos(h)/cos(2h), h=π/M, attains the half bound when m≥3t/2+83/2.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
-Priority assessment — claim-specific priority not established.
+Priority assessment — uses Heineken concurrence; distance threshold is a candidate contribution.
 
 Source record — workspace/erdos-982-carbon-audit.md § Odd regular core
 
 Attribution — Project record; exact author/model uncertain where source is silent.
 
+[Proof or audit](proofs/odd-grid.tex)
+
 Dependencies — Three-chord concurrence restriction · Beukers–Smyth
 
-Use the concurrence argument. Do not cite the same-sector assertion as a lemma.
+R07 uses the repaired triangle-free argument, with no reliance on the refuted same-sector claim.
 
 ## 982-R08 — Odd-grid second-circle threshold
 
 With a unit odd-grid core of m points and t off-circle points on one other circle, m≥t+44 suffices in the strict convex setting.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
-Priority assessment — claim-specific priority not established.
+Priority assessment — uses Heineken concurrence; distance threshold is a candidate contribution.
 
 Source record — workspace/erdos-982-carbon-audit.md § Further odd-grid theorem
 
 Attribution — Project record; exact author/model uncertain where source is silent.
 
-Dependencies — Beukers–Smyth · Circle-circle bisector count
+[Proof or audit](proofs/odd-grid.tex)
 
-Current source indexed; independent technical adjudication still pending.
+Dependencies — Beukers–Smyth · Circle-circle bisector count
 
 ## 982-R09 — Separated-sector bisector bound
 
@@ -1676,6 +1686,8 @@ Attribution — Gemini source as recorded; local audit credit is separate.
 
 Dependencies — See referenced source; dependency audit pending
 
+Original strict norm DAG proof reproduced; the geometry and algorithm are not formalized in Lean.
+
 ## 982-T02 — Strictly convex norm universal lower bound
 
 For n≥4 points in strict convex position and any strictly convex planar norm, D(P)≥floor(n/3)+1.
@@ -1738,11 +1750,11 @@ Attribution — Project record; exact author/model uncertain where source is sil
 
 Dependencies — Exact integer coordinate verification
 
-## 982-X03 — Enclosing-disk contacts can all fail
+## 982-X03 — Minimum-disk contact strategy fails
 
-A constructed strictly convex octagon has three minimum-disk contacts each seeing only three distances although the half bound is four.
+A strictly convex octagon has exactly three minimum-disk contact vertices, all seeing three distances, below the target of four.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REFUTED** · exact radical-coordinate construction verified · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
@@ -1750,21 +1762,25 @@ Source record — gemini/成果.md, Theorem 4A · workspace/erdos-982-carbon-aud
 
 Attribution — Gemini source as recorded; local audit credit is separate.
 
+[Proof or audit](examples/contact_octagon.py)
+
 Dependencies — See referenced source; dependency audit pending
 
-Current source indexed; independent technical adjudication still pending.
+Refutes a contact-only strategy, not the half-distance conjecture.
 
 ## 982-X04 — Even average can be below half
 
 For n=4s+2, s≥1, the stated interlaced regular polygons have exactly n/2 pins with n/2 distances and the rest with n/2−1. The sum equals binom(n,2).
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REVIEWED** · none asserted · no end-to-end project proof
 
 Priority assessment — explicit prior overlap for the first member.
 
 Source record — gemini/成果.md, Theorem 4B · workspace/erdos-982-carbon-audit.md
 
 Attribution — Gemini source as recorded; local audit credit is separate.
+
+[Proof or audit](proofs/structures.tex)
 
 Dependencies — See referenced source; dependency audit pending
 
@@ -1774,7 +1790,7 @@ The s=1 case is already present in Saller's public note. Infinite-family priorit
 
 The two-ring 18-point algebraic example gives eight distances at outer pins and nine at inner pins.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REPRODUCED** · original exact construction rerun · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
@@ -1784,13 +1800,11 @@ Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit;
 
 Dependencies — See referenced source; dependency audit pending
 
-Current source indexed; independent technical adjudication still pending.
-
 ## 982-X06 — Abstract 18-point obstacle
 
 The supplied abstract metric has eight distances at every point while satisfying the triangle, quadrilateral crossing and three support-chain order constraints used in its control.
 
-**DRAFT** · none asserted · no end-to-end project proof
+**REPRODUCED** · original exact construction rerun · no end-to-end project proof
 
 Priority assessment — claim-specific priority not established.
 
@@ -1800,7 +1814,7 @@ Attribution — GPT-6 Pro source bundles as identified by contemporaneous audit;
 
 Dependencies — See referenced source; dependency audit pending
 
-Current source indexed; independent technical adjudication still pending.
+X06 is an abstract metric; geometric realizability is not asserted.
 
 ## 982-X07 — Multiplicity balance
 
